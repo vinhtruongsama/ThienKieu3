@@ -12,8 +12,8 @@
 - Tiêu đề: **Thiên Kiêu**. Dòng mời lên thuyền: **Lên thuyền**.
 - **Quý Danh:** ô nhập tên tài khoản, làm bằng gỗ lâu năm.
 - **Mật Hiệu:** ô nhập mật khẩu cùng chất liệu. Chữ nhập màu trắng đậm, viền đen. Có nút mắt ẩn/hiện; mặc định ẩn.
-- **Nơi quý khách muốn đến:** danh sách nơi đến để chọn. Mặc định chọn nơi đăng nhập lần cuối, lưu trên máy người chơi. Khi chọn nơi khác, lấy tình trạng hiện tại từ máy chủ.
-- Mỗi nơi đến hiển thị trong ô vuông bo góc, nền vàng cam, chữ xanh lá có viền đen. Chấm báo tình trạng: đỏ là rất đông, cam là đông, xanh lá là bình thường.
+- **Nơi quý khách muốn đến:** danh sách máy chủ để chọn. Các máy chủ là những phiên riêng có cùng bản đồ, có thể tinh chỉnh riêng; chọn máy chủ không phải chọn bản đồ. Mặc định chọn máy chủ đăng nhập lần cuối, lưu trên máy người chơi. Khi chọn máy chủ khác, lấy tình trạng hiện tại từ máy đó.
+- Mỗi máy chủ hiển thị trong ô vuông bo góc, nền vàng cam, chữ xanh lá có viền đen. Chấm báo tình trạng: đỏ là rất đông, cam là đông, xanh lá là bình thường.
 - Nút **Xuất Phát** để đăng nhập: hình chữ nhật có nét thuyền gỗ, đơn giản và nổi bật hơn ô nhập. Chữ đỏ hồng, lớn hơn các nhãn khác.
 - **Quên Mật Hiệu?** kèm biểu tượng dễ thương, mở luồng lấy lại mật khẩu.
 - **Quý khách chưa có tài khoản?** mở luồng tạo tài khoản và chọn nhân vật.
@@ -22,6 +22,13 @@
 
 - Đăng nhập thành công: thuyền tăng tốc về phía trước rồi chuyển sang màn hình đang tải.
 - Màn hình đang tải có nền đen; thuyền nhỏ lướt ở giữa cùng hiệu ứng báo đang tải.
+
+## Tạo tài khoản
+
+- Từ lời mời chưa có tài khoản, mở bảng tạo tài khoản trong bối cảnh thuyền.
+- Các ô gồm **Quý Danh**, **Mật Hiệu**, **Nhập lại Mật Hiệu** và **Số điện thoại**.
+- Người chơi yêu cầu mã xác nhận 6 số, nhập mã rồi chọn **Đăng Ký**. Cách gửi mã chưa chốt.
+- Đăng ký thành công sẽ mở màn hình chọn/tạo nhân vật, là màn hình đầu tiên sau khi tạo tài khoản.
 
 ## Tiến độ
 

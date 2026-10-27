@@ -4,7 +4,9 @@
 
 Định hướng hiện tại là game Unity đi cảnh cuộn ngang: khám phá bản đồ, chạy và nhảy, chiến đấu với quái, gặp NPC, làm nhiệm vụ và thu thập vật phẩm/thảo dược.
 
-Chưa chốt: cốt truyện chính, thế giới, nhân vật trung tâm, hệ thống chiến đấu chi tiết và nền tảng phát hành.
+Máy chủ là các phiên riêng có cùng nội dung và bộ bản đồ; có thể tinh chỉnh từng máy chủ theo yêu cầu. Máy chủ không phải bản đồ.
+
+Chưa chốt: cốt truyện chính, thế giới, danh sách nhân vật/NPC, hệ thống chiến đấu chi tiết và nền tảng phát hành. Người dùng sẽ cung cấp danh sách nhân vật; không tự đặt tên.
 
 ## Tiến độ
 
@@ -13,7 +15,7 @@ Chưa chốt: cốt truyện chính, thế giới, nhân vật trung tâm, hệ 
 - `SampleScene` hiện chỉ có Main Camera; chưa có map gameplay.
 - Chưa có script gameplay, NPC, quái, nhiệm vụ hoặc ảnh game đã duyệt.
 - Đã thống nhất quy tắc map, camera, chuyển khu vực, quản lý ảnh và phong cách; chưa triển khai nội dung game.
-- Đã mô tả màn hình đăng nhập bằng thuyền bay; giao diện và luồng này chưa được dựng.
+- Đã mô tả giao diện đăng nhập, tạo tài khoản và chọn/tạo nhân vật; chưa dựng trong Unity.
 
 ## Cách dùng từ
 

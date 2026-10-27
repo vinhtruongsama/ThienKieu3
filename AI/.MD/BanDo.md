@@ -2,6 +2,8 @@
 
 Chỉ ghi bản đồ đã xác nhận. Mỗi mô tả ngắn gọn nhưng phải nêu địa hình, cảnh quan, nội dung, chuyển tiếp và liên kết ảnh/hoạt ảnh.
 
+Máy chủ là các phiên game riêng, có cùng bộ bản đồ; không ghi mỗi máy chủ thành một bản đồ.
+
 ## Hiện trạng
 
 Chưa có bản đồ game chính thức. `Assets/Scenes/SampleScene.unity` là scene khởi tạo, chưa có nội dung map.

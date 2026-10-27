@@ -9,6 +9,7 @@
 | `.MD/BanDo.md` | Mô tả từng bản đồ và liên kết tài nguyên |
 | `.MD/img_Order.md` | Ảnh/tài nguyên còn thiếu hoặc chờ duyệt |
 | `.MD/DangNhap.md` | Đặc tả màn hình đăng nhập và chuyển cảnh |
+| `.MD/TaoNhanVat.md` | Đặc tả màn hình chọn và tạo nhân vật |
 | `.Log.md` | Lịch sử theo chủ đề; tra cứu khi thiếu ngữ cảnh |
 | `.Queue.md` | Hàng đợi đọc/ghi để tránh cùng lúc truy cập một tệp |
 
