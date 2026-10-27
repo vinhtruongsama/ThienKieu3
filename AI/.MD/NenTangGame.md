@@ -17,6 +17,14 @@ Máy chủ là các phiên riêng có cùng nội dung và bộ bản đồ; có
 
 Mỗi đầu hoặc cuối bản đồ, khi người chơi đến gần lối chuyển, hiện tên bản đồ kế tiếp.
 
+## Chia khu trong bản đồ
+
+- Mỗi bản đồ có ba **khu tân thủ**. Ghép người chơi có sức mạnh và chặng nhiệm vụ gần nhau vào cùng khu để tránh lệch sức và làm hỏng mạch truyện.
+- Các **khu chung** còn lại mở cho mọi người chơi.
+- Khu tân thủ và khu chung là các khu bên trong cùng bản đồ, không phải bản đồ hay máy chủ mới.
+- Nhiệm vụ và mốc truyện được lưu theo từng người chơi; hành động của người khác không được làm người chơi bỏ lỡ hoặc vượt trước phần truyện của mình.
+- Mốc sức mạnh và cách chia nhóm cụ thể: chưa chốt.
+
 ## Tiến độ
 
 - Unity `6000.3.23f1`.

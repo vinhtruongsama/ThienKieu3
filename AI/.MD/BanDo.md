@@ -10,6 +10,8 @@ Máy chủ là các phiên game riêng, có cùng bộ bản đồ; không ghi m
 
 Ba bản đồ này chỉ dành cho người chơi vào; NPC xuất hiện theo diễn biến cốt truyện. Khi đến gần lối vào hoặc lối ra, hiện tên bản đồ kế tiếp.
 
+Mỗi bản đồ có ba khu tân thủ, ghép người chơi theo sức mạnh và chặng nhiệm vụ; các khu còn lại là khu chung dành cho mọi người. Đây là cách chia khu bên trong bản đồ, không tạo thêm bản đồ hoặc máy chủ.
+
 ### MAP-001 — ThungLungHoang
 
 - **Vai trò / cốt truyện:** Mở đầu cuộc chơi. Người chơi bị ba quái thú linh trưởng hung tợn rượt đuổi; đường vàng chỉ lối chạy thoát.
