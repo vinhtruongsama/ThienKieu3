@@ -6,7 +6,16 @@
 
 Máy chủ là các phiên riêng có cùng nội dung và bộ bản đồ; có thể tinh chỉnh từng máy chủ theo yêu cầu. Máy chủ không phải bản đồ.
 
-Chưa chốt: cốt truyện chính, thế giới, danh sách nhân vật/NPC, hệ thống chiến đấu chi tiết và nền tảng phát hành. Người dùng sẽ cung cấp danh sách nhân vật; không tự đặt tên.
+Đã có phần mở đầu cốt truyện; diễn biến về sau, các nhân vật/NPC khác, hệ thống chiến đấu chi tiết và nền tảng phát hành chưa chốt. Không tự đặt tên nhân vật ngoài những tên người dùng đã cung cấp.
+
+## Mở đầu trải nghiệm
+
+1. Sau khi tạo tài khoản và vào thế giới, người chơi xuất hiện ở **Thung Lũng Hoang**. Ba quái thú linh trưởng hung tợn rượt đuổi; đường vàng hướng dẫn người chơi chạy thoát khỏi bản đồ.
+2. Một kiếm sĩ Thiên Kiêu trong làng, chỉ được gọi là **Anh Hùng**, chặn quái và giúp người chơi chạy thoát. Danh tính của người này là bí ẩn. Ba quái không thể bị hạ gục; nếu người chơi chết, hồi sinh gần đó và chạy lại.
+3. Ở Khu Đất Sau Nhà, bạn đồng hành **Sờ Lam** xuất hiện, nói “Phù, may mắn,…” và giải thích chuyện vừa xảy ra. Sờ Lam hướng dẫn người chơi đến gặp mẹ đang chờ ở Nhà Chính.
+4. Mẹ **Mai** cho người chơi ăn bánh vừa làm và hướng dẫn mở túi đồ, dùng bánh để hồi đầy thể trạng: máu (HP) và thể lực.
+
+Mỗi đầu hoặc cuối bản đồ, khi người chơi đến gần lối chuyển, hiện tên bản đồ kế tiếp.
 
 ## Tiến độ
 
@@ -16,6 +25,7 @@ Chưa chốt: cốt truyện chính, thế giới, danh sách nhân vật/NPC, h
 - Chưa có script gameplay, NPC, quái, nhiệm vụ hoặc ảnh game đã duyệt.
 - Đã thống nhất quy tắc map, camera, chuyển khu vực, quản lý ảnh và phong cách; chưa triển khai nội dung game.
 - Đã mô tả giao diện đăng nhập, tạo tài khoản và chọn/tạo nhân vật; chưa dựng trong Unity.
+- Đã xác định ba bản đồ mở đầu và diễn biến chạy trốn, gặp Anh Hùng, Sờ Lam và mẹ Mai; chưa dựng trong Unity. Chi tiết tại [BanDo.md](BanDo.md).
 
 ## Cách dùng từ
 
