@@ -1,26 +1,26 @@
-# Thiên Kiêu — Project Rules
+# Thiên Kiêu — Quy tắc dự án
 
-## Map creation
+## Quy tắc tạo bản đồ
 
-- Apply the STYLE MASTER below consistently to maps, NPCs, monsters, items, and UI. Keep the English wording exactly as written; do not translate or paraphrase it.
-- Build maps from reusable, separately editable assets rather than a single static image.
-- Separate background layers such as sky, clouds, distant mountains, and distant forests to create depth.
-- Put trees, buildings, rocks, and other scenery behind the characters in the midground.
-- Build playable terrain with multiple elevations, slopes, steps, cliffs, pits, and ledges for running and jumping.
-- Keep foreground bushes, grass, branches, leaves, and other front-layer objects separate so they can be animated independently.
-- Make ground, rock, grass, and other Tilemap surfaces join seamlessly, with supporting base layers and consistent dimensions and scale.
-- Give ground, obstacles, cliffs, and standing surfaces accurate collisions.
-- Give each map entrances, exits, and spawn points. When the player approaches an exit, show the next map's name.
-- Give every NPC a unique ID, position, animation, dialogue, and suitable quest.
-- Define each monster's spawn area, stats, behavior, animation, attack, and drops.
-- Give every map a purpose, progression, completion conditions, and a link to the story.
-- Animate trees, grass, water, NPCs, monsters, and other objects that should move.
-- Integrate only approved asset versions. Record missing or awaiting-approval assets in `AI/order.md` and continue other work while they are pending.
-- Store AI-generated assets in `AI/.Generated/`. Reuse existing assets and avoid duplicate or scattered generated files.
-- Capture screenshots from the playable view during map QA. Save them in `AI/.ScreenShorts/`, review them from a player's perspective, and improve visual or display issues found.
-- Coordinate work by role: Design handles visuals, Code handles implementation, and Manager tracks progress. Do not lock exclusive ownership of the whole project.
-- Keep Unity scenes visible and editable. Store scenes under `Assets/`; do not add Git ignore rules that hide `.unity` scene files.
+- Áp dụng STYLE MASTER dưới đây thống nhất cho bản đồ, NPC, quái vật, vật phẩm và giao diện. Khi tạo prompt vẽ ảnh, giữ nguyên văn bản STYLE MASTER bằng tiếng Anh; viết các phần hướng dẫn còn lại bằng tiếng Việt.
+- Dựng bản đồ từ nhiều tài nguyên riêng biệt, có thể tái sử dụng và chỉnh sửa độc lập; không dùng một ảnh tĩnh duy nhất.
+- Tách các lớp hậu cảnh như bầu trời, mây, núi xa và rừng xa để tạo chiều sâu.
+- Đặt cây cối, công trình, đá và cảnh vật phía sau nhân vật ở lớp trung cảnh.
+- Tạo địa hình chơi được với nhiều cao độ, dốc, bậc, vách đá, hố và mép nền để người chơi chạy, nhảy.
+- Tách bụi cây, cỏ, cành lá và vật thể tiền cảnh để có thể tạo hoạt ảnh độc lập.
+- Ghép đất, đá, cỏ và các bề mặt Tilemap liền mạch, có lớp nền nâng đỡ, kích thước và tỷ lệ thống nhất.
+- Thiết lập va chạm chính xác cho mặt đất, vật cản, vách đá và các bề mặt đứng.
+- Mỗi bản đồ cần có lối vào, lối ra và điểm xuất hiện. Khi người chơi đến gần lối ra, hiển thị tên bản đồ tiếp theo.
+- Mỗi NPC cần có mã riêng, vị trí, hoạt ảnh, hội thoại và nhiệm vụ phù hợp.
+- Mỗi loài quái cần có khu vực xuất hiện, chỉ số, hành vi, hoạt ảnh, cách tấn công và vật phẩm rơi riêng.
+- Mỗi bản đồ cần có mục đích, diễn biến, điều kiện hoàn thành và liên kết với cốt truyện.
+- Tạo hoạt ảnh phù hợp cho cây, cỏ, nước, NPC, quái vật và các vật thể cần chuyển động.
+- Chỉ tích hợp phiên bản tài nguyên đã được duyệt. Ghi tài nguyên còn thiếu hoặc đang chờ duyệt vào `AI/.MD/order.md`; tiếp tục những phần việc không phụ thuộc vào tài nguyên đó.
+- Lưu tài nguyên do AI tạo trong `AI/.Generated/`. Ưu tiên tái sử dụng tài nguyên sẵn có; tránh tạo bản trùng hoặc đặt rải rác.
+- Chụp màn hình từ góc nhìn khi chơi để kiểm thử bản đồ. Lưu ảnh trong `AI/.ScreenShorts/`, đánh giá như người chơi và cải thiện các lỗi hình ảnh hoặc hiển thị.
+- Phối hợp theo vai trò: Thiết kế phụ trách hình ảnh, Lập trình phụ trách triển khai, Quản lý theo dõi tiến độ. Không khóa độc quyền toàn bộ dự án.
+- Giữ các scene Unity hiển thị và có thể chỉnh sửa. Lưu scene trong `Assets/`; không thêm quy tắc Git ignore khiến các file scene `.unity` bị ẩn hoặc loại bỏ.
 
-### STYLE MASTER
+### Mẫu phong cách (STYLE MASTER)
 
 Whimsical hand-drawn storybook illustration style, stylized cartoon aesthetic, soft painterly textures with visible brush strokes, slightly rough sketchy ink linework, subtle shading, soft lighting, warm and harmonious color palette, playful but balanced proportions, simple yet charming shapes, magical and cozy atmosphere, expressive character design, crisp readable silhouettes, high detail, consistent artistic direction.
