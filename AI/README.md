@@ -9,6 +9,7 @@
 | `.MD/BanDo.md` | Mô tả từng bản đồ và liên kết tài nguyên |
 | `.MD/img_Order.md` | Ảnh/tài nguyên còn thiếu hoặc chờ duyệt |
 | `.Log.md` | Lịch sử theo chủ đề; tra cứu khi thiếu ngữ cảnh |
+| `.Queue.md` | Hàng đợi đọc/ghi để tránh cùng lúc truy cập một tệp |
 
 ## Ảnh do AI tạo
 
