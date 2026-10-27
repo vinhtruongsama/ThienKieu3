@@ -5,6 +5,7 @@
 - Áp dụng STYLE MASTER dưới đây thống nhất cho bản đồ, NPC, quái vật, vật phẩm và giao diện. Khi tạo prompt vẽ ảnh, giữ nguyên văn bản STYLE MASTER bằng tiếng Anh; viết các phần hướng dẫn còn lại bằng tiếng Việt.
 - Dựng bản đồ từ nhiều tài nguyên riêng biệt, có thể tái sử dụng và chỉnh sửa độc lập; không dùng một ảnh tĩnh duy nhất.
 - Tách các lớp hậu cảnh như bầu trời, mây, núi xa và rừng xa để tạo chiều sâu.
+- Hậu cảnh không cần kéo dài theo toàn bộ bản đồ. Mỗi lớp chỉ cần phủ kín khung camera và dịch chuyển theo camera khi camera chạy theo người chơi; dùng parallax và các mảnh nền lặp phù hợp để luôn phủ kín khung, không lộ mép hoặc khoảng trống. Địa hình chơi vẫn được bố trí theo chiều dài màn chơi.
 - Đặt cây cối, công trình, đá và cảnh vật phía sau nhân vật ở lớp trung cảnh.
 - Tạo địa hình chơi được với nhiều cao độ, dốc, bậc, vách đá, hố và mép nền để người chơi chạy, nhảy.
 - Tách bụi cây, cỏ, cành lá và vật thể tiền cảnh để có thể tạo hoạt ảnh độc lập.
