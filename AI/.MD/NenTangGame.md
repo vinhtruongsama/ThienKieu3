@@ -13,6 +13,11 @@ Chưa chốt: cốt truyện chính, thế giới, nhân vật trung tâm, hệ 
 - `SampleScene` hiện chỉ có Main Camera; chưa có map gameplay.
 - Chưa có script gameplay, NPC, quái, nhiệm vụ hoặc ảnh game đã duyệt.
 - Đã thống nhất quy tắc map, camera, chuyển khu vực, quản lý ảnh và phong cách; chưa triển khai nội dung game.
+- Đã mô tả màn hình đăng nhập bằng thuyền bay; giao diện và luồng này chưa được dựng.
+
+## Cách dùng từ
+
+Ưu tiên từ thuần Việt trong lời thoại, giao diện và tài liệu. Dùng từ Hán-Việt vừa phải, khi hợp sắc thái hoặc đã chốt tên riêng.
 
 ## STYLE MASTER
 

@@ -1,12 +1,13 @@
 # Thiên Kiêu — Quy tắc dự án
 
-## Quy tắc dự án
+## Quy tắc làm việc
 
 - Trước khi làm việc cho game, đọc `AI/README.md`, `AI/.MD/NenTangGame.md` và tài liệu liên quan trong `AI/.MD/`. Xem tài liệu trong `AI/` là nguồn thông tin chính; không suy diễn phần chưa chốt.
 - Khi thiếu ngữ cảnh hoặc không chắc, tra mục lục trong `AI/.Log.md` rồi đọc đúng phần liên quan; đọc toàn bộ nếu cần.
 - Trước khi báo hoàn tất bất kỳ công việc nào, dù lớn hay nhỏ, cập nhật `AI/.Log.md`: ghi việc đã làm, kết quả/trạng thái và file liên quan vào đúng chủ đề. Nếu là chủ đề mới, thêm mục và cập nhật mục lục. Ghi log xong rồi mới báo cáo.
 - Trước mỗi lượt đọc hoặc ghi tệp dùng chung, yêu cầu Quản lý đăng ký lượt trong `AI/.Queue.md`. Các lượt trên cùng một tệp — kể cả đọc-đọc — chạy lần lượt theo thứ tự đăng ký; lượt sau chờ đến khi lượt trước hoàn tất và nhả tệp. Tệp khác nhau vẫn có thể xử lý song song. Chỉ Quản lý cập nhật hàng đợi; không khóa cả dự án.
 - Mọi yêu cầu tạo hoặc chỉnh ảnh cho Thiên Kiêu phải tự động dùng nguyên văn STYLE MASTER trong `AI/.MD/NenTangGame.md`, kể cả khi người dùng không nhắc phong cách. Không dịch, rút gọn hoặc diễn đạt lại prompt này. Chỉ đổi phong cách khi người dùng yêu cầu rõ ràng.
+- Nội dung game ưu tiên từ thuần Việt; từ Hán-Việt chỉ dùng vừa phải. Giữ đúng tên và nhãn giao diện đã chốt.
 - Tài liệu Markdown của game viết ngắn gọn, rõ ý, cụ thể và bằng tiếng Việt; chỉ prompt STYLE MASTER được giữ nguyên bằng tiếng Anh.
 ## Quy tắc tạo bản đồ
 
