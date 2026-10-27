@@ -11,7 +11,7 @@
 - Tách bụi cây, cỏ, cành lá và vật thể tiền cảnh để có thể tạo hoạt ảnh độc lập.
 - Ghép đất, đá, cỏ và các bề mặt Tilemap liền mạch, có lớp nền nâng đỡ, kích thước và tỷ lệ thống nhất.
 - Thiết lập va chạm chính xác cho mặt đất, vật cản, vách đá và các bề mặt đứng.
-- Mỗi bản đồ cần có lối vào, lối ra và điểm xuất hiện. Khi người chơi đến gần lối ra, hiển thị tên bản đồ tiếp theo.
+- Mỗi bản đồ cần có lối vào, lối ra và điểm xuất hiện, cùng một vị trí chuyển tiếp dễ nhận biết như cổng, lối đi hoặc ranh giới khu vực. Khi người chơi đến gần vị trí đó, hiển thị tên khu vực sắp đến trong bảng nổi dễ đọc phía trên nhân vật, giống cách trình bày trong ảnh tham chiếu. Ẩn tên khi người chơi rời khỏi vùng tiếp cận; chỉ chuyển bản đồ khi người chơi đi vào hoặc kích hoạt lối chuyển tiếp.
 - Mỗi NPC cần có mã riêng, vị trí, hoạt ảnh, hội thoại và nhiệm vụ phù hợp.
 - Mỗi loài quái cần có khu vực xuất hiện, chỉ số, hành vi, hoạt ảnh, cách tấn công và vật phẩm rơi riêng.
 - Mỗi bản đồ cần có mục đích, diễn biến, điều kiện hoàn thành và liên kết với cốt truyện.
