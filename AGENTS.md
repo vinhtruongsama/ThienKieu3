@@ -1,10 +1,14 @@
 # Thiên Kiêu — Quy tắc dự án
 
-## Quy tắc tạo bản đồ
+## Quy tắc dự án
 
 - Trước khi làm việc cho game, đọc `AI/README.md`, `AI/.MD/NenTangGame.md` và tài liệu liên quan trong `AI/.MD/`. Xem tài liệu trong `AI/` là nguồn thông tin chính; không suy diễn phần chưa chốt.
+- Khi thiếu ngữ cảnh hoặc không chắc, tra mục lục trong `AI/.Log.md` rồi đọc đúng phần liên quan; đọc toàn bộ nếu cần.
+- Trước khi báo hoàn tất bất kỳ công việc nào, dù lớn hay nhỏ, cập nhật `AI/.Log.md`: ghi việc đã làm, kết quả/trạng thái và file liên quan vào đúng chủ đề. Nếu là chủ đề mới, thêm mục và cập nhật mục lục. Ghi log xong rồi mới báo cáo.
 - Mọi yêu cầu tạo hoặc chỉnh ảnh cho Thiên Kiêu phải tự động dùng nguyên văn STYLE MASTER trong `AI/.MD/NenTangGame.md`, kể cả khi người dùng không nhắc phong cách. Không dịch, rút gọn hoặc diễn đạt lại prompt này. Chỉ đổi phong cách khi người dùng yêu cầu rõ ràng.
 - Tài liệu Markdown của game viết ngắn gọn, rõ ý, cụ thể và bằng tiếng Việt; chỉ prompt STYLE MASTER được giữ nguyên bằng tiếng Anh.
+## Quy tắc tạo bản đồ
+
 - Dựng bản đồ từ nhiều tài nguyên riêng biệt, có thể tái sử dụng và chỉnh sửa độc lập; không dùng một ảnh tĩnh duy nhất.
 - Tách các lớp hậu cảnh như bầu trời, mây, núi xa và rừng xa để tạo chiều sâu.
 - Hậu cảnh không cần kéo dài theo toàn bộ bản đồ. Mỗi lớp chỉ cần phủ kín khung camera và dịch chuyển theo camera khi camera chạy theo người chơi; dùng parallax và các mảnh nền lặp phù hợp để luôn phủ kín khung, không lộ mép hoặc khoảng trống. Địa hình chơi vẫn được bố trí theo chiều dài màn chơi.
