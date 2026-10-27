@@ -2,7 +2,7 @@
 
 ## Quy tắc tạo bản đồ
 
-- Áp dụng STYLE MASTER dưới đây thống nhất cho bản đồ, NPC, quái vật, vật phẩm và giao diện. Khi tạo prompt vẽ ảnh, giữ nguyên văn bản STYLE MASTER bằng tiếng Anh; viết các phần hướng dẫn còn lại bằng tiếng Việt.
+- Mọi yêu cầu tạo mới hoặc chỉnh sửa hình ảnh cho dự án Thiên Kiêu đều phải tự động áp dụng STYLE MASTER dưới đây, kể cả khi người dùng không nhắc đến phong cách. Trước khi tạo hoặc chỉnh ảnh, đọc phần này và chèn nguyên văn STYLE MASTER tiếng Anh vào prompt; không dịch, rút gọn hoặc diễn đạt lại. Áp dụng thống nhất cho bản đồ, NPC, quái vật, vật phẩm và giao diện. Các hướng dẫn khác viết bằng tiếng Việt. Chỉ đổi phong cách khi người dùng yêu cầu rõ ràng.
 - Dựng bản đồ từ nhiều tài nguyên riêng biệt, có thể tái sử dụng và chỉnh sửa độc lập; không dùng một ảnh tĩnh duy nhất.
 - Tách các lớp hậu cảnh như bầu trời, mây, núi xa và rừng xa để tạo chiều sâu.
 - Hậu cảnh không cần kéo dài theo toàn bộ bản đồ. Mỗi lớp chỉ cần phủ kín khung camera và dịch chuyển theo camera khi camera chạy theo người chơi; dùng parallax và các mảnh nền lặp phù hợp để luôn phủ kín khung, không lộ mép hoặc khoảng trống. Địa hình chơi vẫn được bố trí theo chiều dài màn chơi.
