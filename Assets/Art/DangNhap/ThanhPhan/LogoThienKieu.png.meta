@@ -1,0 +1,936 @@
+fileFormatVersion: 2
+guid: 0c9398d2240a249438442efa211cf0b2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8498119327902055739
+    second: LogoThienKieu_0
+  - first:
+      213: -7227827965831198197
+    second: LogoThienKieu_1
+  - first:
+      213: 7811987269127052245
+    second: LogoThienKieu_2
+  - first:
+      213: 4598049161098535646
+    second: LogoThienKieu_3
+  - first:
+      213: 6328238123982353931
+    second: LogoThienKieu_4
+  - first:
+      213: 4636295931380402085
+    second: LogoThienKieu_5
+  - first:
+      213: -631131102381258479
+    second: LogoThienKieu_6
+  - first:
+      213: 992270252088527855
+    second: LogoThienKieu_7
+  - first:
+      213: -4685979014971533425
+    second: LogoThienKieu_8
+  - first:
+      213: -3754748589130916102
+    second: LogoThienKieu_9
+  - first:
+      213: 3963372611673103209
+    second: LogoThienKieu_10
+  - first:
+      213: -5398953253384301901
+    second: LogoThienKieu_11
+  - first:
+      213: 2899564400959896488
+    second: LogoThienKieu_12
+  - first:
+      213: 7682081565029990747
+    second: LogoThienKieu_13
+  - first:
+      213: -2563317468094153369
+    second: LogoThienKieu_14
+  - first:
+      213: 5658399293681773019
+    second: LogoThienKieu_15
+  - first:
+      213: 3684808533044398817
+    second: LogoThienKieu_16
+  - first:
+      213: -8588969358235876362
+    second: LogoThienKieu_17
+  - first:
+      213: -2984531451262827436
+    second: LogoThienKieu_18
+  - first:
+      213: -6464120041124465583
+    second: LogoThienKieu_19
+  - first:
+      213: -540078785354676808
+    second: LogoThienKieu_20
+  - first:
+      213: 5182082081653769151
+    second: LogoThienKieu_21
+  - first:
+      213: -3345983515614187591
+    second: LogoThienKieu_22
+  - first:
+      213: -657187588626823706
+    second: LogoThienKieu_23
+  - first:
+      213: 833128233717483769
+    second: LogoThienKieu_24
+  - first:
+      213: 6419781657051575104
+    second: LogoThienKieu_25
+  - first:
+      213: 4528486543367028622
+    second: LogoThienKieu_26
+  - first:
+      213: 8144893471190951400
+    second: LogoThienKieu_27
+  - first:
+      213: 4890819990881171941
+    second: LogoThienKieu_28
+  - first:
+      213: 3797933845595607011
+    second: LogoThienKieu_29
+  - first:
+      213: -8347025131440559757
+    second: LogoThienKieu_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LogoThienKieu_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1224
+        height: 708
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3dbb76f0826fe570800000000000000
+      internalID: 8498119327902055739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoThienKieu_1
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 693
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a4ffe72c891bb90800000000000000
+      internalID: -7227827965831198197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoThienKieu_2
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 689
+        width: 57
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db11361801c96c60800000000000000
+      internalID: 7811987269127052245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoThienKieu_3
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 691
+        width: 98
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2af0bb95d8fcf30800000000000000
+      internalID: 4598049161098535646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoThienKieu_4
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 619
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b067d0a9b0b62d750800000000000000
+      internalID: 6328238123982353931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoThienKieu_5
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 610
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a7848fd59e675040800000000000000
+      internalID: 4636295931380402085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoThienKieu_6
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 0
+        width: 912
+        height: 688
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1194dd33b95cd37f0800000000000000
+      internalID: -631131102381258479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoThienKieu_7
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 582
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb8ce8798045cd00800000000000000
+      internalID: 992270252088527855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoThienKieu_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 283
+        width: 5
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f87dfabc9ee08feb0800000000000000
+      internalID: -4685979014971533425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoThienKieu_9
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 99
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afed3fb3d0474ebc0800000000000000
+      internalID: -3754748589130916102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoThienKieu_10
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 79
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b9947346ab00730800000000000000
+      internalID: 3963372611673103209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoThienKieu_11
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 87
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b2d615fe901315b0800000000000000
+      internalID: -5398953253384301901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoThienKieu_12
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 85
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab359ac5725d3820800000000000000
+      internalID: 2899564400959896488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoThienKieu_13
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 65
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5180336b7c3c9a60800000000000000
+      internalID: 7682081565029990747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoThienKieu_14
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 29
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76db1b308544d6cd0800000000000000
+      internalID: -2563317468094153369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoThienKieu_15
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 45
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd929399d2ca68e40800000000000000
+      internalID: 5658399293681773019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoThienKieu_16
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 33
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ea807d76d1132330800000000000000
+      internalID: 3684808533044398817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoThienKieu_17
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 17
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f3c2afffd9ddc880800000000000000
+      internalID: -8588969358235876362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoThienKieu_18
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 39
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4548f723570d496d0800000000000000
+      internalID: -2984531451262827436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoThienKieu_19
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 15
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 154fa4b2215da46a0800000000000000
+      internalID: -6464120041124465583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoThienKieu_20
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 45
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b5c538c4314188f0800000000000000
+      internalID: -540078785354676808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoThienKieu_21
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 23
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb3c3e982347ae740800000000000000
+      internalID: 5182082081653769151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoThienKieu_22
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 33
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bfe08768bda091d0800000000000000
+      internalID: -3345983515614187591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoThienKieu_23
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 23
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e54a1dbe5331e6f0800000000000000
+      internalID: -657187588626823706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoThienKieu_24
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 15
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f84417e6bddf8b00800000000000000
+      internalID: 833128233717483769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoThienKieu_25
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 33
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 043b0245765a71950800000000000000
+      internalID: 6419781657051575104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoThienKieu_26
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 21
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f378ba48a68de30800000000000000
+      internalID: 4528486543367028622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoThienKieu_27
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 17
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e52cb36579780170800000000000000
+      internalID: 8144893471190951400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoThienKieu_28
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 17
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e9f9d87edeafd340800000000000000
+      internalID: 4890819990881171941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoThienKieu_29
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 5
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3efc823d5b8f4b430800000000000000
+      internalID: 3797933845595607011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoThienKieu_30
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 13
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3792a3d0ed8692c80800000000000000
+      internalID: -8347025131440559757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LogoThienKieu_0: 8498119327902055739
+      LogoThienKieu_1: -7227827965831198197
+      LogoThienKieu_10: 3963372611673103209
+      LogoThienKieu_11: -5398953253384301901
+      LogoThienKieu_12: 2899564400959896488
+      LogoThienKieu_13: 7682081565029990747
+      LogoThienKieu_14: -2563317468094153369
+      LogoThienKieu_15: 5658399293681773019
+      LogoThienKieu_16: 3684808533044398817
+      LogoThienKieu_17: -8588969358235876362
+      LogoThienKieu_18: -2984531451262827436
+      LogoThienKieu_19: -6464120041124465583
+      LogoThienKieu_2: 7811987269127052245
+      LogoThienKieu_20: -540078785354676808
+      LogoThienKieu_21: 5182082081653769151
+      LogoThienKieu_22: -3345983515614187591
+      LogoThienKieu_23: -657187588626823706
+      LogoThienKieu_24: 833128233717483769
+      LogoThienKieu_25: 6419781657051575104
+      LogoThienKieu_26: 4528486543367028622
+      LogoThienKieu_27: 8144893471190951400
+      LogoThienKieu_28: 4890819990881171941
+      LogoThienKieu_29: 3797933845595607011
+      LogoThienKieu_3: 4598049161098535646
+      LogoThienKieu_30: -8347025131440559757
+      LogoThienKieu_4: 6328238123982353931
+      LogoThienKieu_5: 4636295931380402085
+      LogoThienKieu_6: -631131102381258479
+      LogoThienKieu_7: 992270252088527855
+      LogoThienKieu_8: -4685979014971533425
+      LogoThienKieu_9: -3754748589130916102
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

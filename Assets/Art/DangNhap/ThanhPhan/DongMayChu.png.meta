@@ -1,0 +1,884 @@
+fileFormatVersion: 2
+guid: a96e5f818062d1942be9e502422ce62e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4033518051986589202
+    second: DongMayChu_0
+  - first:
+      213: -6769438462863570608
+    second: DongMayChu_1
+  - first:
+      213: -4327240046177136168
+    second: DongMayChu_2
+  - first:
+      213: 1995999270045282755
+    second: DongMayChu_3
+  - first:
+      213: -3481914922381553211
+    second: DongMayChu_4
+  - first:
+      213: 7371073897864092759
+    second: DongMayChu_5
+  - first:
+      213: -7724241192373818890
+    second: DongMayChu_6
+  - first:
+      213: -957453515035079186
+    second: DongMayChu_7
+  - first:
+      213: -8605807884565806046
+    second: DongMayChu_8
+  - first:
+      213: -1946754799468514643
+    second: DongMayChu_9
+  - first:
+      213: -6906798363597685786
+    second: DongMayChu_10
+  - first:
+      213: 4011365274968821075
+    second: DongMayChu_11
+  - first:
+      213: 3780647660827428501
+    second: DongMayChu_12
+  - first:
+      213: 2259123241840956281
+    second: DongMayChu_13
+  - first:
+      213: -4895554997853884221
+    second: DongMayChu_14
+  - first:
+      213: 7116632845762115060
+    second: DongMayChu_15
+  - first:
+      213: 8284490934939121720
+    second: DongMayChu_16
+  - first:
+      213: 8059507465729337949
+    second: DongMayChu_17
+  - first:
+      213: -325863751898023535
+    second: DongMayChu_18
+  - first:
+      213: -6488959119624009211
+    second: DongMayChu_19
+  - first:
+      213: -5133931734457429369
+    second: DongMayChu_20
+  - first:
+      213: -3037723520862269815
+    second: DongMayChu_21
+  - first:
+      213: -8638927013734803455
+    second: DongMayChu_22
+  - first:
+      213: 338869668542672987
+    second: DongMayChu_23
+  - first:
+      213: -6411638670938975094
+    second: DongMayChu_24
+  - first:
+      213: -6298156912290714364
+    second: DongMayChu_25
+  - first:
+      213: 2158429082627142391
+    second: DongMayChu_26
+  - first:
+      213: -7318526059398276656
+    second: DongMayChu_27
+  - first:
+      213: 2238732457669801400
+    second: DongMayChu_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DongMayChu_0
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 600
+        width: 118
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21649cb3c4fe9f730800000000000000
+      internalID: 4033518051986589202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DongMayChu_1
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 644
+        width: 57
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0598624859f1e02a0800000000000000
+      internalID: -6769438462863570608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DongMayChu_2
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 632
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d154cdca1e82f3c0800000000000000
+      internalID: -4327240046177136168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DongMayChu_3
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 666
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c1fcf6c2c633bb10800000000000000
+      internalID: 1995999270045282755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DongMayChu_4
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 634
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c1d05973d0cdafc0800000000000000
+      internalID: -3481914922381553211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DongMayChu_5
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 620
+        width: 73
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75cd75f08a05b4660800000000000000
+      internalID: 7371073897864092759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DongMayChu_6
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 636
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f96e117f8bfdc490800000000000000
+      internalID: -7724241192373818890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DongMayChu_7
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 644
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eed8263d91176b2f0800000000000000
+      internalID: -957453515035079186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DongMayChu_8
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 642
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22403331357029880800000000000000
+      internalID: -8605807884565806046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DongMayChu_9
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 642
+        width: 135
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da274e003dcbbf4e0800000000000000
+      internalID: -1946754799468514643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DongMayChu_10
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 635
+        width: 81
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ebb28a6b7f1620a0800000000000000
+      internalID: -6906798363597685786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DongMayChu_11
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 649
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35d8ad6e67b3ba730800000000000000
+      internalID: 4011365274968821075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DongMayChu_12
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 645
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 596c78c440f877430800000000000000
+      internalID: 3780647660827428501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DongMayChu_13
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 632
+        width: 69
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97352cd7e940a5f10800000000000000
+      internalID: 2259123241840956281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DongMayChu_14
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 632
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c0f78ecaae7f0cb0800000000000000
+      internalID: -4895554997853884221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DongMayChu_15
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 612
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f537802edb53c260800000000000000
+      internalID: 7116632845762115060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DongMayChu_16
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 630
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8387df9bc9c68f270800000000000000
+      internalID: 8284490934939121720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DongMayChu_17
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 624
+        width: 107
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5ae767c65f19df60800000000000000
+      internalID: 8059507465729337949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DongMayChu_18
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 614
+        width: 164
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19931f6e4ac4a7bf0800000000000000
+      internalID: -325863751898023535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DongMayChu_19
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 633
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50a87c88f0692f5a0800000000000000
+      internalID: -6488959119624009211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DongMayChu_20
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 642
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7825f8ac94c90c8b0800000000000000
+      internalID: -5133931734457429369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DongMayChu_21
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 642
+        width: 85
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98ec7256d86d7d5d0800000000000000
+      internalID: -3037723520862269815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DongMayChu_22
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 628
+        width: 80
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1089fc9e6ad5c1880800000000000000
+      internalID: -8638927013734803455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DongMayChu_23
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 626
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50f3aa0b28e3b400800000000000000
+      internalID: 338869668542672987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DongMayChu_24
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 2035
+        height: 556
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a84568e59984507a0800000000000000
+      internalID: -6411638670938975094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DongMayChu_25
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 144
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40dad3748a37898a0800000000000000
+      internalID: -6298156912290714364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DongMayChu_26
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 17
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f2fcd690d744fd10800000000000000
+      internalID: 2158429082627142391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DongMayChu_27
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 134
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d9502ef25f5f6a90800000000000000
+      internalID: -7318526059398276656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DongMayChu_28
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 95
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b5bb861f43911f10800000000000000
+      internalID: 2238732457669801400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DongMayChu_0: 4033518051986589202
+      DongMayChu_1: -6769438462863570608
+      DongMayChu_10: -6906798363597685786
+      DongMayChu_11: 4011365274968821075
+      DongMayChu_12: 3780647660827428501
+      DongMayChu_13: 2259123241840956281
+      DongMayChu_14: -4895554997853884221
+      DongMayChu_15: 7116632845762115060
+      DongMayChu_16: 8284490934939121720
+      DongMayChu_17: 8059507465729337949
+      DongMayChu_18: -325863751898023535
+      DongMayChu_19: -6488959119624009211
+      DongMayChu_2: -4327240046177136168
+      DongMayChu_20: -5133931734457429369
+      DongMayChu_21: -3037723520862269815
+      DongMayChu_22: -8638927013734803455
+      DongMayChu_23: 338869668542672987
+      DongMayChu_24: -6411638670938975094
+      DongMayChu_25: -6298156912290714364
+      DongMayChu_26: 2158429082627142391
+      DongMayChu_27: -7318526059398276656
+      DongMayChu_28: 2238732457669801400
+      DongMayChu_3: 1995999270045282755
+      DongMayChu_4: -3481914922381553211
+      DongMayChu_5: 7371073897864092759
+      DongMayChu_6: -7724241192373818890
+      DongMayChu_7: -957453515035079186
+      DongMayChu_8: -8605807884565806046
+      DongMayChu_9: -1946754799468514643
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,3432 @@
+fileFormatVersion: 2
+guid: a8d3fce973e97214ba90400443d52020
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4348816153401568812
+    second: OChonMayChu_0
+  - first:
+      213: -3098576778431647038
+    second: OChonMayChu_1
+  - first:
+      213: 2159325542776320395
+    second: OChonMayChu_2
+  - first:
+      213: -4979394921921405936
+    second: OChonMayChu_3
+  - first:
+      213: 982796450156097405
+    second: OChonMayChu_4
+  - first:
+      213: 8023545958383921426
+    second: OChonMayChu_5
+  - first:
+      213: 9127344505541588690
+    second: OChonMayChu_6
+  - first:
+      213: 8762626927843148888
+    second: OChonMayChu_7
+  - first:
+      213: -6618708331558188657
+    second: OChonMayChu_8
+  - first:
+      213: 7085383113602755403
+    second: OChonMayChu_9
+  - first:
+      213: -6376987041463670517
+    second: OChonMayChu_10
+  - first:
+      213: 3928417212158565147
+    second: OChonMayChu_11
+  - first:
+      213: -7244753287140046359
+    second: OChonMayChu_12
+  - first:
+      213: -1932538181062534211
+    second: OChonMayChu_13
+  - first:
+      213: -3915983577892666685
+    second: OChonMayChu_14
+  - first:
+      213: 9201967106320694413
+    second: OChonMayChu_15
+  - first:
+      213: -4466220958426715062
+    second: OChonMayChu_16
+  - first:
+      213: -2759308320918299691
+    second: OChonMayChu_17
+  - first:
+      213: -5555337365602714252
+    second: OChonMayChu_18
+  - first:
+      213: -5327370501840125435
+    second: OChonMayChu_19
+  - first:
+      213: 2827597550649303381
+    second: OChonMayChu_20
+  - first:
+      213: -3870522767959596709
+    second: OChonMayChu_21
+  - first:
+      213: -2933832124154740421
+    second: OChonMayChu_22
+  - first:
+      213: 4776894545269615249
+    second: OChonMayChu_23
+  - first:
+      213: -9018987474889872254
+    second: OChonMayChu_24
+  - first:
+      213: 8630418450850301275
+    second: OChonMayChu_25
+  - first:
+      213: -6319132303860342736
+    second: OChonMayChu_26
+  - first:
+      213: -6473725612149480112
+    second: OChonMayChu_27
+  - first:
+      213: 732880223421173104
+    second: OChonMayChu_28
+  - first:
+      213: 2920386239768793892
+    second: OChonMayChu_29
+  - first:
+      213: -4406129253355914753
+    second: OChonMayChu_30
+  - first:
+      213: -3305320781137584127
+    second: OChonMayChu_31
+  - first:
+      213: -3649924720976626895
+    second: OChonMayChu_32
+  - first:
+      213: -8477204335836545970
+    second: OChonMayChu_33
+  - first:
+      213: 5749961702998755038
+    second: OChonMayChu_34
+  - first:
+      213: -5609357815440101892
+    second: OChonMayChu_35
+  - first:
+      213: -7807311131005968790
+    second: OChonMayChu_36
+  - first:
+      213: 8208843995163958943
+    second: OChonMayChu_37
+  - first:
+      213: -2081264176211843020
+    second: OChonMayChu_38
+  - first:
+      213: 5665458386636395966
+    second: OChonMayChu_39
+  - first:
+      213: -6123298434187695766
+    second: OChonMayChu_40
+  - first:
+      213: -6656068662123601069
+    second: OChonMayChu_41
+  - first:
+      213: -4095100836181661870
+    second: OChonMayChu_42
+  - first:
+      213: -3123656033926317418
+    second: OChonMayChu_43
+  - first:
+      213: 3689610622347685403
+    second: OChonMayChu_44
+  - first:
+      213: 3069395295935523818
+    second: OChonMayChu_45
+  - first:
+      213: 4806657720979767564
+    second: OChonMayChu_46
+  - first:
+      213: 806250838201971817
+    second: OChonMayChu_47
+  - first:
+      213: -118810651898231774
+    second: OChonMayChu_48
+  - first:
+      213: -680614768585988880
+    second: OChonMayChu_49
+  - first:
+      213: 5490274357744470594
+    second: OChonMayChu_50
+  - first:
+      213: -4543189418558225684
+    second: OChonMayChu_51
+  - first:
+      213: -3767326064646255296
+    second: OChonMayChu_52
+  - first:
+      213: 5835680900113099603
+    second: OChonMayChu_53
+  - first:
+      213: 5571211441393566706
+    second: OChonMayChu_54
+  - first:
+      213: -5994036619710713545
+    second: OChonMayChu_55
+  - first:
+      213: -7431289565213963677
+    second: OChonMayChu_56
+  - first:
+      213: 316667794054699506
+    second: OChonMayChu_57
+  - first:
+      213: 161197326203439659
+    second: OChonMayChu_58
+  - first:
+      213: -1963568414957357368
+    second: OChonMayChu_59
+  - first:
+      213: -8116349422885180441
+    second: OChonMayChu_60
+  - first:
+      213: -3837003675852321713
+    second: OChonMayChu_61
+  - first:
+      213: 3117473558481147606
+    second: OChonMayChu_62
+  - first:
+      213: -2152275685961291727
+    second: OChonMayChu_63
+  - first:
+      213: -3664483099184154790
+    second: OChonMayChu_64
+  - first:
+      213: -4301787672908129277
+    second: OChonMayChu_65
+  - first:
+      213: 1296920436173349786
+    second: OChonMayChu_66
+  - first:
+      213: 6905986998474648631
+    second: OChonMayChu_67
+  - first:
+      213: 1331066039359425917
+    second: OChonMayChu_68
+  - first:
+      213: 8112212163782859956
+    second: OChonMayChu_69
+  - first:
+      213: 4092917524445721969
+    second: OChonMayChu_70
+  - first:
+      213: 7726206366065689232
+    second: OChonMayChu_71
+  - first:
+      213: -3607760450552641534
+    second: OChonMayChu_72
+  - first:
+      213: 3624927500047634557
+    second: OChonMayChu_73
+  - first:
+      213: 1567798059509963034
+    second: OChonMayChu_74
+  - first:
+      213: 6278110337651412554
+    second: OChonMayChu_75
+  - first:
+      213: -4737554710258794773
+    second: OChonMayChu_76
+  - first:
+      213: -6295451592155814793
+    second: OChonMayChu_77
+  - first:
+      213: -1851094216006422848
+    second: OChonMayChu_78
+  - first:
+      213: 4962106394406204994
+    second: OChonMayChu_79
+  - first:
+      213: -544833148260601784
+    second: OChonMayChu_80
+  - first:
+      213: -4014241157949442792
+    second: OChonMayChu_81
+  - first:
+      213: -3887923320926381943
+    second: OChonMayChu_82
+  - first:
+      213: -314869441139515115
+    second: OChonMayChu_83
+  - first:
+      213: 2569576704471980516
+    second: OChonMayChu_84
+  - first:
+      213: -4165349420103128936
+    second: OChonMayChu_85
+  - first:
+      213: -600179741890500328
+    second: OChonMayChu_86
+  - first:
+      213: -3238968818435015413
+    second: OChonMayChu_87
+  - first:
+      213: 1661290988773382698
+    second: OChonMayChu_88
+  - first:
+      213: 4608127575589671793
+    second: OChonMayChu_89
+  - first:
+      213: 3701364417312768184
+    second: OChonMayChu_90
+  - first:
+      213: -492905080399748019
+    second: OChonMayChu_91
+  - first:
+      213: 3914340608071582142
+    second: OChonMayChu_92
+  - first:
+      213: -1886349588221793922
+    second: OChonMayChu_93
+  - first:
+      213: -931523516649476115
+    second: OChonMayChu_94
+  - first:
+      213: -972148425800901323
+    second: OChonMayChu_95
+  - first:
+      213: -8552264519688214443
+    second: OChonMayChu_96
+  - first:
+      213: -7209757335724545720
+    second: OChonMayChu_97
+  - first:
+      213: -2873880862172500737
+    second: OChonMayChu_98
+  - first:
+      213: 2001297828952983780
+    second: OChonMayChu_99
+  - first:
+      213: -4405195380245851183
+    second: OChonMayChu_100
+  - first:
+      213: 3064920575619002709
+    second: OChonMayChu_101
+  - first:
+      213: -8466746178325603168
+    second: OChonMayChu_102
+  - first:
+      213: -4217613064214665764
+    second: OChonMayChu_103
+  - first:
+      213: 2018696665083502619
+    second: OChonMayChu_104
+  - first:
+      213: 434734228498213664
+    second: OChonMayChu_105
+  - first:
+      213: -5859922477953731394
+    second: OChonMayChu_106
+  - first:
+      213: 523156183779257911
+    second: OChonMayChu_107
+  - first:
+      213: -6464488801150746508
+    second: OChonMayChu_108
+  - first:
+      213: -7007794528306955851
+    second: OChonMayChu_109
+  - first:
+      213: -6104818236912722009
+    second: OChonMayChu_110
+  - first:
+      213: 1568750507408841683
+    second: OChonMayChu_111
+  - first:
+      213: -456419141149065552
+    second: OChonMayChu_112
+  - first:
+      213: -7821490939190635007
+    second: OChonMayChu_113
+  - first:
+      213: 6217323141140304969
+    second: OChonMayChu_114
+  - first:
+      213: 8222988499146656476
+    second: OChonMayChu_115
+  - first:
+      213: 5786851300193583229
+    second: OChonMayChu_116
+  - first:
+      213: 5209840113321640756
+    second: OChonMayChu_117
+  - first:
+      213: -3623946899461979044
+    second: OChonMayChu_118
+  - first:
+      213: -4369714001175404213
+    second: OChonMayChu_119
+  - first:
+      213: 6485516093613410052
+    second: OChonMayChu_120
+  - first:
+      213: 3844631212517079267
+    second: OChonMayChu_121
+  - first:
+      213: -2473630084025338860
+    second: OChonMayChu_122
+  - first:
+      213: 6616570907968927325
+    second: OChonMayChu_123
+  - first:
+      213: -5759786846136732170
+    second: OChonMayChu_124
+  - first:
+      213: -6549489921923737642
+    second: OChonMayChu_125
+  - first:
+      213: -3442834005309433068
+    second: OChonMayChu_126
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OChonMayChu_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 17
+        width: 2125
+        height: 707
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d1d40fdfb6e5a3c0800000000000000
+      internalID: -4348816153401568812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_1
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 699
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2be4446d4aff4d0800000000000000
+      internalID: -3098576778431647038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_2
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 711
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b813c9bf32777fd10800000000000000
+      internalID: 2159325542776320395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_3
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 705
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c9d7253b2a5eab0800000000000000
+      internalID: -4979394921921405936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_4
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 707
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7fa1121a2893ad00800000000000000
+      internalID: 982796450156097405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_5
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 612
+        width: 168
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 219ae70e98c595f60800000000000000
+      internalID: 8023545958383921426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_6
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 608
+        width: 95
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d67b631877daae70800000000000000
+      internalID: 9127344505541588690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_7
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 681
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8540d55b3ca1b9970800000000000000
+      internalID: 8762626927843148888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_8
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 606
+        width: 741
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f894e8107df9524a0800000000000000
+      internalID: -6618708331558188657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_9
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 695
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4be7dfd666545260800000000000000
+      internalID: 7085383113602755403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_10
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 693
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b09e94092146087a0800000000000000
+      internalID: -6376987041463670517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_11
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 683
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1bdd3c04aa848630800000000000000
+      internalID: 3928417212158565147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_12
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 673
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e98caa0547757b90800000000000000
+      internalID: -7244753287140046359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_13
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 673
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb53ea63ce3e25e0800000000000000
+      internalID: -1932538181062534211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_14
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 681
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c2c1750fa1a7a9c0800000000000000
+      internalID: -3915983577892666685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_15
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 675
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8cf21f3454f3bf70800000000000000
+      internalID: 9201967106320694413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_16
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 657
+        width: 51
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c229c83bbc402c0800000000000000
+      internalID: -4466220958426715062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_17
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 614
+        width: 52
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db92e993b7f4b9d0800000000000000
+      internalID: -2759308320918299691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_18
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 675
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47dbbc3791a77e2b0800000000000000
+      internalID: -5555337365602714252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_19
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 661
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 502cce211c06116b0800000000000000
+      internalID: -5327370501840125435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_20
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 671
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5516736bdf4ad3720800000000000000
+      internalID: 2827597550649303381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_21
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 653
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b51e4b8ac04294ac0800000000000000
+      internalID: -3870522767959596709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_22
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 667
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3180292a3fe847d0800000000000000
+      internalID: -2933832124154740421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_23
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 671
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19aeb44a740fa4240800000000000000
+      internalID: 4776894545269615249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_24
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 659
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28ced7d1dae16d280800000000000000
+      internalID: -9018987474889872254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_25
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 666
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b55c8e9ead765c770800000000000000
+      internalID: 8630418450850301275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_26
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 655
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03065bb56aeed48a0800000000000000
+      internalID: -6319132303860342736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_27
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 664
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0556b72ead4b826a0800000000000000
+      internalID: -6473725612149480112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_28
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 647
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d8de32ea6bb2a00800000000000000
+      internalID: 732880223421173104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_29
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 646
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4239b5cefcb478820800000000000000
+      internalID: 2920386239768793892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_30
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 635
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff9734be9c84ad2c0800000000000000
+      internalID: -4406129253355914753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_31
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 651
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 100e39b03442122d0800000000000000
+      internalID: -3305320781137584127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_32
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 607
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b754dedccd85dc0800000000000000
+      internalID: -3649924720976626895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_33
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 657
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4cbf0a129bea5a80800000000000000
+      internalID: -8477204335836545970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_34
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 653
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed6475b44b7fbcf40800000000000000
+      internalID: 5749961702998755038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_35
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 659
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfda1a859ce8722b0800000000000000
+      internalID: -5609357815440101892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_36
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 640
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e9f6924ebd6a390800000000000000
+      internalID: -7807311131005968790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_37
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 638
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9e985c0f1cabe170800000000000000
+      internalID: 8208843995163958943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_38
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 634
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 438a52d324ddd13e0800000000000000
+      internalID: -2081264176211843020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_39
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 641
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb55831c260cf9e40800000000000000
+      internalID: 5665458386636395966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_40
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 633
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a696988448ca50ba0800000000000000
+      internalID: -6123298434187695766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_41
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 626
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 353638131d4e0a3a0800000000000000
+      internalID: -6656068662123601069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_42
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 610
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 257acfb7c774b27c0800000000000000
+      internalID: -4095100836181661870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_43
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 637
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69af051136b86a4d0800000000000000
+      internalID: -3123656033926317418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_44
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 643
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1eaa880051243330800000000000000
+      internalID: 3689610622347685403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_45
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 637
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aebed7162cea89a20800000000000000
+      internalID: 3069395295935523818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_46
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 640
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0143effabda4b240800000000000000
+      internalID: 4806657720979767564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_47
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 642
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 964b3ea9dd0603b00800000000000000
+      internalID: 806250838201971817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_48
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 610
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 224c2127756e95ef0800000000000000
+      internalID: -118810651898231774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_49
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 625
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f42c895978fd86f0800000000000000
+      internalID: -680614768585988880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_50
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 628
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24a8bcc807f513c40800000000000000
+      internalID: 5490274357744470594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_51
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 630
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2068f6b4953f0c0800000000000000
+      internalID: -4543189418558225684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_52
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 626
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04d80b387e4c7bbc0800000000000000
+      internalID: -3767326064646255296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_53
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 617
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35be5c12cd08cf050800000000000000
+      internalID: 5835680900113099603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_54
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 628
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f30bd4d94be05d40800000000000000
+      internalID: 5571211441393566706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_55
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 619
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 731b57fb377e0dca0800000000000000
+      internalID: -5994036619710713545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_56
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 613
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36aca5a5381ced890800000000000000
+      internalID: -7431289565213963677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_57
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 614
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f9df605ea7056400800000000000000
+      internalID: 316667794054699506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_58
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 612
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a49173d10bc3200800000000000000
+      internalID: 161197326203439659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_59
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 604
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c63a461ee000c4e0800000000000000
+      internalID: -1963568414957357368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_60
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 606
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb6bffb33fec5f80800000000000000
+      internalID: -8116349422885180441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_61
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 602
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c44f27c7930cac0800000000000000
+      internalID: -3837003675852321713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_62
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 596
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d611f13fad734b20800000000000000
+      internalID: 3117473558481147606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_63
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 595
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1382197baa49122e0800000000000000
+      internalID: -2152275685961291727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_64
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 599
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a57b4bb5904252dc0800000000000000
+      internalID: -3664483099184154790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_65
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 194
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c182147eafc44c0800000000000000
+      internalID: -4301787672908129277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_66
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 158
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a93ae0ce3469ff110800000000000000
+      internalID: 1296920436173349786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_67
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 134
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73c2c8be59ef6df50800000000000000
+      internalID: 6905986998474648631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_68
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 162
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7dca90b285e87210800000000000000
+      internalID: 1331066039359425917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_69
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 122
+        width: 98
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bc51ec8bfd549070800000000000000
+      internalID: 8112212163782859956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_70
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 130
+        width: 78
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 175fe83adc6fcc830800000000000000
+      internalID: 4092917524445721969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_71
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 177
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09205b631cff83b60800000000000000
+      internalID: 7726206366065689232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_72
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 159
+        width: 54
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2084b162cf8aeedc0800000000000000
+      internalID: -3607760450552641534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_73
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 162
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7052e80b545e4230800000000000000
+      internalID: 3624927500047634557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_74
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 144
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1953a05700f1c510800000000000000
+      internalID: 1567798059509963034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_75
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 146
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e8b68d614502750800000000000000
+      internalID: 6278110337651412554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_76
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 144
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beebb077713d04eb0800000000000000
+      internalID: -4737554710258794773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_77
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 151
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 774a2e4b12012a8a0800000000000000
+      internalID: -6295451592155814793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_78
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 144
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ce28293e979f46e0800000000000000
+      internalID: -1851094216006422848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_79
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 150
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 246b640b971fcd440800000000000000
+      internalID: 4962106394406204994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_80
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 160
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 840b118632d5078f0800000000000000
+      internalID: -544833148260601784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_81
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 161
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 815bba96fec8a48c0800000000000000
+      internalID: -4014241157949442792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_82
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 162
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 988d936b6525b0ac0800000000000000
+      internalID: -3887923320926381943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_83
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 152
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 511e04a59eb51abf0800000000000000
+      internalID: -314869441139515115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_84
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 152
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e9db250668f8a320800000000000000
+      internalID: 2569576704471980516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_85
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 162
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 898af5975c4b136c0800000000000000
+      internalID: -4165349420103128936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_86
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 162
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8192b3364bbbba7f0800000000000000
+      internalID: -600179741890500328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_87
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 130
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d3d9a350fdc03d0800000000000000
+      internalID: -3238968818435015413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_88
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 136
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a15663a571e0710800000000000000
+      internalID: 1661290988773382698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_89
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 144
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17354b67d9b53ff30800000000000000
+      internalID: 4608127575589671793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_90
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 146
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b0c23ea353ed5330800000000000000
+      internalID: 3701364417312768184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_91
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 146
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d44a9ced079d829f0800000000000000
+      internalID: -492905080399748019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_92
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 134
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb14ef14b08825630800000000000000
+      internalID: 3914340608071582142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_93
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 135
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e79e5d73b0752d5e0800000000000000
+      internalID: -1886349588221793922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_94
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 133
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def6f2a0c409213f0800000000000000
+      internalID: -931523516649476115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_95
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 140
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d9e2b482c3282f0800000000000000
+      internalID: -972148425800901323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_96
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 146
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 558aece2bb0405980800000000000000
+      internalID: -8552264519688214443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_97
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 118
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8492f5fe6ebc1fb90800000000000000
+      internalID: -7209757335724545720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_98
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 134
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc2a63159ced18d0800000000000000
+      internalID: -2873880862172500737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_99
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 148
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8c088a5c906cb10800000000000000
+      internalID: 2001297828952983780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_100
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 144
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d31142342a9dd2c0800000000000000
+      internalID: -4405195380245851183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_101
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 114
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5517e8e5609c88a20800000000000000
+      internalID: 3064920575619002709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_102
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 134
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ac9185a533108a80800000000000000
+      internalID: -8466746178325603168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_103
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 126
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd5207393470875c0800000000000000
+      internalID: -4217613064214665764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_104
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 134
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10619fdbe9d30c10800000000000000
+      internalID: 2018696665083502619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_105
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 132
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02be65d3a7c780600800000000000000
+      internalID: 434734228498213664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_106
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 133
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb4bd32bd8f5daea0800000000000000
+      internalID: -5859922477953731394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_107
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 130
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73e263007cf924700800000000000000
+      internalID: 523156183779257911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_108
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 126
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4704be88fa58946a0800000000000000
+      internalID: -6464488801150746508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_109
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 128
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b9765161005fbe90800000000000000
+      internalID: -7007794528306955851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_110
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 134
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7af9d728824574ba0800000000000000
+      internalID: -6104818236912722009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_111
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 136
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3db515f564255c510800000000000000
+      internalID: 1568750507408841683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_112
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 128
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0befe1795397aa9f0800000000000000
+      internalID: -456419141149065552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_113
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 118
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1061b9b4e6b747390800000000000000
+      internalID: -7821490939190635007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_114
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 112
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 944db71c47e584650800000000000000
+      internalID: 6217323141140304969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_115
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 112
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cda42c3097ced1270800000000000000
+      internalID: 8222988499146656476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_116
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 112
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d70cb04f8960f4050800000000000000
+      internalID: 5786851300193583229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_117
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 114
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4330e1beaf11d4840800000000000000
+      internalID: 5209840113321640756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_118
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 116
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c54c0b4de7725bdc0800000000000000
+      internalID: -3623946899461979044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_119
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 112
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b41a3e58448ab53c0800000000000000
+      internalID: -4369714001175404213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_120
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 120
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40708e0868e210a50800000000000000
+      internalID: 6485516093613410052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_121
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 69
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e8b572d7bfda5530800000000000000
+      internalID: 3844631212517079267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_122
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 82
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41433ff5b86ebadd0800000000000000
+      internalID: -2473630084025338860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_123
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 71
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d56fba84f28c2db50800000000000000
+      internalID: 6616570907968927325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_124
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 79
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f57d0e41602110b0800000000000000
+      internalID: -5759786846136732170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_125
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 71
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d71cbfdd998b15a0800000000000000
+      internalID: -6549489921923737642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OChonMayChu_126
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 47
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41b55ec86b89830d0800000000000000
+      internalID: -3442834005309433068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      OChonMayChu_0: -4348816153401568812
+      OChonMayChu_1: -3098576778431647038
+      OChonMayChu_10: -6376987041463670517
+      OChonMayChu_100: -4405195380245851183
+      OChonMayChu_101: 3064920575619002709
+      OChonMayChu_102: -8466746178325603168
+      OChonMayChu_103: -4217613064214665764
+      OChonMayChu_104: 2018696665083502619
+      OChonMayChu_105: 434734228498213664
+      OChonMayChu_106: -5859922477953731394
+      OChonMayChu_107: 523156183779257911
+      OChonMayChu_108: -6464488801150746508
+      OChonMayChu_109: -7007794528306955851
+      OChonMayChu_11: 3928417212158565147
+      OChonMayChu_110: -6104818236912722009
+      OChonMayChu_111: 1568750507408841683
+      OChonMayChu_112: -456419141149065552
+      OChonMayChu_113: -7821490939190635007
+      OChonMayChu_114: 6217323141140304969
+      OChonMayChu_115: 8222988499146656476
+      OChonMayChu_116: 5786851300193583229
+      OChonMayChu_117: 5209840113321640756
+      OChonMayChu_118: -3623946899461979044
+      OChonMayChu_119: -4369714001175404213
+      OChonMayChu_12: -7244753287140046359
+      OChonMayChu_120: 6485516093613410052
+      OChonMayChu_121: 3844631212517079267
+      OChonMayChu_122: -2473630084025338860
+      OChonMayChu_123: 6616570907968927325
+      OChonMayChu_124: -5759786846136732170
+      OChonMayChu_125: -6549489921923737642
+      OChonMayChu_126: -3442834005309433068
+      OChonMayChu_13: -1932538181062534211
+      OChonMayChu_14: -3915983577892666685
+      OChonMayChu_15: 9201967106320694413
+      OChonMayChu_16: -4466220958426715062
+      OChonMayChu_17: -2759308320918299691
+      OChonMayChu_18: -5555337365602714252
+      OChonMayChu_19: -5327370501840125435
+      OChonMayChu_2: 2159325542776320395
+      OChonMayChu_20: 2827597550649303381
+      OChonMayChu_21: -3870522767959596709
+      OChonMayChu_22: -2933832124154740421
+      OChonMayChu_23: 4776894545269615249
+      OChonMayChu_24: -9018987474889872254
+      OChonMayChu_25: 8630418450850301275
+      OChonMayChu_26: -6319132303860342736
+      OChonMayChu_27: -6473725612149480112
+      OChonMayChu_28: 732880223421173104
+      OChonMayChu_29: 2920386239768793892
+      OChonMayChu_3: -4979394921921405936
+      OChonMayChu_30: -4406129253355914753
+      OChonMayChu_31: -3305320781137584127
+      OChonMayChu_32: -3649924720976626895
+      OChonMayChu_33: -8477204335836545970
+      OChonMayChu_34: 5749961702998755038
+      OChonMayChu_35: -5609357815440101892
+      OChonMayChu_36: -7807311131005968790
+      OChonMayChu_37: 8208843995163958943
+      OChonMayChu_38: -2081264176211843020
+      OChonMayChu_39: 5665458386636395966
+      OChonMayChu_4: 982796450156097405
+      OChonMayChu_40: -6123298434187695766
+      OChonMayChu_41: -6656068662123601069
+      OChonMayChu_42: -4095100836181661870
+      OChonMayChu_43: -3123656033926317418
+      OChonMayChu_44: 3689610622347685403
+      OChonMayChu_45: 3069395295935523818
+      OChonMayChu_46: 4806657720979767564
+      OChonMayChu_47: 806250838201971817
+      OChonMayChu_48: -118810651898231774
+      OChonMayChu_49: -680614768585988880
+      OChonMayChu_5: 8023545958383921426
+      OChonMayChu_50: 5490274357744470594
+      OChonMayChu_51: -4543189418558225684
+      OChonMayChu_52: -3767326064646255296
+      OChonMayChu_53: 5835680900113099603
+      OChonMayChu_54: 5571211441393566706
+      OChonMayChu_55: -5994036619710713545
+      OChonMayChu_56: -7431289565213963677
+      OChonMayChu_57: 316667794054699506
+      OChonMayChu_58: 161197326203439659
+      OChonMayChu_59: -1963568414957357368
+      OChonMayChu_6: 9127344505541588690
+      OChonMayChu_60: -8116349422885180441
+      OChonMayChu_61: -3837003675852321713
+      OChonMayChu_62: 3117473558481147606
+      OChonMayChu_63: -2152275685961291727
+      OChonMayChu_64: -3664483099184154790
+      OChonMayChu_65: -4301787672908129277
+      OChonMayChu_66: 1296920436173349786
+      OChonMayChu_67: 6905986998474648631
+      OChonMayChu_68: 1331066039359425917
+      OChonMayChu_69: 8112212163782859956
+      OChonMayChu_7: 8762626927843148888
+      OChonMayChu_70: 4092917524445721969
+      OChonMayChu_71: 7726206366065689232
+      OChonMayChu_72: -3607760450552641534
+      OChonMayChu_73: 3624927500047634557
+      OChonMayChu_74: 1567798059509963034
+      OChonMayChu_75: 6278110337651412554
+      OChonMayChu_76: -4737554710258794773
+      OChonMayChu_77: -6295451592155814793
+      OChonMayChu_78: -1851094216006422848
+      OChonMayChu_79: 4962106394406204994
+      OChonMayChu_8: -6618708331558188657
+      OChonMayChu_80: -544833148260601784
+      OChonMayChu_81: -4014241157949442792
+      OChonMayChu_82: -3887923320926381943
+      OChonMayChu_83: -314869441139515115
+      OChonMayChu_84: 2569576704471980516
+      OChonMayChu_85: -4165349420103128936
+      OChonMayChu_86: -600179741890500328
+      OChonMayChu_87: -3238968818435015413
+      OChonMayChu_88: 1661290988773382698
+      OChonMayChu_89: 4608127575589671793
+      OChonMayChu_9: 7085383113602755403
+      OChonMayChu_90: 3701364417312768184
+      OChonMayChu_91: -492905080399748019
+      OChonMayChu_92: 3914340608071582142
+      OChonMayChu_93: -1886349588221793922
+      OChonMayChu_94: -931523516649476115
+      OChonMayChu_95: -972148425800901323
+      OChonMayChu_96: -8552264519688214443
+      OChonMayChu_97: -7209757335724545720
+      OChonMayChu_98: -2873880862172500737
+      OChonMayChu_99: 2001297828952983780
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

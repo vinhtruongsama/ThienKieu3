@@ -1,0 +1,2132 @@
+fileFormatVersion: 2
+guid: 873a10110424d1a41bc2152b410fa246
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2284924996284618164
+    second: OQuyDanh_0
+  - first:
+      213: -4524392166221609937
+    second: OQuyDanh_1
+  - first:
+      213: -8370620876187054393
+    second: OQuyDanh_2
+  - first:
+      213: -1425912938112374062
+    second: OQuyDanh_3
+  - first:
+      213: 7706594129408793247
+    second: OQuyDanh_4
+  - first:
+      213: 2636427795151566723
+    second: OQuyDanh_5
+  - first:
+      213: -6311649737850018679
+    second: OQuyDanh_6
+  - first:
+      213: 6403960190390804177
+    second: OQuyDanh_7
+  - first:
+      213: 270161330836261069
+    second: OQuyDanh_8
+  - first:
+      213: 3215793829224436427
+    second: OQuyDanh_9
+  - first:
+      213: 8646368525675899427
+    second: OQuyDanh_10
+  - first:
+      213: -643067014618349592
+    second: OQuyDanh_11
+  - first:
+      213: -8001821585762180736
+    second: OQuyDanh_12
+  - first:
+      213: -3099885045178225245
+    second: OQuyDanh_13
+  - first:
+      213: -7274334460065039060
+    second: OQuyDanh_14
+  - first:
+      213: -514677303174455594
+    second: OQuyDanh_15
+  - first:
+      213: -2954569860764964266
+    second: OQuyDanh_16
+  - first:
+      213: -1408242456241181281
+    second: OQuyDanh_17
+  - first:
+      213: -7025673812886312025
+    second: OQuyDanh_18
+  - first:
+      213: -3161495254011946717
+    second: OQuyDanh_19
+  - first:
+      213: 919684372660833866
+    second: OQuyDanh_20
+  - first:
+      213: -1005504335719070260
+    second: OQuyDanh_21
+  - first:
+      213: 6763838184116928486
+    second: OQuyDanh_22
+  - first:
+      213: -2718648292931307341
+    second: OQuyDanh_23
+  - first:
+      213: 7757947608219539566
+    second: OQuyDanh_24
+  - first:
+      213: -1189274930970812572
+    second: OQuyDanh_25
+  - first:
+      213: -2609096784177394605
+    second: OQuyDanh_26
+  - first:
+      213: 4789533439154105055
+    second: OQuyDanh_27
+  - first:
+      213: 6817492908820869792
+    second: OQuyDanh_28
+  - first:
+      213: -2802363070076108787
+    second: OQuyDanh_29
+  - first:
+      213: -4705859787715360979
+    second: OQuyDanh_30
+  - first:
+      213: 4735205431925260559
+    second: OQuyDanh_31
+  - first:
+      213: 2225306443357053782
+    second: OQuyDanh_32
+  - first:
+      213: -3721039594915540491
+    second: OQuyDanh_33
+  - first:
+      213: -8025439104685989416
+    second: OQuyDanh_34
+  - first:
+      213: -3992509848958070426
+    second: OQuyDanh_35
+  - first:
+      213: 4575413940739185035
+    second: OQuyDanh_36
+  - first:
+      213: -5614808991142980153
+    second: OQuyDanh_37
+  - first:
+      213: -6272887692515089957
+    second: OQuyDanh_38
+  - first:
+      213: 6011000669326365999
+    second: OQuyDanh_39
+  - first:
+      213: -7315103224790602927
+    second: OQuyDanh_40
+  - first:
+      213: 7413981145406907820
+    second: OQuyDanh_41
+  - first:
+      213: 6360814574280746651
+    second: OQuyDanh_42
+  - first:
+      213: 4309456663783126622
+    second: OQuyDanh_43
+  - first:
+      213: -1721590327807754071
+    second: OQuyDanh_44
+  - first:
+      213: 1192928830405412065
+    second: OQuyDanh_45
+  - first:
+      213: 781951087585143339
+    second: OQuyDanh_46
+  - first:
+      213: -5323047838154453673
+    second: OQuyDanh_47
+  - first:
+      213: -5026639345908785900
+    second: OQuyDanh_48
+  - first:
+      213: -2069087887237514139
+    second: OQuyDanh_49
+  - first:
+      213: -7089452533093303955
+    second: OQuyDanh_50
+  - first:
+      213: -4897875275383231602
+    second: OQuyDanh_51
+  - first:
+      213: 1079763257652104935
+    second: OQuyDanh_52
+  - first:
+      213: -647939605346982374
+    second: OQuyDanh_53
+  - first:
+      213: 3868481999943706262
+    second: OQuyDanh_54
+  - first:
+      213: 3948418381755189273
+    second: OQuyDanh_55
+  - first:
+      213: 4592750397235688443
+    second: OQuyDanh_56
+  - first:
+      213: -494202574875861012
+    second: OQuyDanh_57
+  - first:
+      213: -8694815147375515008
+    second: OQuyDanh_58
+  - first:
+      213: -7821438547946603099
+    second: OQuyDanh_59
+  - first:
+      213: 7157507393677689664
+    second: OQuyDanh_60
+  - first:
+      213: -854078744664398975
+    second: OQuyDanh_61
+  - first:
+      213: -47683063356699819
+    second: OQuyDanh_62
+  - first:
+      213: 7245102742985697476
+    second: OQuyDanh_63
+  - first:
+      213: -1434880622405615886
+    second: OQuyDanh_64
+  - first:
+      213: 4529166025700737845
+    second: OQuyDanh_65
+  - first:
+      213: 330278104099982583
+    second: OQuyDanh_66
+  - first:
+      213: -5618593155388098905
+    second: OQuyDanh_67
+  - first:
+      213: -3461978465111917849
+    second: OQuyDanh_68
+  - first:
+      213: 7507328835068405258
+    second: OQuyDanh_69
+  - first:
+      213: -5510451824561437333
+    second: OQuyDanh_70
+  - first:
+      213: -7453158971391695014
+    second: OQuyDanh_71
+  - first:
+      213: 1813218595354530076
+    second: OQuyDanh_72
+  - first:
+      213: -316830264611982444
+    second: OQuyDanh_73
+  - first:
+      213: 5474815577706476996
+    second: OQuyDanh_74
+  - first:
+      213: 6277301357457333026
+    second: OQuyDanh_75
+  - first:
+      213: -7064743933827965271
+    second: OQuyDanh_76
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OQuyDanh_0
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 665
+        width: 41
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b594f59d2fa5bf10800000000000000
+      internalID: 2284924996284618164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_1
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 657
+        width: 44
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f240dcbcb412631c0800000000000000
+      internalID: -4524392166221609937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_2
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 602
+        width: 101
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cec66d99a495db80800000000000000
+      internalID: -8370620876187054393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_3
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 665
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2daad23dcb3263ce0800000000000000
+      internalID: -1425912938112374062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_4
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 633
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a9587878253fa60800000000000000
+      internalID: 7706594129408793247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_5
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 612
+        width: 127
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 387b9fd7c19769420800000000000000
+      internalID: 2636427795151566723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_6
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 663
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98423c401048868a0800000000000000
+      internalID: -6311649737850018679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_7
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 651
+        width: 16
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1de9cff0ddf6fd850800000000000000
+      internalID: 6403960190390804177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_8
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 679
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc8ca8c8c4ecfb300800000000000000
+      internalID: 270161330836261069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_9
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 674
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc2d0dd137bc0ac20800000000000000
+      internalID: 3215793829224436427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_10
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 634
+        width: 148
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32aa70a1d521ef770800000000000000
+      internalID: 8646368525675899427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_11
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 618
+        width: 81
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eff6e215fd5317f0800000000000000
+      internalID: -643067014618349592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_12
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 681
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 081a798c9a1d3f090800000000000000
+      internalID: -8001821585762180736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_13
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 661
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad2b9da9fefaf4d0800000000000000
+      internalID: -3099885045178225245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_14
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 642
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2db072895f5c0b90800000000000000
+      internalID: -7274334460065039060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_15
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 600
+        width: 39
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de945a38bf7bd8f0800000000000000
+      internalID: -514677303174455594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_16
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 640
+        width: 100
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65a67099d524ff6d0800000000000000
+      internalID: -2954569860764964266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_17
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 675
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9dee1e72fae47ce0800000000000000
+      internalID: -1408242456241181281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_18
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 659
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aba52b04eacf7e90800000000000000
+      internalID: -7025673812886312025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_19
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 675
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 329d88911dc1024d0800000000000000
+      internalID: -3161495254011946717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_20
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 642
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e4de1701063cc00800000000000000
+      internalID: 919684372660833866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_21
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 663
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc58951522bbb02f0800000000000000
+      internalID: -1005504335719070260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_22
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 649
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ef338afdfafddd50800000000000000
+      internalID: 6763838184116928486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_23
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 596
+        width: 48
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b87b9618cb654ad0800000000000000
+      internalID: -2718648292931307341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_24
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 637
+        width: 75
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e68540e0f34c9ab60800000000000000
+      internalID: 7757947608219539566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_25
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 598
+        width: 81
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46f153750c8de7fe0800000000000000
+      internalID: -1189274930970812572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_26
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 632
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c0e726c40aacbd0800000000000000
+      internalID: -2609096784177394605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_27
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 640
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdaa2a07947d77240800000000000000
+      internalID: 4789533439154105055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_28
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 645
+        width: 21
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a233011ea99c9e50800000000000000
+      internalID: 6817492908820869792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_29
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 651
+        width: 78
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d00c074a2a10c19d0800000000000000
+      internalID: -2802363070076108787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_30
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 600
+        width: 79
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d274e6ea47d61beb0800000000000000
+      internalID: -4705859787715360979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_31
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 642
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f01c76c8044d6b140800000000000000
+      internalID: 4735205431925260559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_32
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 624
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6536fa88b60e1ee10800000000000000
+      internalID: 2225306443357053782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_33
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 610
+        width: 53
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f155ed04363c5cc0800000000000000
+      internalID: -3721039594915540491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_34
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 642
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d1a9a6a7a9ef9090800000000000000
+      internalID: -8025439104685989416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_35
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 640
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6611b921271c798c0800000000000000
+      internalID: -3992509848958070426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_36
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 648
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b89112eccb22f7f30800000000000000
+      internalID: 4575413940739185035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_37
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 667
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c5d04998f03412b0800000000000000
+      internalID: -5614808991142980153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_38
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 662
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd1e7bbf0e932f8a0800000000000000
+      internalID: -6272887692515089957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_39
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 632
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2555d7d24d5b6350800000000000000
+      internalID: 6011000669326365999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_40
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 640
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15baa07cf588b7a90800000000000000
+      internalID: -7315103224790602927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_41
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 642
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca52c6f1290c3e660800000000000000
+      internalID: 7413981145406907820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_42
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 651
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b96a12e7727264850800000000000000
+      internalID: 6360814574280746651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_43
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 618
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e56bbb3d0044ecb30800000000000000
+      internalID: 4309456663783126622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_44
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 634
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a0454ed7beab18e0800000000000000
+      internalID: -1721590327807754071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_45
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 626
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e403aa63722e8010800000000000000
+      internalID: 1192928830405412065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_46
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 632
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a2e370f5c0ada00800000000000000
+      internalID: 781951087585143339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_47
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 638
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75d8464a13cb026b0800000000000000
+      internalID: -5323047838154453673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_48
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 637
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41dda1da52acd3ab0800000000000000
+      internalID: -5026639345908785900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_49
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 641
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56cf420778f1943e0800000000000000
+      internalID: -2069087887237514139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_50
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 610
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d69faf09b743d9d90800000000000000
+      internalID: -7089452533093303955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_51
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 630
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b2d981360470cb0800000000000000
+      internalID: -4897875275383231602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_52
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 610
+        width: 35
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ee4fd546f61cfe00800000000000000
+      internalID: 1079763257652104935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_53
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 632
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a16e263ac5e0207f0800000000000000
+      internalID: -647939605346982374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_54
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 648
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69623a202eb9fa530800000000000000
+      internalID: 3868481999943706262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_55
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 634
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 918042d39999bc630800000000000000
+      internalID: 3948418381755189273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_56
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 644
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf37441272abcbf30800000000000000
+      internalID: 4592750397235688443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_57
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 634
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cefd075606d3429f0800000000000000
+      internalID: -494202574875861012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_58
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 619
+        width: 19
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a2ff8c0bfc55780800000000000000
+      internalID: -8694815147375515008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_59
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 642
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad7815941ba47390800000000000000
+      internalID: -7821438547946603099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_60
+      rect:
+        serializedVersion: 2
+        x: 1979
+        y: 640
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 043046d6d03945360800000000000000
+      internalID: 7157507393677689664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_61
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 624
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183211628e3b524f0800000000000000
+      internalID: -854078744664398975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_62
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 613
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55b42daa188965ff0800000000000000
+      internalID: -47683063356699819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_63
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 610
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c8eedcfe86cb8460800000000000000
+      internalID: 7245102742985697476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_64
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 2091
+        height: 559
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fefb6e1da7461ce0800000000000000
+      internalID: -1434880622405615886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_65
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 83
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53309aaf084dade30800000000000000
+      internalID: 4529166025700737845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_66
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 79
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc08ff8f22659400800000000000000
+      internalID: 330278104099982583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_67
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 98
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a6b6a33b4fb602b0800000000000000
+      internalID: -5618593155388098905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_68
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 120
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eab3f6ade494ffc0800000000000000
+      internalID: -3461978465111917849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_69
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 81
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a06ac4accc36f2860800000000000000
+      internalID: 7507328835068405258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_70
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 39
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b65cc1dd241f683b0800000000000000
+      internalID: -5510451824561437333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_71
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 110
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a57aeaf676f019890800000000000000
+      internalID: -7453158971391695014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_72
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 95
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c115d34a4b8d92910800000000000000
+      internalID: 1813218595354530076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_73
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 144
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 493b5bf8d846a9bf0800000000000000
+      internalID: -316830264611982444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_74
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 128
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c538f7d2c37afb40800000000000000
+      internalID: 5474815577706476996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_75
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 168
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b525773547d1750800000000000000
+      internalID: 6277301357457333026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OQuyDanh_76
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 95
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ae9613a2dcf4fd90800000000000000
+      internalID: -7064743933827965271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      OQuyDanh_0: 2284924996284618164
+      OQuyDanh_1: -4524392166221609937
+      OQuyDanh_10: 8646368525675899427
+      OQuyDanh_11: -643067014618349592
+      OQuyDanh_12: -8001821585762180736
+      OQuyDanh_13: -3099885045178225245
+      OQuyDanh_14: -7274334460065039060
+      OQuyDanh_15: -514677303174455594
+      OQuyDanh_16: -2954569860764964266
+      OQuyDanh_17: -1408242456241181281
+      OQuyDanh_18: -7025673812886312025
+      OQuyDanh_19: -3161495254011946717
+      OQuyDanh_2: -8370620876187054393
+      OQuyDanh_20: 919684372660833866
+      OQuyDanh_21: -1005504335719070260
+      OQuyDanh_22: 6763838184116928486
+      OQuyDanh_23: -2718648292931307341
+      OQuyDanh_24: 7757947608219539566
+      OQuyDanh_25: -1189274930970812572
+      OQuyDanh_26: -2609096784177394605
+      OQuyDanh_27: 4789533439154105055
+      OQuyDanh_28: 6817492908820869792
+      OQuyDanh_29: -2802363070076108787
+      OQuyDanh_3: -1425912938112374062
+      OQuyDanh_30: -4705859787715360979
+      OQuyDanh_31: 4735205431925260559
+      OQuyDanh_32: 2225306443357053782
+      OQuyDanh_33: -3721039594915540491
+      OQuyDanh_34: -8025439104685989416
+      OQuyDanh_35: -3992509848958070426
+      OQuyDanh_36: 4575413940739185035
+      OQuyDanh_37: -5614808991142980153
+      OQuyDanh_38: -6272887692515089957
+      OQuyDanh_39: 6011000669326365999
+      OQuyDanh_4: 7706594129408793247
+      OQuyDanh_40: -7315103224790602927
+      OQuyDanh_41: 7413981145406907820
+      OQuyDanh_42: 6360814574280746651
+      OQuyDanh_43: 4309456663783126622
+      OQuyDanh_44: -1721590327807754071
+      OQuyDanh_45: 1192928830405412065
+      OQuyDanh_46: 781951087585143339
+      OQuyDanh_47: -5323047838154453673
+      OQuyDanh_48: -5026639345908785900
+      OQuyDanh_49: -2069087887237514139
+      OQuyDanh_5: 2636427795151566723
+      OQuyDanh_50: -7089452533093303955
+      OQuyDanh_51: -4897875275383231602
+      OQuyDanh_52: 1079763257652104935
+      OQuyDanh_53: -647939605346982374
+      OQuyDanh_54: 3868481999943706262
+      OQuyDanh_55: 3948418381755189273
+      OQuyDanh_56: 4592750397235688443
+      OQuyDanh_57: -494202574875861012
+      OQuyDanh_58: -8694815147375515008
+      OQuyDanh_59: -7821438547946603099
+      OQuyDanh_6: -6311649737850018679
+      OQuyDanh_60: 7157507393677689664
+      OQuyDanh_61: -854078744664398975
+      OQuyDanh_62: -47683063356699819
+      OQuyDanh_63: 7245102742985697476
+      OQuyDanh_64: -1434880622405615886
+      OQuyDanh_65: 4529166025700737845
+      OQuyDanh_66: 330278104099982583
+      OQuyDanh_67: -5618593155388098905
+      OQuyDanh_68: -3461978465111917849
+      OQuyDanh_69: 7507328835068405258
+      OQuyDanh_7: 6403960190390804177
+      OQuyDanh_70: -5510451824561437333
+      OQuyDanh_71: -7453158971391695014
+      OQuyDanh_72: 1813218595354530076
+      OQuyDanh_73: -316830264611982444
+      OQuyDanh_74: 5474815577706476996
+      OQuyDanh_75: 6277301357457333026
+      OQuyDanh_76: -7064743933827965271
+      OQuyDanh_8: 270161330836261069
+      OQuyDanh_9: 3215793829224436427
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
