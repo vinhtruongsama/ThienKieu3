@@ -1,0 +1,2374 @@
+{
+  "skill": "video2dsprite",
+  "platform": "provider-independent offline processor",
+  "tool": {
+    "name": "video2dsprite.py process",
+    "version": "0.4.0"
+  },
+  "name": "idle-t01",
+  "video": {
+    "path": "../media/generated.mp4",
+    "sha256": "0e4e0f7e653b4873434a56040bb0e86f21904c698577d1961aa8d51df58accfe",
+    "bytes": 203715
+  },
+  "probe": {
+    "codec": "h264",
+    "width": 480,
+    "height": 480,
+    "pix_fmt": "yuv420p",
+    "fps_rational": "24/1",
+    "nb_frames": 124,
+    "duration": 5.166667,
+    "has_alpha": false,
+    "audio_streams": 0,
+    "attached_pics": 0
+  },
+  "extract": {
+    "fps": "passthrough",
+    "start": 0.0,
+    "duration": null,
+    "alpha": "auto",
+    "naming": "frame_000000.png onwards (0-based)"
+  },
+  "raw_frames": 124,
+  "cell_size": 128,
+  "body_height": 100,
+  "foot_y": 118,
+  "anchor": "feet",
+  "matte": {
+    "schema": "video2dsprite.matte_report.v1",
+    "mode": "soft",
+    "key": [
+      0,
+      0,
+      252
+    ],
+    "key_request": "blue",
+    "key_declared": "blue",
+    "key_mode": "auto",
+    "despill_mode": "auto",
+    "despill_applied": "all",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": 0.0,
+    "semitransparent_fraction": 0.11117919010750292,
+    "enclosed_key_pockets": 0,
+    "pockets": "remove",
+    "pockets_removed": 0,
+    "key_hued_px": 0,
+    "key_estimate": {
+      "declared": "blue",
+      "declared_rgb": [
+        0,
+        0,
+        255
+      ],
+      "key": [
+        0.0,
+        0.0,
+        252.0
+      ],
+      "source": "border_median",
+      "valid": true,
+      "ring_share": 1.0,
+      "coverage": 0.83227,
+      "distance_from_declared": 3.0,
+      "spread": 2.0,
+      "frames_estimated": 124,
+      "invalid_frames": []
+    },
+    "local_background": 0,
+    "erode": 0,
+    "unmix": true,
+    "temporal": {
+      "mode": "alpha",
+      "requested": "auto",
+      "band": [
+        0.4,
+        0.6
+      ],
+      "max_step": 0.25,
+      "loop": false,
+      "active": true,
+      "flips_before": 80.3984,
+      "flips_after": 42.2846
+    },
+    "frames_total": 124,
+    "passthrough_frames": [],
+    "warnings": [],
+    "flips_per_frame_pair": 42.2846,
+    "interior_despill": {
+      "rule": "reference still and clip median key-material share <= 0.5%",
+      "reference_share": 0.0,
+      "clip_sample_frames": [
+        0,
+        8,
+        16,
+        25,
+        33,
+        41,
+        49,
+        57,
+        66,
+        74,
+        82,
+        90,
+        98,
+        107,
+        115,
+        123
+      ],
+      "clip_median_share": 0.0028966005419446177,
+      "clip_max_share": 0.004837645679102836,
+      "interior_despill": true,
+      "sampled_from": "keyed frames"
+    },
+    "params": {
+      "w_chroma": 0.2,
+      "t_bg": 18.0,
+      "t_fg": 40.0,
+      "keylike": 0.5,
+      "r_a": 3,
+      "r_c": 6,
+      "radius": 4,
+      "tau": 6.0,
+      "kappa": 0.6,
+      "temp": 0.4,
+      "a_lo": 0.04,
+      "a_hi": 0.96,
+      "unmix_from": 0.0,
+      "excess_slack": 3.0,
+      "ref_r": 10,
+      "speck_steps": 3,
+      "monotone": true,
+      "interior_despill": true,
+      "snap": "ramp",
+      "refine": "none",
+      "gf_r": 2,
+      "gf_eps": 0.004
+    },
+    "frames": [
+      {
+        "index": 0,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.1012958414499873,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35421,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 1,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10913102511880515,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35352,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 2,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10703459217497238,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35297,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 3,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10736048521951082,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35283,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 4,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10608685772715654,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35207,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 5,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10307894436193304,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35012,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 6,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10246265875404949,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 34881,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 7,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10149511213341,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 34780,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 8,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.09995391174098399,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 34716,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 9,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10080831408775981,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 34640,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 10,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10137397529153677,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 34644,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 11,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10054238070509491,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 34662,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 12,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10019290012380157,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 34733,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 13,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10619418365010305,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 34936,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 14,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10573313616198385,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35164,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 15,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10459313864474057,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35270,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 16,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10573557638026419,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35428,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 17,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10590648533213443,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35588,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 18,
+        "key": [
+          0,
+          0,
+          250
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.11099303671802903,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35759,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 19,
+        "key": [
+          0,
+          0,
+          250
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10598219254312743,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35940,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 20,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10702729610885257,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 36159,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 21,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.1097819211836207,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 36363,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 22,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10901599083119576,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 36646,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 23,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10706539420887105,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 36884,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 24,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10641174720787475,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 36979,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 25,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10820694847800366,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 37188,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 26,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.1082204639935631,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 37285,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 27,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10602726492056677,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 37264,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 28,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10709400563229181,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 37285,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 29,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10720510551578044,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 37293,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 30,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10845840855810945,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 37111,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 31,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.1084718281313336,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 37005,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 32,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10638586219981569,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 36894,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 33,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10790781008225425,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 36837,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 34,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10997924404631855,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 36616,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 35,
+        "key": [
+          0,
+          0,
+          250
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.1080962078265177,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 36338,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 36,
+        "key": [
+          0,
+          0,
+          250
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10493929359823399,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 36240,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 37,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10641947980077476,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 36140,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 38,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10562383819326915,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 36043,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 39,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10627099664053752,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35720,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 40,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10793205110206373,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35615,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 41,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10645006897716715,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35519,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 42,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10748441334950772,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35447,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 43,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10456062291434928,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35061,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 44,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10165151340775694,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 34756,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 45,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10011310576839419,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 34481,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 46,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10054284380107402,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 34264,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 47,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.1026018365905345,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 33976,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 48,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10159544663658615,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 33909,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 49,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10144114346465063,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 33862,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 50,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10221972961804121,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 33878,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 51,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10127106118829442,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 33830,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 52,
+        "key": [
+          0,
+          0,
+          250
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10217819453834621,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 34019,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 53,
+        "key": [
+          0,
+          0,
+          250
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10089863302403185,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 34163,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 54,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.09850363153749672,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 34283,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 55,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.09971848971181473,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 34457,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 56,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10440175725730037,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 34827,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 57,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10203382084095064,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35008,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 58,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.09967515814669174,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35094,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 59,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.1026135268439254,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35278,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 60,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10648161234700512,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35377,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 61,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10603285525092282,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35489,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 62,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.1076157544066796,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35571,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 63,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10959863316808112,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35703,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 64,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.11117919010750292,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35906,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 65,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.1087137620793069,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 36012,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 66,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10565901584746468,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 36031,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 67,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10946810858530126,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 36248,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 68,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10892395667234839,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 36374,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 69,
+        "key": [
+          0,
+          0,
+          250
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10922622304914086,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 36548,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 70,
+        "key": [
+          0,
+          0,
+          250
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10471347331583553,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 36576,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 71,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10460775497969972,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 36699,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 72,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10794529469228265,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 36852,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 73,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.1090447785365327,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 37049,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 74,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10694567881285179,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 37131,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 75,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10548852741570613,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 37132,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 76,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10611916264090177,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 37260,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 77,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10637500334680983,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 37349,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 78,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10442809364548496,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 37375,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 79,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10427743193780224,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 37429,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 80,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10425009343798387,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 37458,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 81,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10337445476196848,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 37369,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 82,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10510526597739327,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 37334,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 83,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10451045104510451,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 37269,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 84,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10602157462566414,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 37266,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 85,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10657016788635386,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 37168,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 86,
+        "key": [
+          0,
+          0,
+          250
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10463135696325736,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 36987,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 87,
+        "key": [
+          0,
+          0,
+          250
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10377690537430621,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 36935,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 88,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10614721898621007,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 36911,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 89,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10599165718619644,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 36918,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 90,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10514273262148616,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 36712,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 91,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10343228200371057,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 36652,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 92,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10496875767415209,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 36649,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 93,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10566202328053867,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 36683,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 94,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10549842314548197,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 36465,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 95,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.1054522516592617,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 36462,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 96,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10467223015262984,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 36428,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 97,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10548279933009362,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 36423,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 98,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.1050319157755119,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 36189,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 99,
+        "key": [
+          0,
+          0,
+          250
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.105244242943632,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 36173,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 100,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10608993860279883,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 36158,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 101,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10720892349319418,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 36219,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 102,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10604547975596229,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 36060,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 103,
+        "key": [
+          0,
+          0,
+          250
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.1085642668152068,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35905,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 104,
+        "key": [
+          0,
+          0,
+          250
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10765803397382345,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35910,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 105,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10775753856453457,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35849,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 106,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10660493138458106,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35852,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 107,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10745098039215686,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35700,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 108,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10772249474421865,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35675,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 109,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10728205703390069,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35663,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 110,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.1083013260814713,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35669,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 111,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10639435114074323,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35547,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 112,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10336375929682218,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35496,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 113,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10492626117361757,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35463,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 114,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10693153000845308,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35490,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 115,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10791978246091094,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35304,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 116,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10774773752446878,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35249,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 117,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10748963715859407,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35222,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 118,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10801522381276983,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35208,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 119,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10776572175197409,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35206,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 120,
+        "key": [
+          0,
+          0,
+          250
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10836657895481425,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35343,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 121,
+        "key": [
+          0,
+          0,
+          250
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10652039032094308,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35458,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 122,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.10749880681658665,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35619,
+        "pockets_removed": 0,
+        "protected_px": 0
+      },
+      {
+        "index": 123,
+        "key": [
+          0,
+          0,
+          252
+        ],
+        "passthrough": false,
+        "opaque_key_px": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "semitransparent_fraction": 0.1083058705244931,
+        "enclosed_key_pockets": 0,
+        "key_hued_px": 0,
+        "visible_px": 35806,
+        "pockets_removed": 0,
+        "protected_px": 0
+      }
+    ],
+    "status": "warn",
+    "method": "forge_matte.matte_qa on every frame against that frame's key: opaque key px (alpha >= 128 within RGB 48 of the key), enclosed key-coloured regions of >= 16 px and key-hued px are counted after the matte, pockets, erosion and hysteresis but before any despill pass (which could hide residue as an opaque grey blob); the outer visible ring's share with key dominance > 20 and the semi-transparent share are measured on the published frame. Flips are pixels whose alpha changes by more than 0.25 while the raw colour changes by at most 20 (forge_matte.flip_count). Counts are sums over frames, fractions the worst frame.",
+    "notProven": [
+      "Matte QA counts key residue only; edge quality, colour fidelity and identity need a visual review over light and dark backgrounds.",
+      "The soft matte and these thresholds were tuned and verified on one clip (report v2 section 7); other keys, outline-free art and codecs are covered by synthetic tests only.",
+      "Light colours within the video matte's reach of the key (for example #b43cc8 against magenta) are keyed out unless protected; clean residue numbers do not show they were kept.",
+      "Alpha hysteresis lags in-band alpha changes by up to one frame."
+    ],
+    "checks": [
+      {
+        "id": "opaque_key_px",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0
+      },
+      {
+        "id": "enclosed_key_pockets",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0
+      },
+      {
+        "id": "outer_ring_spill_fraction",
+        "status": "pass",
+        "value": 0.0,
+        "threshold": 0.01
+      },
+      {
+        "id": "flips_per_frame_pair",
+        "status": "warn",
+        "value": 42.2846,
+        "threshold": 5.7
+      }
+    ],
+    "tool": {
+      "name": "video2dsprite.py process",
+      "version": "0.4.0"
+    },
+    "report_file": "frames-clean/matte-report.json"
+  },
+  "total_clean": 124,
+  "registration": {
+    "mode": "fixed-envelope",
+    "sourceSize": [
+      480,
+      480
+    ],
+    "unionRect": [
+      68,
+      172,
+      318,
+      410
+    ],
+    "scaleXY": [
+      0.42,
+      0.42016806722689076
+    ],
+    "outputOffset": [
+      11,
+      18
+    ],
+    "outputSize": [
+      128,
+      128
+    ]
+  },
+  "previewTiming": "legacy-preview-only",
+  "sets": [
+    {
+      "count": 8,
+      "tag": "",
+      "sprites": [
+        "sprite/sprite_01.png",
+        "sprite/sprite_02.png",
+        "sprite/sprite_03.png",
+        "sprite/sprite_04.png",
+        "sprite/sprite_05.png",
+        "sprite/sprite_06.png",
+        "sprite/sprite_07.png",
+        "sprite/sprite_08.png"
+      ],
+      "strip": "sprite/run-strip-8.png",
+      "grid": "sprite/run-grid-8.png",
+      "gif": "sprite/run-preview-8.gif",
+      "gif_ms": 80,
+      "gif_durations_ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "indices": [
+        0,
+        18,
+        35,
+        53,
+        70,
+        88,
+        105,
+        123
+      ],
+      "requestedCount": 8
+    }
+  ],
+  "outputs": {
+    "frames_raw": "frames-raw",
+    "frames_clean": "frames-clean",
+    "matte_report": "frames-clean/matte-report.json",
+    "sprite": "sprite",
+    "readme": "README.txt"
+  }
+}

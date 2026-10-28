@@ -1,0 +1,22 @@
+{
+  "schema": "generate2dsprite.master_spec.v1",
+  "name": "BaQuaiLinhTruong",
+  "subject": "a large red-maned gorilla beast, full-body",
+  "identity": "A broad dark brown gorilla with a thick reddish mane, pale face and chest, strong forearms and a low side-facing crouch; preserve the approved supplied model's colors and silhouette exactly.",
+  "pose": null,
+  "recap": "same large dark brown gorilla with a thick reddish mane, pale face and chest, powerful forearms and a low side-facing crouch",
+  "facing": "right",
+  "facing_parts": null,
+  "view": "side view (profile to three-quarter)",
+  "class": "mob",
+  "finish": "hd",
+  "key": "#0000FF",
+  "genre": "a 2D side-scrolling fantasy game",
+  "pronoun": "it",
+  "identity_ref": null,
+  "style_ref": null,
+  "allowed_text": null,
+  "extra_bans": [],
+  "opaque_parts": null,
+  "extra": null
+}

@@ -1,0 +1,194 @@
+{
+  "status": "needs-visual-review",
+  "method": "engine_export package: forge_matte.matte_qa key-residue gate on every packaged source frame (alpha <= 16 cleared, D18; key from flag, D17); body-bounds and premultiplied seam diagnostics; selection, registration and review bound by sha256; forge_av encoders verify packet counts and keyframes; every encoded file is decoded completely",
+  "notProven": [
+    "Visual identity, contact and gait quality: a low seam ratio or stable bounds do not prove a seamless cycle or a planted foot.",
+    "Playback of the encoded files: run engine_export.py verify to decode them and compare them with the atlas, then validate_animation.py.",
+    "Browser, Safari, WebGL or iPhone playback, decoder throughput and memory on target devices.",
+    "Key-residue thresholds were set on one clip (report v2); unusual keys or costumes need a look."
+  ],
+  "checks": [
+    {
+      "id": "opaque_key_px",
+      "value": 0,
+      "threshold": 0,
+      "status": "pass"
+    },
+    {
+      "id": "outer_ring_spill_fraction",
+      "value": 0.001006,
+      "threshold": 0.01,
+      "status": "pass"
+    },
+    {
+      "id": "semitransparent_fraction",
+      "status": "pass",
+      "value": 0.289044,
+      "threshold": null
+    },
+    {
+      "id": "enclosed_key_pockets",
+      "value": 0,
+      "threshold": 0,
+      "status": "pass"
+    },
+    {
+      "id": "blank_frames",
+      "status": "pass",
+      "value": [],
+      "threshold": []
+    },
+    {
+      "id": "edge_touch_frames",
+      "status": "pass",
+      "value": [],
+      "threshold": []
+    },
+    {
+      "id": "selection_hashes",
+      "status": "pass",
+      "value": "847c289ca8576c96b1a92f9de76aba215d03d78db74cea71e6e8356a6f978fbe",
+      "threshold": null
+    },
+    {
+      "id": "registration",
+      "status": "skipped",
+      "value": null,
+      "threshold": null
+    },
+    {
+      "id": "fps_cap",
+      "status": "pass",
+      "value": "12/1",
+      "threshold": "60/1"
+    },
+    {
+      "id": "review_verdict",
+      "status": "needs-visual-review",
+      "value": null,
+      "threshold": "accepted"
+    },
+    {
+      "id": "full_decode_hurt.webm",
+      "status": "pass",
+      "value": 6,
+      "threshold": 6
+    },
+    {
+      "id": "full_decode_hurt-packed.mp4",
+      "status": "pass",
+      "value": 6,
+      "threshold": 6
+    }
+  ],
+  "inputs": [
+    {
+      "path": "frame_000013.png",
+      "sha256": "21b04b93b25028bee8b11bf90df5493819366e65118320c759e0d9c98549c329",
+      "bytes": 36139
+    },
+    {
+      "path": "frame_000020.png",
+      "sha256": "f9266dfb151b61b2a9bb0ed2c253c4044b25103114be8e00e0e73df4929f27ce",
+      "bytes": 37459
+    },
+    {
+      "path": "frame_000027.png",
+      "sha256": "2a2ebe0dd460e9047345370ebb76ba8d5085bf8e614803d51d6413d8a73264fe",
+      "bytes": 39397
+    },
+    {
+      "path": "frame_000045.png",
+      "sha256": "fcc04ab0a36391b948a29fa4415475b8cab67aea8370a79a7f71a652d28b8665",
+      "bytes": 34705
+    },
+    {
+      "path": "frame_000064.png",
+      "sha256": "9830111ace6dc4f40723bb168b5414ba8d5499016887487850dee36429c362b5",
+      "bytes": 37419
+    },
+    {
+      "path": "frame_000082.png",
+      "sha256": "d44b99691b66e791e4992714e97415384e5bb6b7559e4a63e8309a12209f88fc",
+      "bytes": 36345
+    },
+    {
+      "path": "selection.json",
+      "sha256": "847c289ca8576c96b1a92f9de76aba215d03d78db74cea71e6e8356a6f978fbe",
+      "bytes": 13885
+    }
+  ],
+  "outputs": [
+    {
+      "path": "hurt-poster.png",
+      "sha256": "4a19fa4873e1204b7fc6a739418b9ccaf71020a5460512cfe4a8e797915a4cad",
+      "bytes": 36066
+    },
+    {
+      "path": "hurt-atlas-00.png",
+      "sha256": "cac21c12a6886a2296eef9017223cddf96716fd5e578f7863d58ade175191c04",
+      "bytes": 218163
+    },
+    {
+      "path": "hurt.webm",
+      "sha256": "22662cb90494d2505994f5ae7ca854dc04bd2775414faec9b860f5be01343669",
+      "bytes": 35867
+    },
+    {
+      "path": "hurt-packed.mp4",
+      "sha256": "639ca020f167216f955ebaa351df4b8df47cadc0d406564a0fbabb62d1d2fe91",
+      "bytes": 41345
+    }
+  ],
+  "tool": {
+    "name": "engine_export.py",
+    "version": "0.4.0"
+  },
+  "loopRequested": false,
+  "frameCount": 6,
+  "durationSeconds": 0.5,
+  "blankFrames": [],
+  "edgeTouchFrames": [],
+  "boundsBottomSpanPx": 0,
+  "boundsCenterXSpanPx": 3.5,
+  "seamPremultipliedMAE": 0.015827,
+  "adjacentMedianMAE": 0.077434,
+  "seamToMedianRatio": 0.204,
+  "adjacentMaxMAE": 0.115478,
+  "notes": [
+    "Bounds bottom is a contact-drift proxy, not a tracked foot/root.",
+    "A similar first/last frame does not prove a seamless cycle or stable identity.",
+    "Airborne poses may legitimately change bottom position; review at runtime scale."
+  ],
+  "keyResidue": {
+    "key": [
+      0,
+      0,
+      255
+    ],
+    "framesMeasured": 6,
+    "opaqueKeyPx": 0,
+    "framesWithOpaqueKey": [],
+    "maxOuterRingSpillFraction": 0.001006,
+    "framesOverRingSpill": [],
+    "maxSemitransparentFraction": 0.289044,
+    "minSemitransparentFraction": 0.253136,
+    "enclosedKeyPockets": 0,
+    "keyHuedPx": 0,
+    "limits": {
+      "opaqueKeyPx": 0,
+      "outerRingSpillFraction": 0.01
+    },
+    "thresholds": {
+      "key_tolerance": 48.0,
+      "spill_threshold": 20.0,
+      "min_pocket_area": 16,
+      "opaque_alpha": 128,
+      "spill_hue_balance": 0.5,
+      "alpha_floor": 16
+    },
+    "method": "forge_matte.matte_qa v1: straight-colour key distance and dominance on the keyed image; two-channel keys count spill only where the key channels are balanced; each frame measured on a copy with alpha <= 16 cleared, so invisible resampling halo is not counted (D18)"
+  },
+  "allowKeyResidue": false,
+  "keySource": "flag"
+}

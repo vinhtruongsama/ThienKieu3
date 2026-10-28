@@ -1,0 +1,285 @@
+{
+  "schema": "video2dsprite.verify.v1",
+  "status": "pass",
+  "method": "engine_export verify: full ffmpeg decode of every encoded file (WebM alpha through libvpx-vp9, packed halves recombined from the red channel) compared frame by frame with the lossless PNG atlas; ffprobe codec, dimensions, packets, decode timestamps, duration, faststart and VP9 alpha tag",
+  "notProven": [
+    "Playback in a browser, Safari, a WebGL compositor or on an iPhone: only offline ffmpeg decoding was checked.",
+    "Perceptual quality, identity and motion correctness of the art itself.",
+    "Decoder throughput, memory and power on target devices.",
+    "Thresholds come from one shipped game's iOS transport (Dusk) and synthetic clips."
+  ],
+  "checks": [
+    {
+      "id": "files_match_manifest",
+      "status": "pass",
+      "value": [],
+      "threshold": []
+    },
+    {
+      "id": "webm.codec",
+      "status": "pass",
+      "value": "vp9",
+      "threshold": "vp9"
+    },
+    {
+      "id": "webm.dimensions",
+      "value": [
+        116,
+        270
+      ],
+      "threshold": [
+        116,
+        270
+      ],
+      "status": "pass"
+    },
+    {
+      "id": "webm.packets",
+      "status": "pass",
+      "value": 11,
+      "threshold": 11
+    },
+    {
+      "id": "webm.timestamps_increasing",
+      "status": "pass",
+      "value": null,
+      "threshold": null
+    },
+    {
+      "id": "webm.duration_ms",
+      "value": 917.0,
+      "threshold": 917.0,
+      "status": "pass"
+    },
+    {
+      "id": "webm.vp9_alpha_mode",
+      "status": "pass",
+      "value": true,
+      "threshold": true
+    },
+    {
+      "id": "webm.frame_count",
+      "status": "pass",
+      "value": 11,
+      "threshold": 11
+    },
+    {
+      "id": "webm.alpha_mae",
+      "status": "pass",
+      "value": 0.720626,
+      "threshold": 3.5
+    },
+    {
+      "id": "webm.alpha_p99",
+      "status": "pass",
+      "value": 10.0,
+      "threshold": null
+    },
+    {
+      "id": "webm.alpha_max",
+      "status": "pass",
+      "value": 33,
+      "threshold": null
+    },
+    {
+      "id": "webm.transparent_median",
+      "status": "pass",
+      "value": 0.0,
+      "threshold": 1.0
+    },
+    {
+      "id": "webm.opaque_median",
+      "status": "pass",
+      "value": 255.0,
+      "threshold": 253.0
+    },
+    {
+      "id": "webm.rgb_mae",
+      "status": "pass",
+      "value": 5.626731,
+      "threshold": 12.0
+    },
+    {
+      "id": "webm.dynamic_alpha",
+      "status": "pass",
+      "value": {
+        "source": 37.010951,
+        "decoded": 37.017369
+      },
+      "threshold": {
+        "source": 0.1,
+        "decoded": 0.05
+      }
+    },
+    {
+      "id": "packedAlpha.codec",
+      "status": "pass",
+      "value": "h264",
+      "threshold": "h264"
+    },
+    {
+      "id": "packedAlpha.dimensions",
+      "value": [
+        232,
+        270
+      ],
+      "threshold": [
+        232,
+        270
+      ],
+      "status": "pass"
+    },
+    {
+      "id": "packedAlpha.packets",
+      "status": "pass",
+      "value": 11,
+      "threshold": 11
+    },
+    {
+      "id": "packedAlpha.timestamps_increasing",
+      "status": "pass",
+      "value": null,
+      "threshold": null
+    },
+    {
+      "id": "packedAlpha.duration_ms",
+      "value": 917.0,
+      "threshold": 917.0,
+      "status": "pass"
+    },
+    {
+      "id": "packedAlpha.moov_before_mdat",
+      "status": "pass",
+      "value": true,
+      "threshold": true
+    },
+    {
+      "id": "packedAlpha.frame_count",
+      "status": "pass",
+      "value": 11,
+      "threshold": 11
+    },
+    {
+      "id": "packedAlpha.alpha_mae",
+      "status": "pass",
+      "value": 0.896006,
+      "threshold": 3.5
+    },
+    {
+      "id": "packedAlpha.alpha_p99",
+      "status": "pass",
+      "value": 12.0,
+      "threshold": null
+    },
+    {
+      "id": "packedAlpha.alpha_max",
+      "status": "pass",
+      "value": 48,
+      "threshold": null
+    },
+    {
+      "id": "packedAlpha.transparent_median",
+      "status": "pass",
+      "value": 0.0,
+      "threshold": 1.0
+    },
+    {
+      "id": "packedAlpha.opaque_median",
+      "status": "pass",
+      "value": 255.0,
+      "threshold": 253.0
+    },
+    {
+      "id": "packedAlpha.rgb_mae",
+      "status": "pass",
+      "value": 4.698435,
+      "threshold": 12.0
+    },
+    {
+      "id": "packedAlpha.dynamic_alpha",
+      "status": "pass",
+      "value": {
+        "source": 37.332786,
+        "decoded": 37.34599
+      },
+      "threshold": {
+        "source": 0.1,
+        "decoded": 0.05
+      }
+    }
+  ],
+  "inputs": [
+    {
+      "path": "animation.json",
+      "sha256": "1b32851171d06de3877bed58602469704e0c5bb1a377409bab41bc8497045da2",
+      "bytes": 12023
+    },
+    {
+      "path": "jump-poster.png",
+      "sha256": "0e6294e6f630a2d1d2198c5997adcf2de68b54e352e40c2ebfd11f773d176842",
+      "bytes": 35461
+    },
+    {
+      "path": "jump-atlas-00.png",
+      "sha256": "584aef6a3c58660432b8a18c69b15346758ea5f82acc62f7a2d4c88577b5f539",
+      "bytes": 410213
+    }
+  ],
+  "outputs": [
+    {
+      "path": "jump.webm",
+      "sha256": "ccee9e6e2c7cdddbbb4ca12569e6fea3163d794bbe6965317d9166af1fd6ecc9",
+      "bytes": 63611
+    },
+    {
+      "path": "jump-packed.mp4",
+      "sha256": "52e31fab366aa4f342e003be13cf3474935381307dfb107a30a96a0ba26e1bc3",
+      "bytes": 70657
+    }
+  ],
+  "tool": {
+    "name": "engine_export.py",
+    "version": "0.4.0"
+  },
+  "manifestSha256": "1b32851171d06de3877bed58602469704e0c5bb1a377409bab41bc8497045da2",
+  "transports": {
+    "webm": {
+      "file": "jump.webm",
+      "frames": 11,
+      "alphaMAE": 0.720626,
+      "alphaMAEMean": 0.537571,
+      "alphaP99": 10.0,
+      "alphaMax": 33,
+      "transparentMedianMax": 0.0,
+      "opaqueMedianMin": 255.0,
+      "rgbMAE": 5.626731,
+      "edgeRgbMAE": 6.496301,
+      "sourceAlphaMotionMax": 37.010951,
+      "decodedAlphaMotionMax": 37.017369
+    },
+    "packedAlpha": {
+      "file": "jump-packed.mp4",
+      "frames": 11,
+      "alphaMAE": 0.896006,
+      "alphaMAEMean": 0.728637,
+      "alphaP99": 12.0,
+      "alphaMax": 48,
+      "transparentMedianMax": 0.0,
+      "opaqueMedianMin": 255.0,
+      "rgbMAE": 4.698435,
+      "edgeRgbMAE": 5.659269,
+      "sourceAlphaMotionMax": 37.332786,
+      "decodedAlphaMotionMax": 37.34599
+    }
+  },
+  "thresholds": {
+    "alphaMAE": 3.5,
+    "transparentMedian": 1.0,
+    "opaqueMedian": 253.0,
+    "rgbMAE": 12.0,
+    "durationToleranceMs": 2.0,
+    "seamTolerance": 1.1,
+    "sourceAlphaMotion": 0.1,
+    "decodedAlphaMotion": 0.05
+  }
+}

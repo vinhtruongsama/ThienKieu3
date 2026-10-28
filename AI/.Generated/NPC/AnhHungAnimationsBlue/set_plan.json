@@ -1,0 +1,436 @@
+{
+  "schema": "video2dsprite.sprite_set_plan.v1",
+  "tool": {
+    "name": "sprite_set",
+    "version": "0.4.0"
+  },
+  "createdAt": "2026-10-28T17:41:52.885Z",
+  "name": "AnhHung",
+  "class": "hero",
+  "key": "blue",
+  "keyRgb": [
+    0,
+    0,
+    255
+  ],
+  "style": "Whimsical hand-drawn storybook illustration style, stylized cartoon aesthetic, soft painterly textures with visible brush strokes, slightly rough sketchy ink linework, subtle shading, soft lighting, warm and harmonious color palette, playful but balanced proportions, simple yet charming shapes, magical and cozy atmosphere, expressive character design, crisp readable silhouettes, high detail, consistent artistic direction.",
+  "pronoun": "their",
+  "views": [
+    "side"
+  ],
+  "masters": {
+    "side": {
+      "json": {
+        "path": "master/side/master.json",
+        "sha256": "be738325af5fa9778f24b6dd31f9f9f8141582f56807d7cd25d238af0ffbf1e4",
+        "bytes": 3983
+      },
+      "png": {
+        "path": "master/side/master.png",
+        "sha256": "c0290cb7c05e0be72d9576303374fe542d6e1180cbfe303d7896cdcc5d1a86f5",
+        "bytes": 454061
+      },
+      "sourceName": "master.json",
+      "name": "AnhHung",
+      "identityRecap": "same anonymous handsome floating swordsman with tied-back dark hair, layered cream and dark green robes, rust accents and a sheathed sword",
+      "facing": "right",
+      "finish": "hd",
+      "class": "hero",
+      "key": "blue",
+      "size": [
+        1024,
+        1024
+      ],
+      "subjectBox": [
+        201,
+        138,
+        822,
+        926
+      ],
+      "anchor": [
+        575.5,
+        926.0
+      ],
+      "area": 190080,
+      "framing": {
+        "canvas": [
+          1024,
+          1024
+        ],
+        "subject_height_px": 788,
+        "top_margin_px": 138,
+        "lead_px": 0,
+        "preset": "hero",
+        "subject_bbox": [
+          201,
+          138,
+          822,
+          926
+        ],
+        "anchor": [
+          575.0,
+          926.0
+        ],
+        "opaque_area_px": 190576,
+        "width_limited": false
+      }
+    }
+  },
+  "generation": {
+    "duration": 5.0,
+    "resolution": "480p",
+    "route": "heygen",
+    "maxTakes": 1,
+    "jobs": 1,
+    "pinLastFrame": "auto",
+    "timeoutSeconds": 1200.0
+  },
+  "finish": {
+    "mode": "hd",
+    "targetHeight": 256,
+    "scaleRefAction": "idle",
+    "palette": null,
+    "colors": null,
+    "outline": null,
+    "canvas": null,
+    "canvasAnchor": null,
+    "colourLock": true
+  },
+  "matteProfile": null,
+  "package": {
+    "formats": [
+      "png",
+      "webm",
+      "packed"
+    ],
+    "tiers": null,
+    "fps": 12,
+    "frameMs": null
+  },
+  "library": {
+    "name": "motion-prompts.md",
+    "sha256": "e40b771d98a953fb4449abbd153bdd5a2dc01507e5f979cdae44e3f224713b30"
+  },
+  "clauses": {
+    "never-turn": "The character keeps facing {facing} the whole time: never turns around, never shows {pos} back and never faces the camera.",
+    "camera-locked": "Locked camera and constant character size: no zoom, no push-in, no pull-out, no pan; the character is exactly the same size in every frame, before and after the action.",
+    "constant-size": "The character keeps exactly the same size and proportions as the still in every frame; arms, legs and the weapon never grow longer.",
+    "feet-planted": "Both feet stay planted on the same ground line and the body stays centered in the frame; no stepping away, no sliding, no drifting.",
+    "feet-ground-line": "Every step lands on the same ground line and the body stays centered in the frame; the character never drifts forward, backward, up or down.",
+    "inside-frame": "The whole body, the weapon and every moving part stay fully inside the frame with a clear margin on every side; nothing is cut off by the frame edge.",
+    "flat-background": "The background stays solid flat pure {key} for the whole shot: no floor, no ground, no shadow, no gradient, no glow, no haze, no light.",
+    "no-extras": "Nothing else appears in the frame: no dust, no dirt, no smoke, no puffs, no pebbles, no particles, no orbs, no sparks, no flashes, no projectiles, no arrows, no motion trails, no effects of any kind.",
+    "identity-lock": "CHARACTER LOCK for the whole clip: the face, hair, colours, costume, proportions and every design detail stay exactly as in the still; nothing new grows or appears on the character (no horns, no crests, no extra straps or weapons).",
+    "face-visible": "The whole face is visible in every frame: no hand, weapon, sleeve, hair or effect ever passes in front of the face.",
+    "keep-colours": "The colours stay exactly as in the still in every frame: no tint, no colour shift, no darkening and no glow on the character.",
+    "same-start-end": "The clip starts AND ends in exactly the same pose as the still and holds that pose still at the end.",
+    "starts-from-still": "The first frame is exactly the supplied image: the same pose, position and size; the motion starts from there.",
+    "single-action": "Only one {action}: no repeats, no second strike, no spinning, no jumping, no leaving the frame.",
+    "weapon-shape": "The weapon stays one single weapon of the same length and shape the whole time: never bending, never doubling, no second blade, no ghost blades.",
+    "no-text": "No text, letters, glyphs, writing or logos anywhere.",
+    "no-flares": "No cross flares, no starbursts, no four-point sparkles, no lens flares.",
+    "visible-motion": "The motion is clearly visible at game size: a full, readable {action} with real movement of the body, not a still image.",
+    "in-place": "The character stays in the same spot and never travels across the frame; the game moves the sprite.",
+    "fluid-motion": "One continuous, fluid motion at natural speed: no pauses, no frozen poses, no hovering, no slow motion.",
+    "steady-cycle": "A steady, evenly timed cycle: every step looks the same, the legs clearly alternate and the pose at the end of each cycle matches its start.",
+    "no-blur": "No motion-blur smears, no afterimages, no colour fringing on the weapon."
+  },
+  "gatefix": {
+    "area": [
+      "constant-size",
+      "camera-locked"
+    ],
+    "feet": [
+      "feet-planted",
+      "in-place"
+    ],
+    "identity": [
+      "identity-lock",
+      "face-visible"
+    ],
+    "zoom": [
+      "camera-locked"
+    ],
+    "turn": [
+      "never-turn"
+    ],
+    "edge": [
+      "inside-frame"
+    ],
+    "background": [
+      "flat-background"
+    ],
+    "extra": [
+      "no-extras"
+    ],
+    "motion": [
+      "visible-motion",
+      "single-action"
+    ],
+    "end-pose": [
+      "same-start-end"
+    ],
+    "colour": [
+      "keep-colours"
+    ],
+    "timing": [
+      "fluid-motion"
+    ],
+    "loop": [
+      "steady-cycle",
+      "in-place"
+    ],
+    "registration": [
+      "starts-from-still",
+      "camera-locked"
+    ],
+    "keying": [
+      "flat-background",
+      "inside-frame"
+    ]
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "action": "idle",
+      "view": "side",
+      "kind": "loop",
+      "loopKind": "idle",
+      "gaitState": null,
+      "prepareAction": "idle",
+      "retimeKind": "idle",
+      "placement": {
+        "preset": "square",
+        "canvas": [
+          1024,
+          1024
+        ],
+        "scale": 1.0,
+        "root": [
+          575.5,
+          926.0
+        ],
+        "anchor": [
+          575.5,
+          926.0
+        ],
+        "subjectBox": [
+          201.0,
+          138.0,
+          822.0,
+          926.0
+        ],
+        "margin": 20,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "headroom": 0.1348
+      },
+      "pinLastFrame": true,
+      "lock": "feet",
+      "airborne": false,
+      "hitTick": false,
+      "returnsToRest": true,
+      "motion": "floats in place as a looping game idle animation: a slow visible hovering bob, gentle breathing, long hair and layered robes stirring lightly in a soft wind. No travel, no attack, no gestures. The body stays centered at the same height and size.",
+      "negatives": "No particles, ice, glow, smoke, dust or effects. Keep the sword at rest.",
+      "gates": {
+        "area": {
+          "min": 0.72,
+          "max": 1.32,
+          "maxBadShare": 0.1
+        },
+        "feet": {
+          "max": 0.05,
+          "badFrames": 3,
+          "mode": "all"
+        },
+        "identity": {
+          "start": 0.8,
+          "min": 0.5,
+          "badFrames": 2,
+          "severe": 0.3,
+          "severeShare": 0.5,
+          "scales": [
+            0.9,
+            1.0,
+            1.1
+          ]
+        },
+        "colour": {
+          "foreign": 0.02,
+          "badShare": 0.15,
+          "drift": 0.03,
+          "driftShare": 0.4
+        },
+        "timing": {
+          "maxSeconds": 2.0,
+          "maxHoldSeconds": 0.5
+        },
+        "zoom": {
+          "max": 0.08
+        },
+        "turn": {
+          "enabled": true,
+          "margin": 0.08,
+          "run": 3
+        },
+        "edge": {
+          "px": 2
+        },
+        "background": {
+          "tolerance": 48.0,
+          "maxImpure": 0.004,
+          "badFrames": 2
+        },
+        "extra": {
+          "max": 0.015,
+          "badFrames": 2
+        },
+        "motion": {
+          "min": 0.006
+        },
+        "endPose": {
+          "enabled": false,
+          "min": 0.8
+        },
+        "window": {
+          "loopSeconds": 1.0
+        }
+      },
+      "prompt": "The same same anonymous handsome floating swordsman with tied-back dark hair, layered cream and dark green robes, rust accents and a sheathed sword, facing RIGHT the entire time and never turning around, stands in place in their ready stance as a looping game idle animation: slow, clearly visible breathing with the chest and shoulders rising and falling, a slight bob in the knees, hair, cloth and loose parts stirring gently in a soft wind. No steps, no attack, no gestures. The feet stay planted on the same ground line and the body stays centered in the frame. The clip starts AND ends in exactly the same pose as the still. Nothing appears around the character: no particles, no smoke, no dust, no effects. camera locked, no zoom, no pan; solid flat pure blue background (#0000FF) only for the whole shot; keep the exact Whimsical hand-drawn storybook illustration style, stylized cartoon aesthetic, soft painterly textures with visible brush strokes, slightly rough sketchy ink linework, subtle shading, soft lighting, warm and harmonious color palette, playful but balanced proportions, simple yet charming shapes, magical and cozy atmosphere, expressive character design, crisp readable silhouettes, high detail, consistent artistic direction. look, palette, proportions and costume of the still; single continuous action.\n",
+      "lint": []
+    },
+    {
+      "id": "cast",
+      "action": "cast",
+      "view": "side",
+      "kind": "oneshot",
+      "loopKind": null,
+      "gaitState": null,
+      "prepareAction": "cast",
+      "retimeKind": "cast",
+      "placement": {
+        "preset": "wide",
+        "canvas": [
+          1820,
+          1024
+        ],
+        "scale": 1.0,
+        "root": [
+          800.8,
+          926.0
+        ],
+        "anchor": [
+          575.5,
+          926.0
+        ],
+        "subjectBox": [
+          426.3,
+          138.0,
+          1047.3,
+          926.0
+        ],
+        "margin": 20,
+        "padding": [
+          226,
+          0,
+          571,
+          0
+        ],
+        "headroom": 0.1348
+      },
+      "pinLastFrame": false,
+      "lock": "feet",
+      "airborne": false,
+      "hitTick": false,
+      "returnsToRest": true,
+      "motion": "keeps the same hovering height and turns no part of the body; raises one hand, makes one smooth commanding sweep toward the beasts, holds the gesture briefly, then lowers the hand and returns to the exact same floating rest pose. One clear gesture, no travel.",
+      "negatives": "No ice, glow, runes, energy, smoke, dust or new objects; the game adds the separate ice effect.",
+      "gates": {
+        "area": {
+          "min": 0.72,
+          "max": 1.32,
+          "maxBadShare": 0.1
+        },
+        "feet": {
+          "max": 0.05,
+          "badFrames": 3,
+          "mode": "all"
+        },
+        "identity": {
+          "start": 0.8,
+          "min": 0.5,
+          "badFrames": 2,
+          "severe": 0.3,
+          "severeShare": 0.5,
+          "scales": [
+            0.9,
+            1.0,
+            1.1
+          ]
+        },
+        "colour": {
+          "foreign": 0.02,
+          "badShare": 0.15,
+          "drift": 0.03,
+          "driftShare": 0.4
+        },
+        "timing": {
+          "maxSeconds": 2.5,
+          "maxHoldSeconds": 1.2
+        },
+        "zoom": {
+          "max": 0.08
+        },
+        "turn": {
+          "enabled": true,
+          "margin": 0.08,
+          "run": 3
+        },
+        "edge": {
+          "px": 2
+        },
+        "background": {
+          "tolerance": 48.0,
+          "maxImpure": 0.004,
+          "badFrames": 2
+        },
+        "extra": {
+          "max": 0.015,
+          "badFrames": 2
+        },
+        "motion": {
+          "min": 0.02
+        },
+        "endPose": {
+          "enabled": true,
+          "min": 0.8
+        },
+        "window": {
+          "loopSeconds": 1.0
+        }
+      },
+      "timing": {
+        "mode": "auto",
+        "durationMs": 900,
+        "keys": {
+          "peak": {
+            "at": 0.45,
+            "holdMs": 120
+          }
+        }
+      },
+      "prompt": "The same same anonymous handsome floating swordsman with tied-back dark hair, layered cream and dark green robes, rust accents and a sheathed sword, facing RIGHT the entire time and never turning around, keeps their stance and raises one hand forward to the RIGHT in a calm commanding casting gesture, holds the pose for about one second while hair and clothing sway, then lowers the hand smoothly and returns to exactly the same pose as the start, then holds still. The clip starts AND ends in exactly the same pose as the still. The game adds the magic: no glow, no runes, no energy in the hands, no new objects, no effects. camera locked, no zoom, no pan; solid flat pure blue background (#0000FF) only for the whole shot; keep the exact Whimsical hand-drawn storybook illustration style, stylized cartoon aesthetic, soft painterly textures with visible brush strokes, slightly rough sketchy ink linework, subtle shading, soft lighting, warm and harmonious color palette, playful but balanced proportions, simple yet charming shapes, magical and cozy atmosphere, expressive character design, crisp readable silhouettes, high detail, consistent artistic direction. look, palette, proportions and costume of the still; single continuous action.\n",
+      "lint": []
+    }
+  ],
+  "estimate": {
+    "clips": 2,
+    "maxClips": 2,
+    "maxVideoSeconds": 10.0,
+    "note": "route_media.py prints and ledgers the real price of every clip"
+  }
+}

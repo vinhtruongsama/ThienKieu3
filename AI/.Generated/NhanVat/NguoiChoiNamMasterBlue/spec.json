@@ -1,0 +1,22 @@
+{
+  "schema": "generate2dsprite.master_spec.v1",
+  "name": "NguoiChoiNam",
+  "subject": "an adult male player character, tall and slender, handsome face, full-body",
+  "identity": "A tall slender young adult man with a handsome face, shoulder-length brown hair, calm alert eyes, a muted green scarf, cream shirt, brown vest, dark trousers and boots; no weapon or emblem.",
+  "pose": null,
+  "recap": "same tall, slender handsome male traveler with shoulder-length brown hair, a muted green scarf, cream shirt, brown vest, dark trousers and boots",
+  "facing": "right",
+  "facing_parts": null,
+  "view": "side view (profile to three-quarter)",
+  "class": "hero",
+  "finish": "hd",
+  "key": "#0000FF",
+  "genre": "a 2D side-scrolling fantasy game",
+  "pronoun": "he",
+  "identity_ref": null,
+  "style_ref": null,
+  "allowed_text": null,
+  "extra_bans": [],
+  "opaque_parts": null,
+  "extra": null
+}

@@ -1,0 +1,452 @@
+{
+  "schema": "video2dsprite.sprite_set_report.v1",
+  "tool": {
+    "name": "sprite_set",
+    "version": "0.4.0"
+  },
+  "createdAt": "2026-10-28T18:34:09.866Z",
+  "name": "AnhHung",
+  "class": "hero",
+  "status": "complete",
+  "plan": {
+    "path": "set_plan.json",
+    "sha256": "af2c520796679dae5653209f0f33de7e067bf59f6ded5c02a7a4bb566d13d2e0"
+  },
+  "finish": {
+    "mode": "hd",
+    "targetHeight": 256,
+    "scaleRefAction": "idle",
+    "palette": null,
+    "colors": null,
+    "outline": null,
+    "canvas": null,
+    "canvasAnchor": null,
+    "colourLock": true
+  },
+  "package": {
+    "formats": [
+      "png",
+      "webm",
+      "packed"
+    ],
+    "tiers": null,
+    "fps": 12,
+    "frameMs": null
+  },
+  "accepted": [
+    "idle",
+    "cast"
+  ],
+  "needsReview": [],
+  "review": {
+    "latest": "review/review-002.json",
+    "at": "2026-10-28T18:33:39.137Z"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "action": "idle",
+      "view": "side",
+      "kind": "loop",
+      "status": "done",
+      "message": null,
+      "canvas": [
+        1024,
+        1024
+      ],
+      "pinLastFrame": true,
+      "route": "api:heygen",
+      "chosen": {
+        "take": 1,
+        "window": [
+          47,
+          81
+        ],
+        "tag": "-w47-81",
+        "reason": "best of 1 failed takes: kept its usable frames 47-80 (extra logged)"
+      },
+      "accepted": {
+        "take": 1,
+        "window": [
+          47,
+          81
+        ],
+        "note": "Đã xem toàn bộ sheet, đoạn cuối 9 khung và lineup; giữ chuyển động áo choàng nhẹ, bỏ các khung có chi tiết rời nhiễu.",
+        "at": "2026-10-28T18:34:09.626Z",
+        "review": "review/review-002.json",
+        "sheet": {
+          "path": "review/idle/t01-sheet.png",
+          "sha256": "6bd6514ddf418fd888bfa4820c7734fa92f4b9066a5339125a37e794bc3b74bf",
+          "bytes": 287510
+        }
+      },
+      "fixes": [
+        {
+          "id": "no-extras",
+          "text": "Nothing else appears in the frame: no dust, no dirt, no smoke, no puffs, no pebbles, no particles, no orbs, no sparks, no flashes, no projectiles, no arrows, no motion trails, no effects of any kind.",
+          "source": "auto",
+          "take": 1,
+          "round": 1
+        }
+      ],
+      "takes": [
+        {
+          "take": 1,
+          "round": 1,
+          "status": "rejected",
+          "route": "api:heygen",
+          "pinnedLastFrame": false,
+          "prompt": {
+            "path": "actions/idle/takes/t01/prompt.txt",
+            "sha256": "8c20b00c91fa3d218d9e5b0dd839cc17241aa26d742f3d8f4024b54691609c16"
+          },
+          "fixes": [],
+          "clip": {
+            "path": "actions/idle/takes/t01/media/generated.mp4",
+            "sha256": "96391b52b840ca7237d8fb80a1b091e753518ff0c78228716533fc29b01aecae"
+          },
+          "failures": [
+            "extra"
+          ],
+          "reasons": [
+            "extra: extra objects detached from the body in frames 30-32, 46, 81, 90-92, 94-95, 102, 109-110 (worst 1.9% of the body area)"
+          ],
+          "message": null,
+          "qc": {
+            "file": "actions/idle/takes/t01/qc.json",
+            "gates": {
+              "area": {
+                "status": "pass",
+                "value": {
+                  "median": 0.9652,
+                  "min": 0.941,
+                  "max": 0.9888
+                }
+              },
+              "feet": {
+                "status": "pass",
+                "value": 0.0246
+              },
+              "identity": {
+                "status": "pass",
+                "value": {
+                  "start": 0.9474,
+                  "min": 0.9134,
+                  "lowFrames": 0,
+                  "lostFrames": 0
+                }
+              },
+              "zoom": {
+                "status": "pass",
+                "value": 0.0139
+              },
+              "turn": {
+                "status": "pass",
+                "value": -0.4357
+              },
+              "edge": {
+                "status": "pass",
+                "value": 0
+              },
+              "background": {
+                "status": "pass",
+                "value": {
+                  "worst": 0.0001,
+                  "keyDrift": 8.0
+                }
+              },
+              "extra": {
+                "status": "fail",
+                "value": 0.0194
+              },
+              "motion": {
+                "status": "pass",
+                "value": 0.2526
+              },
+              "end-pose": {
+                "status": "skipped",
+                "value": null
+              },
+              "colour": {
+                "status": "pass",
+                "value": {
+                  "foreignMax": 0.0133,
+                  "bledFrames": 0,
+                  "driftMax": 0.0152,
+                  "driftedFrames": 0
+                }
+              },
+              "timing": {
+                "status": "skipped",
+                "value": null
+              }
+            },
+            "usableWindow": [
+              47,
+              81
+            ],
+            "usableFrames": 111,
+            "frames": 124,
+            "motion": {
+              "peak": 0.2526,
+              "peakFrame": 21,
+              "onset": 1,
+              "settle": 123
+            }
+          }
+        }
+      ],
+      "loop": {
+        "tool": "retime",
+        "policy": "pingpong",
+        "start": 0,
+        "endExclusive": 17,
+        "frames": 9,
+        "durationMs": 750,
+        "confidence": null,
+        "selection": "actions/idle/takes/t01/timed-w47-81/selection.json"
+      },
+      "timing": null,
+      "finish": {
+        "finisher": "finish_frames.py",
+        "mode": "hd",
+        "targetHeight": 256,
+        "scale": 0.32778489,
+        "size": [
+          212,
+          263
+        ],
+        "anchor": [
+          130.0,
+          260.0
+        ],
+        "scaleRefFrom": null
+      },
+      "outputs": {
+        "manifest": "actions/idle/takes/t01/package-w47-81/animation.json",
+        "qa": "actions/idle/takes/t01/package-w47-81/animation-qa.json",
+        "provenance": "actions/idle/takes/t01/package-w47-81/provenance.json",
+        "poster": "actions/idle/takes/t01/package-w47-81/idle-poster.png",
+        "atlas": [
+          "actions/idle/takes/t01/package-w47-81/idle-atlas-00.png"
+        ],
+        "webm": "actions/idle/takes/t01/package-w47-81/idle.webm",
+        "packed": "actions/idle/takes/t01/package-w47-81/idle-packed.mp4",
+        "tiers": [],
+        "package": "actions/idle/takes/t01/package-w47-81",
+        "status": "needs-visual-review",
+        "fps": "12/1",
+        "frameCount": 16,
+        "durationMs": 1333,
+        "loopPolicy": "cycle",
+        "verify": "pass",
+        "registration": "actions/idle/takes/t01/registered-w47-81/registration.json"
+      }
+    },
+    {
+      "id": "cast",
+      "action": "cast",
+      "view": "side",
+      "kind": "oneshot",
+      "status": "done",
+      "message": null,
+      "canvas": [
+        1820,
+        1024
+      ],
+      "pinLastFrame": false,
+      "route": "api:heygen",
+      "chosen": {
+        "take": 1,
+        "reason": "first take that passed every gate",
+        "window": null,
+        "tag": ""
+      },
+      "accepted": {
+        "take": 1,
+        "window": null,
+        "note": "",
+        "at": "2026-10-28T17:46:50.883Z",
+        "review": "review/review-001.json",
+        "sheet": {
+          "path": "review/cast/t01-sheet.png",
+          "sha256": "0b4d047dc8565717bd888ced12ab7a77da4943de142316fa3dd05215c688fa74",
+          "bytes": 105638
+        }
+      },
+      "fixes": [],
+      "takes": [
+        {
+          "take": 1,
+          "round": 1,
+          "status": "kept",
+          "route": "api:heygen",
+          "pinnedLastFrame": false,
+          "prompt": {
+            "path": "actions/cast/takes/t01/prompt.txt",
+            "sha256": "c5675c6f046d78da2942b75d5d778f32dc50edd61b061eba791afe87afc58923"
+          },
+          "fixes": [],
+          "clip": {
+            "path": "actions/cast/takes/t01/media/generated.mp4",
+            "sha256": "3a577d8161887c412596990dd4569a03252db82ec6f16453d52941967fdb1912"
+          },
+          "failures": [],
+          "reasons": [],
+          "message": null,
+          "qc": {
+            "file": "actions/cast/takes/t01/qc.json",
+            "gates": {
+              "area": {
+                "status": "pass",
+                "value": {
+                  "median": 0.962,
+                  "min": 0.9067,
+                  "max": 1.0341
+                }
+              },
+              "feet": {
+                "status": "pass",
+                "value": 0.0328
+              },
+              "identity": {
+                "status": "warn",
+                "value": {
+                  "start": 0.9049,
+                  "min": 0.434,
+                  "lowFrames": 3,
+                  "lostFrames": 0
+                }
+              },
+              "zoom": {
+                "status": "pass",
+                "value": {
+                  "endScale": 0.9907,
+                  "endHeight": 1.0083
+                }
+              },
+              "turn": {
+                "status": "pass",
+                "value": 0.0939
+              },
+              "edge": {
+                "status": "pass",
+                "value": 0
+              },
+              "background": {
+                "status": "pass",
+                "value": {
+                  "worst": 0.0001,
+                  "keyDrift": 9.0
+                }
+              },
+              "extra": {
+                "status": "pass",
+                "value": 0.0173
+              },
+              "motion": {
+                "status": "pass",
+                "value": 0.5606
+              },
+              "end-pose": {
+                "status": "pass",
+                "value": 0.8638
+              },
+              "colour": {
+                "status": "pass",
+                "value": {
+                  "foreignMax": 0.0224,
+                  "bledFrames": 3,
+                  "driftMax": 0.022,
+                  "driftedFrames": 0
+                }
+              },
+              "timing": {
+                "status": "warn",
+                "value": {
+                  "actionSeconds": 5.0833,
+                  "holdSeconds": 0.0
+                }
+              }
+            },
+            "usableWindow": null,
+            "usableFrames": 122,
+            "frames": 124,
+            "motion": {
+              "peak": 0.5606,
+              "peakFrame": 32,
+              "onset": 1,
+              "settle": 123
+            }
+          }
+        }
+      ],
+      "loop": null,
+      "timing": {
+        "tool": "retime --auto-oneshot",
+        "start": 0,
+        "endExclusive": 124,
+        "frames": 11,
+        "durationMs": 917,
+        "impactMs": null,
+        "tickHz": 60,
+        "events": [
+          {
+            "name": "in",
+            "atMs": 0,
+            "frame": 0,
+            "tick": 0
+          },
+          {
+            "name": "custom:peak",
+            "atMs": 417,
+            "frame": 5,
+            "tick": 25
+          },
+          {
+            "name": "end",
+            "atMs": 917,
+            "frame": 10,
+            "tick": 55
+          }
+        ],
+        "selection": "actions/cast/takes/t01/motion/selection.json"
+      },
+      "finish": {
+        "finisher": "finish_frames.py",
+        "mode": "hd",
+        "targetHeight": 256,
+        "scale": 0.32820513,
+        "size": [
+          263,
+          271
+        ],
+        "anchor": [
+          130.0,
+          268.0
+        ],
+        "scaleRefFrom": null
+      },
+      "outputs": {
+        "manifest": "actions/cast/takes/t01/package/animation.json",
+        "qa": "actions/cast/takes/t01/package/animation-qa.json",
+        "provenance": "actions/cast/takes/t01/package/provenance.json",
+        "poster": "actions/cast/takes/t01/package/cast-poster.png",
+        "atlas": [
+          "actions/cast/takes/t01/package/cast-atlas-00.png"
+        ],
+        "webm": null,
+        "packed": null,
+        "tiers": [],
+        "package": "actions/cast/takes/t01/package",
+        "status": "needs-visual-review",
+        "fps": "11000/917",
+        "frameCount": 11,
+        "durationMs": 917,
+        "loopPolicy": "oneshot",
+        "verify": "skipped",
+        "registration": "actions/cast/takes/t01/registered/registration.json"
+      }
+    }
+  ]
+}

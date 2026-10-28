@@ -6,7 +6,7 @@
 
 Máy chủ là các phiên riêng có cùng nội dung và bộ bản đồ; có thể tinh chỉnh từng máy chủ theo yêu cầu. Máy chủ không phải bản đồ.
 
-Đã có phần mở đầu cốt truyện; diễn biến về sau, các nhân vật/NPC khác, hệ thống chiến đấu chi tiết và nền tảng phát hành chưa chốt. Không tự đặt tên nhân vật ngoài những tên người dùng đã cung cấp.
+Tài liệu đã mô tả phần mở đầu cốt truyện; chưa triển khai trong game. Diễn biến về sau, các nhân vật/NPC khác, hệ thống chiến đấu chi tiết và nền tảng phát hành chưa chốt. Không tự đặt tên nhân vật ngoài những tên người dùng đã cung cấp.
 
 ## Mở đầu trải nghiệm
 
@@ -29,11 +29,12 @@ Mỗi đầu hoặc cuối bản đồ, khi người chơi đến gần lối ch
 
 - Unity `6000.3.23f1`.
 - Có `SampleScene` và tài nguyên điều khiển `InputSystem_Actions.inputactions`.
-- `SampleScene` hiện chỉ có Main Camera; chưa có map gameplay.
-- Chưa có script gameplay, NPC, quái, nhiệm vụ hoặc ảnh game đã duyệt.
-- Đã thống nhất quy tắc map, camera, chuyển khu vực, quản lý ảnh và phong cách; chưa triển khai nội dung game.
-- Đã mô tả giao diện đăng nhập, tạo tài khoản và chọn/tạo nhân vật; chưa dựng trong Unity.
-- Đã xác định ba bản đồ mở đầu và diễn biến chạy trốn, gặp Anh Hùng, Sờ Lam và mẹ Mai; chưa dựng trong Unity. Chi tiết tại [BanDo.md](BanDo.md).
+- Toàn dự án đang ở **bước 0**; thiết kế kỹ thuật thống nhất chưa hoàn tất. Lộ trình và điều kiện qua mốc ghi tại [ChienLuocPhatTrien.md](ChienLuocPhatTrien.md).
+- `SampleScene` chỉ có Main Camera; chưa có map gameplay hoặc vòng chơi hoàn chỉnh.
+- Chưa có gameplay, server, kết nối mạng, đăng nhập thật, lưu tiến trình, NPC, quái hoặc nhiệm vụ chạy trong game.
+- Scene đăng nhập hiện có là mẫu giao diện/video; chưa kết nối tài khoản hay server thật, không được tính là prototype online hoặc hoàn thành bước 0. Scene này đứng đầu Build Settings.
+- Đã có đặc tả về map, giao diện đăng nhập, tạo tài khoản và chọn/tạo nhân vật; các phần này chưa thành hệ thống chơi hoàn chỉnh.
+- Đã mô tả ba bản đồ mở đầu và diễn biến gặp Anh Hùng, Sờ Lam, mẹ Mai; chưa dựng map trong Unity. Chi tiết tại [BanDo.md](BanDo.md).
 
 ## Cách dùng từ
 

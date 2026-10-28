@@ -1,0 +1,201 @@
+{
+  "status": "warn",
+  "method": "engine_export package: forge_matte.matte_qa key-residue gate on every packaged source frame (alpha <= 16 cleared, D18; key from flag, D17); body-bounds and premultiplied seam diagnostics; selection, registration and review bound by sha256; forge_av encoders verify packet counts and keyframes; every encoded file is decoded completely",
+  "notProven": [
+    "Visual identity, contact and gait quality: a low seam ratio or stable bounds do not prove a seamless cycle or a planted foot.",
+    "Playback of the encoded files: run engine_export.py verify to decode them and compare them with the atlas, then validate_animation.py.",
+    "Browser, Safari, WebGL or iPhone playback, decoder throughput and memory on target devices.",
+    "Key-residue thresholds were set on one clip (report v2); unusual keys or costumes need a look."
+  ],
+  "checks": [
+    {
+      "id": "opaque_key_px",
+      "value": 0,
+      "threshold": 0,
+      "status": "pass"
+    },
+    {
+      "id": "outer_ring_spill_fraction",
+      "value": 0.01265,
+      "threshold": 0.01,
+      "status": "warn"
+    },
+    {
+      "id": "semitransparent_fraction",
+      "status": "pass",
+      "value": 0.136093,
+      "threshold": null
+    },
+    {
+      "id": "enclosed_key_pockets",
+      "value": 0,
+      "threshold": 0,
+      "status": "pass"
+    },
+    {
+      "id": "blank_frames",
+      "status": "pass",
+      "value": [],
+      "threshold": []
+    },
+    {
+      "id": "edge_touch_frames",
+      "status": "pass",
+      "value": [],
+      "threshold": []
+    },
+    {
+      "id": "selection_hashes",
+      "status": "pass",
+      "value": "31a57ea831dc9defcf82fcb90b9962851e98ba365e7c85a4591b0f0495283f2f",
+      "threshold": null
+    },
+    {
+      "id": "registration",
+      "status": "skipped",
+      "value": null,
+      "threshold": null
+    },
+    {
+      "id": "fps_cap",
+      "status": "pass",
+      "value": "11000/917",
+      "threshold": "60/1"
+    },
+    {
+      "id": "review_verdict",
+      "status": "needs-visual-review",
+      "value": null,
+      "threshold": "accepted"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "frame_000008.png",
+      "sha256": "933d89624b8c5059cc479919ac801179d3055b35b27c979a1f933004e200cc3e",
+      "bytes": 118463
+    },
+    {
+      "path": "frame_000026.png",
+      "sha256": "e1e58810aeb3fe12ead074075ca4f51d14d68ac5073881bf3cd2c90ddb1acd63",
+      "bytes": 117817
+    },
+    {
+      "path": "frame_000045.png",
+      "sha256": "6d041f7a24e9e4b021f89510a5e935f8e5197d74336119076ad4f7666a4f31bd",
+      "bytes": 111339
+    },
+    {
+      "path": "frame_000047.png",
+      "sha256": "744f43bdd2c22cdcb8c631f64c7ebd44e3458e2acb71a318bed2360eb5296d56",
+      "bytes": 106929
+    },
+    {
+      "path": "frame_000050.png",
+      "sha256": "3fe6d003133ab6631241ed4652a1e6415ed9738b8894353e518a2b364f7e20dd",
+      "bytes": 99928
+    },
+    {
+      "path": "frame_000052.png",
+      "sha256": "a897c86ac863e97192e35c0f2608e896c1f3c12c7b4184948ea27b5ff3baff38",
+      "bytes": 98507
+    },
+    {
+      "path": "frame_000054.png",
+      "sha256": "79c3a94a9820230aaf1ffd6f23dcceed276414bba5fec324f0c23fb706bfc74b",
+      "bytes": 95949
+    },
+    {
+      "path": "frame_000057.png",
+      "sha256": "fd2f551585f0354f7455617a686463eee35b08caa5a35e1b6a0d5f382ef84fac",
+      "bytes": 103264
+    },
+    {
+      "path": "frame_000059.png",
+      "sha256": "356328020c2b31edd12a25c7107f97679277643dca9dbe8bcc05dc4a09084720",
+      "bytes": 106514
+    },
+    {
+      "path": "frame_000066.png",
+      "sha256": "cd488726d1f8cf925c692678fc7470c1055cb7478bc8b96cd2e828f1d9af4b3a",
+      "bytes": 93256
+    },
+    {
+      "path": "frame_000073.png",
+      "sha256": "3fb6f12b7eb90b3aba60c20180aacd08416d080c0dbe8badfbbfaa40ac643101",
+      "bytes": 119811
+    },
+    {
+      "path": "selection.json",
+      "sha256": "31a57ea831dc9defcf82fcb90b9962851e98ba365e7c85a4591b0f0495283f2f",
+      "bytes": 14218
+    }
+  ],
+  "outputs": [
+    {
+      "path": "jump-poster.png",
+      "sha256": "d2169e7e3a344afc5db4d0d47ba71a5ae1b77d88d8f3a4b87206428c9e53cdb0",
+      "bytes": 118339
+    },
+    {
+      "path": "jump-atlas-00.png",
+      "sha256": "3a38e21442535eb0b1e3fe3057788af252901a2ac17ddac641abf543967cf0fa",
+      "bytes": 1185403
+    }
+  ],
+  "tool": {
+    "name": "engine_export.py",
+    "version": "0.4.0"
+  },
+  "loopRequested": false,
+  "frameCount": 11,
+  "durationSeconds": 0.917,
+  "blankFrames": [],
+  "edgeTouchFrames": [],
+  "boundsBottomSpanPx": 1,
+  "boundsCenterXSpanPx": 48.5,
+  "seamPremultipliedMAE": 0.005661,
+  "adjacentMedianMAE": 0.072847,
+  "seamToMedianRatio": 0.078,
+  "adjacentMaxMAE": 0.185855,
+  "notes": [
+    "Bounds bottom is a contact-drift proxy, not a tracked foot/root.",
+    "A similar first/last frame does not prove a seamless cycle or stable identity.",
+    "Airborne poses may legitimately change bottom position; review at runtime scale."
+  ],
+  "keyResidue": {
+    "key": [
+      0,
+      0,
+      255
+    ],
+    "framesMeasured": 11,
+    "opaqueKeyPx": 0,
+    "framesWithOpaqueKey": [],
+    "maxOuterRingSpillFraction": 0.01265,
+    "framesOverRingSpill": [
+      0,
+      1,
+      10
+    ],
+    "maxSemitransparentFraction": 0.136093,
+    "minSemitransparentFraction": 0.114941,
+    "enclosedKeyPockets": 0,
+    "keyHuedPx": 0,
+    "limits": {
+      "opaqueKeyPx": 0,
+      "outerRingSpillFraction": 0.01
+    },
+    "thresholds": {
+      "key_tolerance": 48.0,
+      "spill_threshold": 20.0,
+      "min_pocket_area": 16,
+      "opaque_alpha": 128,
+      "spill_hue_balance": 0.5,
+      "alpha_floor": 16
+    },
+    "method": "forge_matte.matte_qa v1: straight-colour key distance and dominance on the keyed image; two-channel keys count spill only where the key channels are balanced; each frame measured on a copy with alpha <= 16 cleared, so invisible resampling halo is not counted (D18)"
+  },
+  "allowKeyResidue": true,
+  "keySource": "flag"
+}

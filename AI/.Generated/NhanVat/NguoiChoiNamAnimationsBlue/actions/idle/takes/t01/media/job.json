@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 2,
+  "provider": "heygen",
+  "kind": "video",
+  "route": "rest",
+  "apiBase": "https://api.heygen.com",
+  "endpoint": "https://api.heygen.com/v3/models/videos",
+  "requestedModel": "heygen-video-1",
+  "options": {
+    "model": "heygen-video-1",
+    "mode": "image_to_video",
+    "duration": 5,
+    "resolution": "480p",
+    "prompt_enhancement": "disabled"
+  },
+  "promptSha256": "33d3533bc2c5d58a72adb35ec4bfdcd8cc424a870d556ee08bb0dc4a62213963",
+  "references": [
+    {
+      "path": "D:\\CODING\\unity_project\\ThienKieu3\\AI\\.Generated\\NhanVat\\NguoiChoiNamAnimationsBlue\\actions\\idle\\job\\input.png",
+      "sha256": "8edc3955865c14e125ce8ee9a4cc4fb12c63453acdb094472a4bff76ae520840",
+      "size": [
+        1024,
+        1024
+      ],
+      "mime": "image/png",
+      "bytes": 250826
+    }
+  ],
+  "lastFrame": null,
+  "keyEnv": "HEYGEN_API_KEY",
+  "paidRequests": 1,
+  "automaticPostRetries": 0,
+  "outDir": "D:\\CODING\\unity_project\\ThienKieu3\\AI\\.Generated\\NhanVat\\NguoiChoiNamAnimationsBlue\\actions\\idle\\takes\\t01\\media",
+  "execution": "execute",
+  "capability": {
+    "verifiedAt": "2026-10-28",
+    "docs": [
+      "https://developers.heygen.com/docs/models/heygen-video"
+    ],
+    "async": true
+  },
+  "pricing": {
+    "unit": "output_second",
+    "quantity": 5,
+    "qualifiers": {
+      "resolution": "480p"
+    },
+    "inputs": null,
+    "note": "HeyGen API image-to-video list price per generated second"
+  },
+  "fingerprint": "e4902cd22945b256fa8d357b9be0c85d610282b994287eb1470f05ec398b90bb",
+  "estimate": {
+    "usd": 0.05,
+    "currency": "USD",
+    "basis": "5 output_second x 0.01 = 0.05 USD list price (verified 2026-10-26); excludes tax and rejected attempts; HeyGen API image-to-video list price per generated second",
+    "pricesVersion": "2026-10-28",
+    "items": [
+      {
+        "unit": "output_second",
+        "quantity": 5,
+        "usdEach": 0.01,
+        "usd": 0.05,
+        "source": "https://help.heygen.com/en/articles/10060327-heygen-api-pricing-explained",
+        "verifiedAt": "2026-10-26",
+        "resolution": "480p"
+      }
+    ]
+  },
+  "consent": {
+    "provider": "heygen",
+    "model": "heygen-video-1",
+    "calls": 1,
+    "estimateUsd": 0.05,
+    "apiHost": "api.heygen.com"
+  },
+  "status": "done",
+  "clientRequestId": "fcb29c10a7f14aaaae2f1694914efea2",
+  "receipt": {
+    "startedAt": "2026-10-28T18:18:30.481Z",
+    "submittedAt": "2026-10-28T18:18:30.487Z",
+    "completedAt": "2026-10-28T18:18:41.048Z",
+    "wallMs": 10567,
+    "providerMs": 9483,
+    "attempt": 1,
+    "purpose": "route_media video",
+    "toolVersion": "generate_media/0.4.0",
+    "outcomeCode": "ok"
+  },
+  "ledger": {
+    "projectDir": "D:\\CODING\\unity_project\\ThienKieu3",
+    "reservationId": "5dd735808cd740ceb53527039ea109c5",
+    "status": "done"
+  },
+  "requestId": "402fcf2d730746b0a588411c33467ec3",
+  "audio": {
+    "rawSha256": "38a13222130d66de1cc75ab784f40dbbb5de39e171eeb74c337ca2af4a10e256",
+    "rawBytes": 271371,
+    "audioTracks": null,
+    "removed": null,
+    "method": "ffmpeg",
+    "raw": {
+      "path": "provider-download.mp4",
+      "sha256": "38a13222130d66de1cc75ab784f40dbbb5de39e171eeb74c337ca2af4a10e256",
+      "bytes": 271371
+    }
+  },
+  "artifact": {
+    "path": "generated.mp4",
+    "bytes": 184434,
+    "sha256": "dd44eefe1825914b0eba60246c152a363c6e1c941775d4061088c896824d2198",
+    "validation": "container header only; run video2dsprite for decode and motion QA"
+  },
+  "returnedModel": "heygen-video-1",
+  "durationReported": 5
+}

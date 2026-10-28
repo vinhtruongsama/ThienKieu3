@@ -1,0 +1,170 @@
+{
+  "schema": "video2dsprite.provenance.v1",
+  "tool": "engine_export.py",
+  "version": "0.4.0",
+  "params": {
+    "name": "idle",
+    "formats": [
+      "packed",
+      "png",
+      "webm"
+    ],
+    "maxSide": 261,
+    "cropUnion": true,
+    "fps": null,
+    "loopPolicy": "cycle",
+    "tiers": [],
+    "resampler": "lanczos",
+    "pixelArt": false,
+    "key": [
+      0,
+      0,
+      255
+    ],
+    "keySource": "flag",
+    "allowKeyResidue": false,
+    "crfWebm": 28,
+    "crfPacked": 18,
+    "sourceSize": [
+      110,
+      261
+    ],
+    "sourceAnchor": [
+      50.0,
+      259.0
+    ],
+    "actionPadding": null,
+    "tickExpansion": null,
+    "engineExport": "3.0.0"
+  },
+  "inputs": [
+    {
+      "path": "frame_000000.png",
+      "sha256": "8f022119af7adbf2ce7122b78c24812ba4eeeb3a054e33206dad703822210cce",
+      "bytes": 36038,
+      "role": "frame"
+    },
+    {
+      "path": "frame_000002.png",
+      "sha256": "85eff37d35ed811c72f91052975e81dfc29bb346bae390ce7edffaa3202e6b58",
+      "bytes": 35723,
+      "role": "frame"
+    },
+    {
+      "path": "frame_000004.png",
+      "sha256": "34627e231dd6ab49094b4de8ff888fa6dc0c9c3b21a2de1858660d69e1ae3af1",
+      "bytes": 35717,
+      "role": "frame"
+    },
+    {
+      "path": "frame_000006.png",
+      "sha256": "0ceecd3ca5086536376c7f67790ee35153c59f5684eb43b8f8b4aaa29085d891",
+      "bytes": 35727,
+      "role": "frame"
+    },
+    {
+      "path": "frame_000008.png",
+      "sha256": "3d2ff875e30a63bb71f49e09b48632e1512d50bc959183b6b5bcc566c9ddadf3",
+      "bytes": 35701,
+      "role": "frame"
+    },
+    {
+      "path": "frame_000010.png",
+      "sha256": "46d163758edc12924abd6f8f1c3f8c83f487403345c4212fe22b32459f40a46a",
+      "bytes": 35596,
+      "role": "frame"
+    },
+    {
+      "path": "frame_000012.png",
+      "sha256": "4c5b10e41ea0a0f657139497e73a529f46138cd8358279a4bef617cf1ed05544",
+      "bytes": 35798,
+      "role": "frame"
+    },
+    {
+      "path": "frame_000014.png",
+      "sha256": "4ce759bff834a79ae36c31fea08dd91d719ab727a1d1553c79fc868e6736240a",
+      "bytes": 35951,
+      "role": "frame"
+    },
+    {
+      "path": "frame_000017.png",
+      "sha256": "ca65404bdfec3a2db45d0994ddc2a37857e2d63385719a7458c3e4e81941c1fa",
+      "bytes": 36175,
+      "role": "frame"
+    },
+    {
+      "path": "frame_000019.png",
+      "sha256": "d38d4fa9daff42d988225c26f6d4d6cf0ccc383bae767af8f0e689a5eb15ab77",
+      "bytes": 36319,
+      "role": "frame"
+    },
+    {
+      "path": "frame_000021.png",
+      "sha256": "f8fc5387a02784a22a155ee7cf4ac0750c56204bdbb4dfbd9845fadb8f44f76e",
+      "bytes": 36682,
+      "role": "frame"
+    },
+    {
+      "path": "frame_000023.png",
+      "sha256": "24b04532705da6dd536c03d2d98ad3e7bdd3916c7beaf95f49ef1a8d4fef66e7",
+      "bytes": 37852,
+      "role": "frame"
+    },
+    {
+      "path": "frame_000025.png",
+      "sha256": "a4848dc60af50b382396e20f891494465bd0187a4ce3bdb93e5c48065802083d",
+      "bytes": 38118,
+      "role": "frame"
+    },
+    {
+      "path": "frame_000027.png",
+      "sha256": "29cbe6e6fb51e3ef13669d4f1f2b8dc11d5b132a8c21cd0753acbb086bb9057a",
+      "bytes": 38379,
+      "role": "frame"
+    },
+    {
+      "path": "frame_000029.png",
+      "sha256": "455ea95a349159e8791f7c7a04b4efaa9d20aebf4bebf74117ef07542532902e",
+      "bytes": 38494,
+      "role": "frame"
+    },
+    {
+      "path": "frame_000031.png",
+      "sha256": "e271e414df5b69eb5a78deedecddd27458fd9e42f0ef0bd1bfad9c9e65847b9f",
+      "bytes": 38553,
+      "role": "frame"
+    },
+    {
+      "path": "frame_000033.png",
+      "sha256": "03f183137f7e9f275f19a711444cd01f38f614a59c8b2737be84f2d513ab9a58",
+      "bytes": 38723,
+      "role": "frame"
+    },
+    {
+      "path": "selection.json",
+      "sha256": "baee2856bf26ee6b69ffebab194631c3b063837f40ebe42296768cc1fefb6161",
+      "bytes": 4630,
+      "role": "selection"
+    }
+  ],
+  "inputDigest": "d79e89d37a2cd6f435b7afc6d3af55650260d445c92bea675357504e5ef19848",
+  "libraries": {
+    "forge_core": "1.1",
+    "forge_matte": "1.1",
+    "forge_av": "1"
+  },
+  "inputDirectory": "../finished/frames",
+  "renderer": {
+    "name": "ffmpeg",
+    "version": "9.0.1-essentials_build-www.gyan.dev"
+  },
+  "selection": {
+    "schema": "forge-frame-selection/v2",
+    "start": 0,
+    "endExclusive": 34,
+    "status": "selected-needs-visual-review",
+    "method": "retime: range 0:34 sampled to 17; 17 frames, 1417 ms on 60 Hz ticks; rebound 1:1 to the finished frames (sprite_set)",
+    "loopPolicy": "pingpong",
+    "sha256": "baee2856bf26ee6b69ffebab194631c3b063837f40ebe42296768cc1fefb6161"
+  }
+}

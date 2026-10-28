@@ -1,0 +1,211 @@
+{
+  "schema": "video2dsprite.retime_report.v1",
+  "tool": {
+    "name": "retime",
+    "version": "0.4.0"
+  },
+  "frames": {
+    "directory": "../registered-w34-63/frames",
+    "count": 29,
+    "fps": "24/1"
+  },
+  "kind": "run",
+  "policy": "cycle",
+  "source": "range 7:25 sampled to 9",
+  "map": null,
+  "cadence": null,
+  "timeline": [
+    {
+      "frame": 0,
+      "sourceIndex": 7,
+      "startMs": 0,
+      "durationMs": 83,
+      "ticks": 5,
+      "startTick": 0
+    },
+    {
+      "frame": 1,
+      "sourceIndex": 9,
+      "startMs": 83,
+      "durationMs": 84,
+      "ticks": 5,
+      "startTick": 5
+    },
+    {
+      "frame": 2,
+      "sourceIndex": 11,
+      "startMs": 167,
+      "durationMs": 83,
+      "ticks": 5,
+      "startTick": 10
+    },
+    {
+      "frame": 3,
+      "sourceIndex": 13,
+      "startMs": 250,
+      "durationMs": 83,
+      "ticks": 5,
+      "startTick": 15
+    },
+    {
+      "frame": 4,
+      "sourceIndex": 16,
+      "startMs": 333,
+      "durationMs": 84,
+      "ticks": 5,
+      "startTick": 20
+    },
+    {
+      "frame": 5,
+      "sourceIndex": 18,
+      "startMs": 417,
+      "durationMs": 83,
+      "ticks": 5,
+      "startTick": 25
+    },
+    {
+      "frame": 6,
+      "sourceIndex": 20,
+      "startMs": 500,
+      "durationMs": 83,
+      "ticks": 5,
+      "startTick": 30
+    },
+    {
+      "frame": 7,
+      "sourceIndex": 22,
+      "startMs": 583,
+      "durationMs": 84,
+      "ticks": 5,
+      "startTick": 35
+    },
+    {
+      "frame": 8,
+      "sourceIndex": 24,
+      "startMs": 667,
+      "durationMs": 83,
+      "ticks": 5,
+      "startTick": 40
+    }
+  ],
+  "events": [
+    {
+      "name": "in",
+      "atMs": 0,
+      "frame": 0,
+      "tick": 0
+    },
+    {
+      "name": "end",
+      "atMs": 750,
+      "frame": 8,
+      "tick": 45
+    }
+  ],
+  "suggestedContact": {
+    "outputFrame": 2,
+    "sourceIndex": 11,
+    "atMs": 167,
+    "score": 548.0,
+    "method": "widest ground contact: column span of the alpha band above each frame's ground line"
+  },
+  "rules": [
+    "walks never ping-pong",
+    "walk frames play forward"
+  ],
+  "qa": {
+    "status": "needs-visual-review",
+    "method": "retime: range 7:25 sampled to 9; 9 frames, 750 ms on 60 Hz ticks",
+    "notProven": [
+      "foot contact, sliding and ground penetration",
+      "hand, hair, scarf or prop identity drift between frames",
+      "art quality, anatomy and facing",
+      "left/right alternation beyond the pixel evidence reported here"
+    ],
+    "checks": [
+      {
+        "id": "durations-sum",
+        "status": "pass",
+        "value": 750,
+        "threshold": 750
+      },
+      {
+        "id": "integer-durations",
+        "status": "pass",
+        "value": 83,
+        "threshold": 1
+      },
+      {
+        "id": "policy-rules",
+        "status": "pass",
+        "value": [
+          "walks never ping-pong",
+          "walk frames play forward"
+        ]
+      },
+      {
+        "id": "visual-review",
+        "status": "needs-visual-review",
+        "value": null
+      }
+    ],
+    "inputs": [
+      {
+        "path": "../registered-w34-63/frames/frame_000007.png",
+        "sha256": "a385c7cabb18110f05bf95d67cefd0c9fc045b89d8dc9eaa110de4f3e7c01dcd",
+        "bytes": 234153
+      },
+      {
+        "path": "../registered-w34-63/frames/frame_000009.png",
+        "sha256": "0d0a6bdeb742019856111d982e5cfc4e6ea1b3eb616c9894ef5ea7feb145cc2b",
+        "bytes": 262422
+      },
+      {
+        "path": "../registered-w34-63/frames/frame_000011.png",
+        "sha256": "37887a197d3706ed929109e4789816872e435e85bb496cad80012f19b04a41d2",
+        "bytes": 275322
+      },
+      {
+        "path": "../registered-w34-63/frames/frame_000013.png",
+        "sha256": "a0b43013f9b37a076f8179eaf565b9060bc756b58dae4f1517ca92fb7c3e7d5e",
+        "bytes": 273869
+      },
+      {
+        "path": "../registered-w34-63/frames/frame_000016.png",
+        "sha256": "3d6dd9d10c92ed46d4266322197dae3e1d32480284c39aa1f3aae45266d3beb3",
+        "bytes": 241239
+      },
+      {
+        "path": "../registered-w34-63/frames/frame_000018.png",
+        "sha256": "043dc682b1f8da7147663692411dc286fc485fa048b515fe892ffd3789f50c02",
+        "bytes": 286612
+      },
+      {
+        "path": "../registered-w34-63/frames/frame_000020.png",
+        "sha256": "49fa998f77a21d9987d9eed92686f7a0b2e1e4b61481f999dd03fee08bbc7ce5",
+        "bytes": 301324
+      },
+      {
+        "path": "../registered-w34-63/frames/frame_000022.png",
+        "sha256": "f33b17917a92d670f62d3b4bfb8a5d8c4412d73ce67c1fa5c3b89d6dd1b2b5dc",
+        "bytes": 300043
+      },
+      {
+        "path": "../registered-w34-63/frames/frame_000024.png",
+        "sha256": "1dc1921a96ec0876e8fa5151072970912cba72e0426af7c7c1d7d350513fe059",
+        "bytes": 267407
+      }
+    ],
+    "outputs": [
+      {
+        "path": "selection.json",
+        "sha256": "3e979f033a705e075e915a5ef9d36476c929173ef8a4fab4f30ed7389de8f7dd",
+        "bytes": 2931
+      }
+    ],
+    "tool": {
+      "name": "retime",
+      "version": "0.4.0"
+    }
+  }
+}

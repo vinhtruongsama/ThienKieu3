@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: be5bd9f26821de34798c10e90938e01d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7426100835392130231
+    second: BeMatCoDat_0
+  - first:
+      213: -4252192483969220144
+    second: BeMatCoDat_1
+  - first:
+      213: 4432111044824861257
+    second: BeMatCoDat_2
+  - first:
+      213: 1582777230525725058
+    second: BeMatCoDat_3
+  - first:
+      213: -2483878098915587056
+    second: BeMatCoDat_4
+  - first:
+      213: 6297298271920665568
+    second: BeMatCoDat_5
+  - first:
+      213: 7945015618328248313
+    second: BeMatCoDat_6
+  - first:
+      213: 4824591132746084679
+    second: BeMatCoDat_7
+  - first:
+      213: 6049914876240988885
+    second: BeMatCoDat_8
+  - first:
+      213: -4677582575788129718
+    second: BeMatCoDat_9
+  - first:
+      213: -3196582890530690582
+    second: BeMatCoDat_10
+  - first:
+      213: -4587399376205371132
+    second: BeMatCoDat_11
+  - first:
+      213: 6425329023933451406
+    second: BeMatCoDat_12
+  - first:
+      213: -3635075983720941569
+    second: BeMatCoDat_13
+  - first:
+      213: 797724955416360020
+    second: BeMatCoDat_14
+  - first:
+      213: 5458651508151538428
+    second: BeMatCoDat_15
+  - first:
+      213: 9135363778530661486
+    second: BeMatCoDat_16
+  - first:
+      213: -1506091443374584433
+    second: BeMatCoDat_17
+  - first:
+      213: -9009513439700571703
+    second: BeMatCoDat_18
+  - first:
+      213: 1595016524750621424
+    second: BeMatCoDat_19
+  - first:
+      213: -5342734660559169416
+    second: BeMatCoDat_20
+  - first:
+      213: 1791609146877164423
+    second: BeMatCoDat_21
+  - first:
+      213: -3340417949620153770
+    second: BeMatCoDat_22
+  - first:
+      213: -4442292998394908793
+    second: BeMatCoDat_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BeMatCoDat_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 21
+        width: 2172
+        height: 523
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc87c75d5fce0760800000000000000
+      internalID: 7426100835392130231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeMatCoDat_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 538
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d1cd64077d2df4c0800000000000000
+      internalID: -4252192483969220144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeMatCoDat_2
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 528
+        width: 115
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a0fdf4385028d30800000000000000
+      internalID: 4432111044824861257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeMatCoDat_3
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 538
+        width: 114
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 289ff08518727f510800000000000000
+      internalID: 1582777230525725058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeMatCoDat_4
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 541
+        width: 122
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c83c8770e778dd0800000000000000
+      internalID: -2483878098915587056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeMatCoDat_5
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 514
+        width: 347
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e3338ee96f746750800000000000000
+      internalID: 6297298271920665568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeMatCoDat_6
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 516
+        width: 120
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ffb2614c9d524e60800000000000000
+      internalID: 7945015618328248313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeMatCoDat_7
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 458
+        width: 210
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74174ddc21464f240800000000000000
+      internalID: 4824591132746084679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeMatCoDat_8
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 532
+        width: 42
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da02bfa68d95f350800000000000000
+      internalID: 6049914876240988885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeMatCoDat_9
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 516
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4287922e63e51fb0800000000000000
+      internalID: -4677582575788129718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeMatCoDat_10
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 514
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae9a3da1cc473a3d0800000000000000
+      internalID: -3196582890530690582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeMatCoDat_11
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 168
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4092e6a82984650c0800000000000000
+      internalID: -4587399376205371132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeMatCoDat_12
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 176
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c8f8454ba5b2950800000000000000
+      internalID: 6425329023933451406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeMatCoDat_13
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 192
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff772caf6ad9d8dc0800000000000000
+      internalID: -3635075983720941569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeMatCoDat_14
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 179
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4547e04de96121b00800000000000000
+      internalID: 797724955416360020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeMatCoDat_15
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 180
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf2d50020a601cb40800000000000000
+      internalID: 5458651508151538428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeMatCoDat_16
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 178
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e645a4194f457ce70800000000000000
+      internalID: 9135363778530661486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeMatCoDat_17
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 150
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d0766dfc9491be0800000000000000
+      internalID: -1506091443374584433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeMatCoDat_18
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 136
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c92a83d247c7f280800000000000000
+      internalID: -9009513439700571703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeMatCoDat_19
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 162
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa83a81413a22610800000000000000
+      internalID: 1595016524750621424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeMatCoDat_20
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 146
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 878143c122bcad5b0800000000000000
+      internalID: -5342734660559169416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeMatCoDat_21
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 148
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b34f7d6031dd810800000000000000
+      internalID: 1791609146877164423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeMatCoDat_22
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 146
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6525d87b29374a1d0800000000000000
+      internalID: -3340417949620153770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeMatCoDat_23
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 146
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f6772ed0ec952c0800000000000000
+      internalID: -4442292998394908793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BeMatCoDat_0: 7426100835392130231
+      BeMatCoDat_1: -4252192483969220144
+      BeMatCoDat_10: -3196582890530690582
+      BeMatCoDat_11: -4587399376205371132
+      BeMatCoDat_12: 6425329023933451406
+      BeMatCoDat_13: -3635075983720941569
+      BeMatCoDat_14: 797724955416360020
+      BeMatCoDat_15: 5458651508151538428
+      BeMatCoDat_16: 9135363778530661486
+      BeMatCoDat_17: -1506091443374584433
+      BeMatCoDat_18: -9009513439700571703
+      BeMatCoDat_19: 1595016524750621424
+      BeMatCoDat_2: 4432111044824861257
+      BeMatCoDat_20: -5342734660559169416
+      BeMatCoDat_21: 1791609146877164423
+      BeMatCoDat_22: -3340417949620153770
+      BeMatCoDat_23: -4442292998394908793
+      BeMatCoDat_3: 1582777230525725058
+      BeMatCoDat_4: -2483878098915587056
+      BeMatCoDat_5: 6297298271920665568
+      BeMatCoDat_6: 7945015618328248313
+      BeMatCoDat_7: 4824591132746084679
+      BeMatCoDat_8: 6049914876240988885
+      BeMatCoDat_9: -4677582575788129718
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

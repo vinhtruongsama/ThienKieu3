@@ -1,0 +1,30 @@
+{
+  "schema": "video2dsprite.sprite_set_route.v1",
+  "action": "idle",
+  "take": 2,
+  "cli": "generate2dmedia/route_media.py",
+  "route": "api:heygen",
+  "clip": {
+    "path": "actions/idle/takes/t02/media/generated.mp4",
+    "sha256": "e25575d96d24783ef11989d0974fefe1aba3bc08b2a04beb9c91cc6981e698e5"
+  },
+  "pinnedLastFrame": false,
+  "pinNote": "the route ignored the last frame",
+  "summary": {
+    "status": "ok",
+    "route": "api:heygen",
+    "artifact": "generated.mp4",
+    "sha256": "e25575d96d24783ef11989d0974fefe1aba3bc08b2a04beb9c91cc6981e698e5",
+    "estimateUsd": 0.05,
+    "kind": "video",
+    "label": "HeyGen API (heygen-video-1)",
+    "model": "heygen-video-1",
+    "job": "job.json",
+    "lastFrameUsed": false,
+    "durationRequested": 5,
+    "durationUsed": 5,
+    "notes": [
+      "the last frame is not pinned: heygen-video-1 at 480p cannot take one"
+    ]
+  }
+}

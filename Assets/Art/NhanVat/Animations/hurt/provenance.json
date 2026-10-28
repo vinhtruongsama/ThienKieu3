@@ -1,0 +1,104 @@
+{
+  "schema": "video2dsprite.provenance.v1",
+  "tool": "engine_export.py",
+  "version": "0.4.0",
+  "params": {
+    "name": "hurt",
+    "formats": [
+      "packed",
+      "png",
+      "webm"
+    ],
+    "maxSide": 261,
+    "cropUnion": true,
+    "fps": null,
+    "loopPolicy": "oneshot",
+    "tiers": [],
+    "resampler": "lanczos",
+    "pixelArt": false,
+    "key": [
+      0,
+      0,
+      255
+    ],
+    "keySource": "flag",
+    "allowKeyResidue": false,
+    "crfWebm": 28,
+    "crfPacked": 18,
+    "sourceSize": [
+      120,
+      261
+    ],
+    "sourceAnchor": [
+      46.0,
+      259.0
+    ],
+    "actionPadding": null,
+    "tickExpansion": null,
+    "engineExport": "3.0.0"
+  },
+  "inputs": [
+    {
+      "path": "frame_000013.png",
+      "sha256": "21b04b93b25028bee8b11bf90df5493819366e65118320c759e0d9c98549c329",
+      "bytes": 36139,
+      "role": "frame"
+    },
+    {
+      "path": "frame_000020.png",
+      "sha256": "f9266dfb151b61b2a9bb0ed2c253c4044b25103114be8e00e0e73df4929f27ce",
+      "bytes": 37459,
+      "role": "frame"
+    },
+    {
+      "path": "frame_000027.png",
+      "sha256": "2a2ebe0dd460e9047345370ebb76ba8d5085bf8e614803d51d6413d8a73264fe",
+      "bytes": 39397,
+      "role": "frame"
+    },
+    {
+      "path": "frame_000045.png",
+      "sha256": "fcc04ab0a36391b948a29fa4415475b8cab67aea8370a79a7f71a652d28b8665",
+      "bytes": 34705,
+      "role": "frame"
+    },
+    {
+      "path": "frame_000064.png",
+      "sha256": "9830111ace6dc4f40723bb168b5414ba8d5499016887487850dee36429c362b5",
+      "bytes": 37419,
+      "role": "frame"
+    },
+    {
+      "path": "frame_000082.png",
+      "sha256": "d44b99691b66e791e4992714e97415384e5bb6b7559e4a63e8309a12209f88fc",
+      "bytes": 36345,
+      "role": "frame"
+    },
+    {
+      "path": "selection.json",
+      "sha256": "847c289ca8576c96b1a92f9de76aba215d03d78db74cea71e6e8356a6f978fbe",
+      "bytes": 13885,
+      "role": "selection"
+    }
+  ],
+  "inputDigest": "e425577760318ff572c096741d620035a2fba0a78ac5bf94998a752ff07061c5",
+  "libraries": {
+    "forge_core": "1.1",
+    "forge_matte": "1.1",
+    "forge_av": "1"
+  },
+  "inputDirectory": "../finished/frames",
+  "renderer": {
+    "name": "ffmpeg",
+    "version": "9.0.1-essentials_build-www.gyan.dev"
+  },
+  "selection": {
+    "schema": "forge-frame-selection/v2",
+    "start": 0,
+    "endExclusive": 124,
+    "status": "selected-needs-visual-review",
+    "method": "retime --auto-oneshot: range 0:124, motion 13-82 (70 source frames, 0 static hold frames cut), keys peak@2; 6 frames, 500 ms on 60 Hz ticks; rebound 1:1 to the finished frames (sprite_set)",
+    "loopPolicy": "oneshot",
+    "sha256": "847c289ca8576c96b1a92f9de76aba215d03d78db74cea71e6e8356a6f978fbe"
+  }
+}

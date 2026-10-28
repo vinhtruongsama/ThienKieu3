@@ -1,0 +1,1004 @@
+{
+  "schema": "video2dsprite.sprite_set_report.v1",
+  "tool": {
+    "name": "sprite_set",
+    "version": "0.4.0"
+  },
+  "createdAt": "2026-10-28T18:13:39.767Z",
+  "name": "BaQuaiLinhTruong",
+  "class": "mob",
+  "status": "incomplete",
+  "plan": {
+    "path": "set_plan.json",
+    "sha256": "bdd7878df70226d6619ed067149604a98e5924e42098e5cb03a027b64d09621d"
+  },
+  "finish": {
+    "mode": "hd",
+    "targetHeight": 256,
+    "scaleRefAction": "idle",
+    "palette": null,
+    "colors": null,
+    "outline": null,
+    "canvas": null,
+    "canvasAnchor": null,
+    "colourLock": true
+  },
+  "package": {
+    "formats": [
+      "png"
+    ],
+    "tiers": null,
+    "fps": 12,
+    "frameMs": null
+  },
+  "accepted": [
+    "idle",
+    "jump",
+    "hurt"
+  ],
+  "needsReview": [
+    "attack"
+  ],
+  "review": {
+    "latest": "review/review-002.json",
+    "at": "2026-10-28T18:07:48.704Z"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "action": "idle",
+      "view": "side",
+      "kind": "loop",
+      "status": "done",
+      "message": null,
+      "canvas": [
+        1024,
+        1024
+      ],
+      "pinLastFrame": true,
+      "route": "api:heygen",
+      "chosen": {
+        "take": 2,
+        "reason": "first take that passed every gate",
+        "window": null,
+        "tag": ""
+      },
+      "accepted": {
+        "take": 2,
+        "window": null,
+        "note": "Đã xem atlas và poster; dáng, mặt, chân và nhịp thở ổn định. Bó viền xanh rất nhỏ được ghi trong QA.",
+        "at": "2026-10-28T18:13:39.313Z",
+        "review": "review/review-002.json",
+        "sheet": {
+          "path": "review/idle/t02-sheet.png",
+          "sha256": "27ca43dc8c3739194e1daf820db98c33a892fc3ffb2cb66897423f7cd3c0f087",
+          "bytes": 158168
+        }
+      },
+      "fixes": [
+        {
+          "id": "starts-from-still",
+          "text": "The first frame is exactly the supplied image: the same pose, position and size; the motion starts from there.",
+          "source": "auto",
+          "take": 1,
+          "round": 1
+        },
+        {
+          "id": "camera-locked",
+          "text": "Locked camera and constant character size: no zoom, no push-in, no pull-out, no pan; the character is exactly the same size in every frame, before and after the action.",
+          "source": "auto",
+          "take": 1,
+          "round": 1
+        },
+        {
+          "id": "steady-cycle",
+          "text": "A steady, evenly timed cycle: every step looks the same, the legs clearly alternate and the pose at the end of each cycle matches its start.",
+          "source": "agent",
+          "round": 2
+        },
+        {
+          "id": "in-place",
+          "text": "The character stays in the same spot and never travels across the frame; the game moves the sprite.",
+          "source": "agent",
+          "round": 2
+        }
+      ],
+      "takes": [
+        {
+          "take": 1,
+          "round": 1,
+          "status": "rejected",
+          "route": "api:heygen",
+          "pinnedLastFrame": false,
+          "prompt": {
+            "path": "actions/idle/takes/t01/prompt.txt",
+            "sha256": "639eb271bce99d64a1d395b5b3490928addbfc72a7d491eb66cb06e62a9f0b75"
+          },
+          "fixes": [],
+          "clip": {
+            "path": "actions/idle/takes/t01/media/generated.mp4",
+            "sha256": "0e4e0f7e653b4873434a56040bb0e86f21904c698577d1961aa8d51df58accfe"
+          },
+          "failures": [
+            "registration"
+          ],
+          "reasons": [
+            "registration: register_clip.py apply: registration QA failed, nothing was written: rest-anchor-error: the rest pose sits 5.00 px from the master's anchor (limit 4.1); the provider changed the framing: check --fit, run qc, or regenerate"
+          ],
+          "message": null,
+          "qc": {
+            "file": "actions/idle/takes/t01/qc.json",
+            "gates": {
+              "area": {
+                "status": "pass",
+                "value": {
+                  "median": 1.0065,
+                  "min": 0.9531,
+                  "max": 1.056
+                }
+              },
+              "feet": {
+                "status": "pass",
+                "value": 0.0
+              },
+              "identity": {
+                "status": "pass",
+                "value": {
+                  "start": 0.9385,
+                  "min": 0.8088,
+                  "lowFrames": 0,
+                  "lostFrames": 0
+                }
+              },
+              "zoom": {
+                "status": "pass",
+                "value": 0.021
+              },
+              "turn": {
+                "status": "pass",
+                "value": -0.3285
+              },
+              "edge": {
+                "status": "pass",
+                "value": 0
+              },
+              "background": {
+                "status": "pass",
+                "value": {
+                  "worst": 0.0,
+                  "keyDrift": 5.0
+                }
+              },
+              "extra": {
+                "status": "pass",
+                "value": 0.0
+              },
+              "motion": {
+                "status": "pass",
+                "value": 0.1643
+              },
+              "end-pose": {
+                "status": "skipped",
+                "value": null
+              },
+              "colour": {
+                "status": "pass",
+                "value": {
+                  "foreignMax": 0.0048,
+                  "bledFrames": 0,
+                  "driftMax": 0.0173,
+                  "driftedFrames": 0
+                }
+              },
+              "timing": {
+                "status": "skipped",
+                "value": null
+              }
+            },
+            "usableWindow": [
+              0,
+              124
+            ],
+            "usableFrames": 124,
+            "frames": 124,
+            "motion": {
+              "peak": 0.1643,
+              "peakFrame": 80,
+              "onset": 2,
+              "settle": 123
+            }
+          }
+        },
+        {
+          "take": 2,
+          "round": 2,
+          "status": "kept",
+          "route": "api:heygen",
+          "pinnedLastFrame": false,
+          "prompt": {
+            "path": "actions/idle/takes/t02/prompt.txt",
+            "sha256": "8a75302934d532ebe12aba741f753ee692b475544c0970f014a4e88344bdeed4"
+          },
+          "fixes": [
+            "starts-from-still",
+            "camera-locked",
+            "steady-cycle",
+            "in-place"
+          ],
+          "clip": {
+            "path": "actions/idle/takes/t02/media/generated.mp4",
+            "sha256": "e25575d96d24783ef11989d0974fefe1aba3bc08b2a04beb9c91cc6981e698e5"
+          },
+          "failures": [],
+          "reasons": [],
+          "message": null,
+          "qc": {
+            "file": "actions/idle/takes/t02/qc.json",
+            "gates": {
+              "area": {
+                "status": "pass",
+                "value": {
+                  "median": 1.0025,
+                  "min": 0.9751,
+                  "max": 1.0473
+                }
+              },
+              "feet": {
+                "status": "pass",
+                "value": 0.0
+              },
+              "identity": {
+                "status": "pass",
+                "value": {
+                  "start": 0.9263,
+                  "min": 0.8581,
+                  "lowFrames": 0,
+                  "lostFrames": 0
+                }
+              },
+              "zoom": {
+                "status": "pass",
+                "value": 0.0228
+              },
+              "turn": {
+                "status": "pass",
+                "value": -0.4282
+              },
+              "edge": {
+                "status": "pass",
+                "value": 0
+              },
+              "background": {
+                "status": "pass",
+                "value": {
+                  "worst": 0.0,
+                  "keyDrift": 5.0
+                }
+              },
+              "extra": {
+                "status": "pass",
+                "value": 0.0
+              },
+              "motion": {
+                "status": "pass",
+                "value": 0.3769
+              },
+              "end-pose": {
+                "status": "skipped",
+                "value": null
+              },
+              "colour": {
+                "status": "pass",
+                "value": {
+                  "foreignMax": 0.0059,
+                  "bledFrames": 0,
+                  "driftMax": 0.0182,
+                  "driftedFrames": 0
+                }
+              },
+              "timing": {
+                "status": "skipped",
+                "value": null
+              }
+            },
+            "usableWindow": [
+              0,
+              124
+            ],
+            "usableFrames": 124,
+            "frames": 124,
+            "motion": {
+              "peak": 0.3769,
+              "peakFrame": 60,
+              "onset": 1,
+              "settle": 123
+            }
+          }
+        }
+      ],
+      "loop": {
+        "tool": "retime",
+        "policy": "pingpong",
+        "start": 0,
+        "endExclusive": 26,
+        "frames": 13,
+        "durationMs": 1083,
+        "confidence": null,
+        "selection": "actions/idle/takes/t02/timed/selection.json"
+      },
+      "timing": null,
+      "finish": {
+        "finisher": "finish_frames.py",
+        "mode": "hd",
+        "targetHeight": 256,
+        "scale": 0.54817987,
+        "size": [
+          303,
+          284
+        ],
+        "anchor": [
+          183.0,
+          280.0
+        ],
+        "scaleRefFrom": null
+      },
+      "outputs": {
+        "manifest": "actions/idle/takes/t02/package/animation.json",
+        "qa": "actions/idle/takes/t02/package/animation-qa.json",
+        "provenance": "actions/idle/takes/t02/package/provenance.json",
+        "poster": "actions/idle/takes/t02/package/idle-poster.png",
+        "atlas": [
+          "actions/idle/takes/t02/package/idle-atlas-00.png"
+        ],
+        "webm": null,
+        "packed": null,
+        "tiers": [],
+        "package": "actions/idle/takes/t02/package",
+        "status": "needs-visual-review",
+        "fps": "13000/1083",
+        "frameCount": 24,
+        "durationMs": 1999,
+        "loopPolicy": "cycle",
+        "verify": "skipped",
+        "registration": "actions/idle/takes/t02/registered/registration.json"
+      }
+    },
+    {
+      "id": "attack",
+      "action": "attack",
+      "view": "side",
+      "kind": "oneshot",
+      "status": "error",
+      "message": "take 4: api:heygen: failed: HeyGen video job failed; no regeneration attempted (the next run tries again)",
+      "canvas": [
+        1820,
+        1024
+      ],
+      "pinLastFrame": true,
+      "route": null,
+      "chosen": null,
+      "accepted": null,
+      "fixes": [],
+      "takes": [
+        {
+          "take": 1,
+          "round": 1,
+          "status": "error",
+          "route": null,
+          "pinnedLastFrame": null,
+          "prompt": {
+            "path": "actions/attack/takes/t01/prompt.txt",
+            "sha256": "71d6a806963029d4284c4683e22984d402afa0bdff39fc97460d796d067abc04"
+          },
+          "fixes": [],
+          "clip": null,
+          "failures": [],
+          "reasons": [],
+          "message": "api:heygen: failed: HeyGen video job failed; no regeneration attempted",
+          "qc": null
+        },
+        {
+          "take": 2,
+          "round": 1,
+          "status": "error",
+          "route": null,
+          "pinnedLastFrame": null,
+          "prompt": {
+            "path": "actions/attack/takes/t02/prompt.txt",
+            "sha256": "71d6a806963029d4284c4683e22984d402afa0bdff39fc97460d796d067abc04"
+          },
+          "fixes": [],
+          "clip": null,
+          "failures": [],
+          "reasons": [],
+          "message": "api:heygen: failed: HeyGen video job failed; no regeneration attempted",
+          "qc": null
+        },
+        {
+          "take": 3,
+          "round": 1,
+          "status": "error",
+          "route": null,
+          "pinnedLastFrame": null,
+          "prompt": {
+            "path": "actions/attack/takes/t03/prompt.txt",
+            "sha256": "71d6a806963029d4284c4683e22984d402afa0bdff39fc97460d796d067abc04"
+          },
+          "fixes": [],
+          "clip": null,
+          "failures": [],
+          "reasons": [],
+          "message": "api:heygen: failed: HeyGen video job failed; no regeneration attempted",
+          "qc": null
+        },
+        {
+          "take": 4,
+          "round": 1,
+          "status": "error",
+          "route": null,
+          "pinnedLastFrame": null,
+          "prompt": {
+            "path": "actions/attack/takes/t04/prompt.txt",
+            "sha256": "71d6a806963029d4284c4683e22984d402afa0bdff39fc97460d796d067abc04"
+          },
+          "fixes": [],
+          "clip": null,
+          "failures": [],
+          "reasons": [],
+          "message": "api:heygen: failed: HeyGen video job failed; no regeneration attempted",
+          "qc": null
+        }
+      ],
+      "loop": null,
+      "timing": null,
+      "finish": null,
+      "outputs": null
+    },
+    {
+      "id": "jump",
+      "action": "jump",
+      "view": "side",
+      "kind": "oneshot",
+      "status": "post-error",
+      "message": "engine_export.py package exited 1: key residue: 0 opaque key px, outer-ring spill 1.3% (limit 1%) in clip frames [0, 1, 10]; re-key the frames (video2dsprite clean with the soft matte) or pass --allow-key-residue to ship them with a recorded override",
+      "canvas": [
+        768,
+        1024
+      ],
+      "pinLastFrame": false,
+      "route": "api:heygen",
+      "chosen": {
+        "take": 1,
+        "reason": "first take that passed every gate",
+        "window": null,
+        "tag": ""
+      },
+      "accepted": {
+        "take": 1,
+        "window": null,
+        "note": "Đã xem đủ các khung và sheet cuối; động tác bật nhảy rõ, nhân vật và tỉ lệ ổn định; giữ lại với cảnh báo viền khóa màu 1.3%.",
+        "at": "2026-10-28T17:59:47.051Z",
+        "review": "review/review-001.json",
+        "sheet": {
+          "path": "review/jump/t01-sheet.png",
+          "sha256": "1303efb40bbcf648d0e973b6c160053edfe2d28d4bf0800c0ec4bb8322dcc106",
+          "bytes": 150306
+        }
+      },
+      "fixes": [],
+      "takes": [
+        {
+          "take": 1,
+          "round": 1,
+          "status": "kept",
+          "route": "api:heygen",
+          "pinnedLastFrame": false,
+          "prompt": {
+            "path": "actions/jump/takes/t01/prompt.txt",
+            "sha256": "baf63b916708f0ac7ac0af11106cbc01cc1cc641be3894b38faf8ffe2aa6f381"
+          },
+          "fixes": [],
+          "clip": {
+            "path": "actions/jump/takes/t01/media/generated.mp4",
+            "sha256": "5d96ea529d2dd709339ad42b597a6805e9a870fe79d257e9c896053fff52b60c"
+          },
+          "failures": [],
+          "reasons": [],
+          "message": null,
+          "qc": {
+            "file": "actions/jump/takes/t01/qc.json",
+            "gates": {
+              "area": {
+                "status": "pass",
+                "value": {
+                  "median": 0.9899,
+                  "min": 0.7677,
+                  "max": 1.0661
+                }
+              },
+              "feet": {
+                "status": "pass",
+                "value": 0.0103
+              },
+              "identity": {
+                "status": "pass",
+                "value": {
+                  "start": 0.9645,
+                  "min": 0.5218,
+                  "lowFrames": 0,
+                  "lostFrames": 0
+                }
+              },
+              "zoom": {
+                "status": "pass",
+                "value": {
+                  "endScale": 1.0017,
+                  "endHeight": 1.0
+                }
+              },
+              "turn": {
+                "status": "pass",
+                "value": -0.1115
+              },
+              "edge": {
+                "status": "pass",
+                "value": 0
+              },
+              "background": {
+                "status": "pass",
+                "value": {
+                  "worst": 0.0,
+                  "keyDrift": 7.0
+                }
+              },
+              "extra": {
+                "status": "pass",
+                "value": 0.0
+              },
+              "motion": {
+                "status": "pass",
+                "value": 1.694
+              },
+              "end-pose": {
+                "status": "pass",
+                "value": 0.9926
+              },
+              "colour": {
+                "status": "pass",
+                "value": {
+                  "foreignMax": 0.0105,
+                  "bledFrames": 0,
+                  "driftMax": 0.0385,
+                  "driftedFrames": 7
+                }
+              },
+              "timing": {
+                "status": "warn",
+                "value": {
+                  "actionSeconds": 2.75,
+                  "holdSeconds": 0.2083
+                }
+              }
+            },
+            "usableWindow": [
+              0,
+              124
+            ],
+            "usableFrames": 124,
+            "frames": 124,
+            "motion": {
+              "peak": 1.694,
+              "peakFrame": 51,
+              "onset": 10,
+              "settle": 72,
+              "takeoff": 45,
+              "land": 59
+            }
+          }
+        }
+      ],
+      "loop": null,
+      "timing": {
+        "tool": "retime --auto-oneshot",
+        "start": 0,
+        "endExclusive": 124,
+        "frames": 11,
+        "durationMs": 917,
+        "impactMs": null,
+        "tickHz": 60,
+        "events": [
+          {
+            "name": "in",
+            "atMs": 0,
+            "frame": 0,
+            "tick": 0
+          },
+          {
+            "name": "custom:takeoff",
+            "atMs": 167,
+            "frame": 2,
+            "tick": 10
+          },
+          {
+            "name": "custom:land",
+            "atMs": 667,
+            "frame": 8,
+            "tick": 40
+          },
+          {
+            "name": "end",
+            "atMs": 917,
+            "frame": 10,
+            "tick": 55
+          }
+        ],
+        "selection": "actions/jump/takes/t01/motion/selection.json"
+      },
+      "finish": {
+        "finisher": "finish_frames.py",
+        "mode": "hd",
+        "targetHeight": 256,
+        "scale": 0.54468085,
+        "size": [
+          362,
+          350
+        ],
+        "anchor": [
+          175.0,
+          347.0
+        ],
+        "scaleRefFrom": null
+      },
+      "outputs": null
+    },
+    {
+      "id": "hurt",
+      "action": "hurt",
+      "view": "side",
+      "kind": "oneshot",
+      "status": "post-error",
+      "message": "engine_export.py package exited 1: key residue: 0 opaque key px, outer-ring spill 1.1% (limit 1%) in clip frames [3]; re-key the frames (video2dsprite clean with the soft matte) or pass --allow-key-residue to ship them with a recorded override",
+      "canvas": [
+        1024,
+        1024
+      ],
+      "pinLastFrame": false,
+      "route": "api:heygen",
+      "chosen": {
+        "take": 2,
+        "reason": "first take that passed every gate",
+        "window": null,
+        "tag": ""
+      },
+      "accepted": {
+        "take": 2,
+        "window": null,
+        "note": "Đã xem atlas và poster; phản ứng cúi người rõ, không có vật thể rời. Chấp nhận theo QA với viền xanh còn sót 1.1% và nhịp chậm.",
+        "at": "2026-10-28T18:13:39.537Z",
+        "review": "review/review-002.json",
+        "sheet": {
+          "path": "review/hurt/t02-sheet.png",
+          "sha256": "03aaf07b65749a0e2795f4a342802d39424635aca705b291a337504cbd22342a",
+          "bytes": 155612
+        }
+      },
+      "fixes": [
+        {
+          "id": "feet-planted",
+          "text": "Both feet stay planted on the same ground line and the body stays centered in the frame; no stepping away, no sliding, no drifting.",
+          "source": "auto",
+          "take": 1,
+          "round": 1
+        },
+        {
+          "id": "in-place",
+          "text": "The character stays in the same spot and never travels across the frame; the game moves the sprite.",
+          "source": "auto",
+          "take": 1,
+          "round": 1
+        },
+        {
+          "id": "inside-frame",
+          "text": "The whole body, the weapon and every moving part stay fully inside the frame with a clear margin on every side; nothing is cut off by the frame edge.",
+          "source": "auto",
+          "take": 1,
+          "round": 1
+        },
+        {
+          "id": "no-extras",
+          "text": "Nothing else appears in the frame: no dust, no dirt, no smoke, no puffs, no pebbles, no particles, no orbs, no sparks, no flashes, no projectiles, no arrows, no motion trails, no effects of any kind.",
+          "source": "auto",
+          "take": 1,
+          "round": 1
+        },
+        {
+          "id": "starts-from-still",
+          "text": "The first frame is exactly the supplied image: the same pose, position and size; the motion starts from there.",
+          "source": "agent",
+          "round": 2
+        },
+        {
+          "id": "camera-locked",
+          "text": "Locked camera and constant character size: no zoom, no push-in, no pull-out, no pan; the character is exactly the same size in every frame, before and after the action.",
+          "source": "agent",
+          "round": 2
+        }
+      ],
+      "takes": [
+        {
+          "take": 1,
+          "round": 1,
+          "status": "rejected",
+          "route": "api:heygen",
+          "pinnedLastFrame": false,
+          "prompt": {
+            "path": "actions/hurt/takes/t01/prompt.txt",
+            "sha256": "ca801d2bec317a777f05596a100279b9bf4ff804ab2831b9cdea2cc771cf1722"
+          },
+          "fixes": [],
+          "clip": {
+            "path": "actions/hurt/takes/t01/media/generated.mp4",
+            "sha256": "e695a7f64832643b13131a0e36697f1c84c59cbaa5faa85ec6bb37086ff631be"
+          },
+          "failures": [
+            "feet",
+            "edge",
+            "extra"
+          ],
+          "reasons": [
+            "feet: feet drift up to 11.9% of the body height (limit 5%) in frames 16-19",
+            "edge: the subject touches the frame edge in frames 3-12, 15, 21-22 (cut by the generator: never pad)",
+            "extra: extra objects detached from the body in frames 3-19, 21-22 (worst 56.7% of the body area)"
+          ],
+          "message": null,
+          "qc": {
+            "file": "actions/hurt/takes/t01/qc.json",
+            "gates": {
+              "area": {
+                "status": "pass",
+                "value": {
+                  "median": 0.9995,
+                  "min": 0.8316,
+                  "max": 1.5802
+                }
+              },
+              "feet": {
+                "status": "fail",
+                "value": 0.1193
+              },
+              "identity": {
+                "status": "pass",
+                "value": {
+                  "start": 0.9348,
+                  "min": 0.6078,
+                  "lowFrames": 0,
+                  "lostFrames": 0
+                }
+              },
+              "zoom": {
+                "status": "pass",
+                "value": {
+                  "endScale": 1.0011,
+                  "endHeight": 1.0
+                }
+              },
+              "turn": {
+                "status": "pass",
+                "value": 0.0
+              },
+              "edge": {
+                "status": "fail",
+                "value": 13
+              },
+              "background": {
+                "status": "pass",
+                "value": {
+                  "worst": 0.0001,
+                  "keyDrift": 9.0554
+                }
+              },
+              "extra": {
+                "status": "fail",
+                "value": 0.5672
+              },
+              "motion": {
+                "status": "pass",
+                "value": 0.5872
+              },
+              "end-pose": {
+                "status": "pass",
+                "value": 0.99
+              },
+              "colour": {
+                "status": "pass",
+                "value": {
+                  "foreignMax": 0.2328,
+                  "bledFrames": 17,
+                  "driftMax": 0.0241,
+                  "driftedFrames": 0
+                }
+              },
+              "timing": {
+                "status": "warn",
+                "value": {
+                  "actionSeconds": 2.8333,
+                  "holdSeconds": 0.4167
+                }
+              }
+            },
+            "usableWindow": null,
+            "usableFrames": 105,
+            "frames": 124,
+            "motion": {
+              "peak": 0.5872,
+              "peakFrame": 11,
+              "onset": 3,
+              "settle": 123
+            }
+          }
+        },
+        {
+          "take": 2,
+          "round": 2,
+          "status": "kept",
+          "route": "api:heygen",
+          "pinnedLastFrame": false,
+          "prompt": {
+            "path": "actions/hurt/takes/t02/prompt.txt",
+            "sha256": "32eca42f908816469f02b14a5d0edfd7e7d7ed5cc7dfc6e70efc6c1dbdae404e"
+          },
+          "fixes": [
+            "feet-planted",
+            "in-place",
+            "inside-frame",
+            "no-extras",
+            "starts-from-still",
+            "camera-locked"
+          ],
+          "clip": {
+            "path": "actions/hurt/takes/t02/media/generated.mp4",
+            "sha256": "8b4d7bf415c98adfe58dbd9cc24b2e67dd1156891ecb60c43690cce8d1fdec57"
+          },
+          "failures": [],
+          "reasons": [],
+          "message": null,
+          "qc": {
+            "file": "actions/hurt/takes/t02/qc.json",
+            "gates": {
+              "area": {
+                "status": "pass",
+                "value": {
+                  "median": 0.9999,
+                  "min": 0.7649,
+                  "max": 1.0022
+                }
+              },
+              "feet": {
+                "status": "pass",
+                "value": 0.0459
+              },
+              "identity": {
+                "status": "pass",
+                "value": {
+                  "start": 0.9334,
+                  "min": 0.6578,
+                  "lowFrames": 0,
+                  "lostFrames": 0
+                }
+              },
+              "zoom": {
+                "status": "pass",
+                "value": {
+                  "endScale": 1.0,
+                  "endHeight": 0.9909
+                }
+              },
+              "turn": {
+                "status": "pass",
+                "value": 0.0
+              },
+              "edge": {
+                "status": "pass",
+                "value": 0
+              },
+              "background": {
+                "status": "pass",
+                "value": {
+                  "worst": 0.0,
+                  "keyDrift": 5.0
+                }
+              },
+              "extra": {
+                "status": "pass",
+                "value": 0.0
+              },
+              "motion": {
+                "status": "pass",
+                "value": 0.4963
+              },
+              "end-pose": {
+                "status": "pass",
+                "value": 0.992
+              },
+              "colour": {
+                "status": "pass",
+                "value": {
+                  "foreignMax": 0.0092,
+                  "bledFrames": 0,
+                  "driftMax": 0.0237,
+                  "driftedFrames": 0
+                }
+              },
+              "timing": {
+                "status": "warn",
+                "value": {
+                  "actionSeconds": 3.2083,
+                  "holdSeconds": 1.2083
+                }
+              }
+            },
+            "usableWindow": [
+              0,
+              124
+            ],
+            "usableFrames": 124,
+            "frames": 124,
+            "motion": {
+              "peak": 0.4963,
+              "peakFrame": 22,
+              "onset": 19,
+              "settle": 97
+            }
+          }
+        }
+      ],
+      "loop": null,
+      "timing": {
+        "tool": "retime --auto-oneshot",
+        "start": 0,
+        "endExclusive": 124,
+        "frames": 6,
+        "durationMs": 500,
+        "impactMs": null,
+        "tickHz": 60,
+        "events": [
+          {
+            "name": "in",
+            "atMs": 0,
+            "frame": 0,
+            "tick": 0
+          },
+          {
+            "name": "custom:peak",
+            "atMs": 167,
+            "frame": 2,
+            "tick": 10
+          },
+          {
+            "name": "end",
+            "atMs": 500,
+            "frame": 5,
+            "tick": 30
+          }
+        ],
+        "selection": "actions/hurt/takes/t02/motion/selection.json"
+      },
+      "finish": {
+        "finisher": "finish_frames.py",
+        "mode": "hd",
+        "targetHeight": 256,
+        "scale": 0.5481712,
+        "size": [
+          295,
+          263
+        ],
+        "anchor": [
+          160.0,
+          259.0
+        ],
+        "scaleRefFrom": "actions/idle/takes/t02/finished/finish.json"
+      },
+      "outputs": null
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "video2dsprite.sprite_set_route.v1",
+  "action": "hurt",
+  "take": 2,
+  "cli": "generate2dmedia/route_media.py",
+  "route": "api:heygen",
+  "clip": {
+    "path": "actions/hurt/takes/t02/media/generated.mp4",
+    "sha256": "8b4d7bf415c98adfe58dbd9cc24b2e67dd1156891ecb60c43690cce8d1fdec57"
+  },
+  "pinnedLastFrame": false,
+  "pinNote": null,
+  "summary": {
+    "status": "ok",
+    "route": "api:heygen",
+    "artifact": "generated.mp4",
+    "sha256": "8b4d7bf415c98adfe58dbd9cc24b2e67dd1156891ecb60c43690cce8d1fdec57",
+    "estimateUsd": 0.05,
+    "kind": "video",
+    "label": "HeyGen API (heygen-video-1)",
+    "model": "heygen-video-1",
+    "job": "job.json",
+    "lastFrameUsed": false,
+    "durationRequested": 5,
+    "durationUsed": 5
+  }
+}

@@ -48,4 +48,4 @@ Tài nguyên PNG nằm trong `AI/.Generated/Map/DangNhap/ThanhPhan/`. Chữ và 
 
 ## Tiến độ
 
-Đặc tả đã ghi; video nền và bộ 10 PNG thành phần được tích hợp theo yêu cầu ngày 2026-10-29. Scene [DangNhap.unity](../../Assets/Scenes/DangNhap.unity) dùng video lặp, hiển thị ảnh tĩnh đã duyệt trong lúc video nạp, và ghép riêng khung, logo, ô nhập, biểu tượng, nút cùng các lớp chữ. Trường Quý Danh/Mật Hiệu dùng được; nút mắt ẩn/hiện Mật Hiệu đã có xử lý. Dữ liệu máy chủ chưa có nên ô chọn dùng lời nhắc và dòng mẫu ẩn; đăng nhập, quên mật hiệu và đăng kí mới chưa nối luồng thật.
+Đặc tả đã ghi; video nền và bộ 10 PNG thành phần được tích hợp theo yêu cầu ngày 2026-10-29. Scene [DangNhap.unity](../../Assets/Scenes/DangNhap.unity) là mẫu UI/video trong Unity: dùng video lặp, ảnh tĩnh trong lúc video nạp và các lớp giao diện riêng. Trường Quý Danh/Mật Hiệu cùng nút mắt có tương tác; đăng nhập, chọn server thật, quên mật hiệu và đăng kí mới chưa nối dịch vụ. Đây chưa phải bản chơi được hay prototype online và không làm thay đổi hiện trạng bước 0.

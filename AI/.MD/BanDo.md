@@ -6,7 +6,7 @@ Máy chủ là các phiên game riêng, có cùng bộ bản đồ; không ghi m
 
 ## Hiện trạng
 
-Đã xác nhận ý tưởng cho ba bản đồ mở đầu; chưa dựng trong Unity. `Assets/Scenes/SampleScene.unity` vẫn là scene khởi tạo, chưa có nội dung map.
+Đã xác nhận ý tưởng cho ba bản đồ mở đầu. MAP-001 có bản dựng thử trong Unity tại `Assets/Scenes/ThungLungHoang.unity`; scene đăng nhập vẫn nằm riêng ở `Assets/Scenes/DangNhap.unity`.
 
 Ba bản đồ này chỉ dành cho người chơi vào; NPC xuất hiện theo diễn biến cốt truyện. Khi đến gần lối vào hoặc lối ra, hiện tên bản đồ kế tiếp.
 
@@ -21,8 +21,9 @@ Mỗi bản đồ có ba khu tân thủ, ghép người chơi theo sức mạnh 
 - **NPC / quái:** Ba quái thú linh trưởng không thể bị hạ gục. Trên đường chạy, Anh Hùng — kiếm sĩ Thiên Kiêu trong làng, danh tính chưa rõ — chặn chúng và giúp người chơi thoát. Nếu chết, người chơi hồi sinh gần đó và chạy lại.
 - **Thảo dược / vật phẩm:** Có thể xuất hiện nấm hiếm và thảo dược quý; tên và vị trí cụ thể chưa chốt.
 - **Lối vào / ra:** Người chơi xuất hiện tại đây sau khi vào thế giới. Đường vàng dẫn tới Khu Đất Sau Nhà; gần lối ra hiện tên bản đồ kế tiếp.
-- **Ảnh / hoạt ảnh:** `../.Generated/Map/ThungLungHoang/` — chưa có ảnh được duyệt. Cây lay nhẹ theo gió.
-- **Tiến độ:** Ý tưởng đã xác nhận; đang chờ thiết kế và dựng trong Unity.
+- **Ảnh / hoạt ảnh:** [Tài nguyên map](../.Generated/Map/ThungLungHoang/); người chơi có `idle/run/jump/hurt`, Anh Hùng có `idle/cast`, Khỉ đột có `idle/jump/hurt`. Bộ hoạt ảnh Khỉ đột còn thiếu xuất hiện, gào, vỗ ngực và đòn đánh.
+- **Giao diện:** HUD thử có sinh lực, mục tiêu và các nút Túi đồ, Nhân vật, Nhiệm vụ.
+- **Tiến độ:** Đã ghép bản thử có địa hình, va chạm, giới hạn camera, hậu cảnh nhiều lớp và HUD trong [scene MAP-001](../../Assets/Scenes/ThungLungHoang.unity). Ảnh chơi thử: [Map001-Final-HUD.png](../.ScreenShorts/Map001-Final-HUD.png). Cần duyệt mỹ thuật, hoàn thiện hoạt ảnh quái và chốt điểm hồi sinh/độ khó.
 
 ### MAP-002 — KhuDatSauNha
 

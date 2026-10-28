@@ -1,0 +1,438 @@
+{
+  "schemaVersion": "3.0",
+  "name": "run",
+  "sourceSize": [
+    223,
+    235
+  ],
+  "sourceAnchor": [
+    52.0,
+    231.0
+  ],
+  "inputFrameSize": [
+    223,
+    235
+  ],
+  "sourceRect": [
+    7.0,
+    1.0,
+    214.0,
+    232.0
+  ],
+  "sourceRectFormat": "x,y,width,height",
+  "encodedSize": [
+    214,
+    232
+  ],
+  "contentSize": [
+    214,
+    232
+  ],
+  "encodedAnchor": [
+    45.0,
+    230.0
+  ],
+  "registration": {
+    "mode": "fixed-envelope",
+    "legacyMode": "fixed-union-envelope"
+  },
+  "fps": 12.0,
+  "fpsRational": "12/1",
+  "frameCount": 9,
+  "durationSeconds": 0.75,
+  "loop": true,
+  "reviewStatus": "needs-visual-review",
+  "hitEvents": [],
+  "poster": {
+    "file": "run-poster.png",
+    "bytes": 31965,
+    "sha256": "ab1f9bbd8055f5b614550e72c490e75318ee9b8004ee222bcf09c86218994702"
+  },
+  "fallback": {
+    "type": "png-atlas",
+    "cellSize": [
+      214,
+      232
+    ],
+    "pages": [
+      {
+        "file": "run-atlas-00.png",
+        "bytes": 337116,
+        "sha256": "09872aedef39885ce42600b8870327307db80fbb4984bf1bbf063fc6a1139996",
+        "firstFrame": 0,
+        "frameCount": 9,
+        "columns": 8
+      }
+    ]
+  },
+  "webm": {
+    "file": "run.webm",
+    "bytes": 59362,
+    "sha256": "35f608c87268316efac3ecb02ac98436ff6c00baaac80f6a8e540ab029385701",
+    "mimeType": "video/webm",
+    "codec": "vp9",
+    "alpha": "native-vp9",
+    "pixFmt": "yuva420p",
+    "width": 214,
+    "height": 232,
+    "crf": 28,
+    "keyint": 9,
+    "keyframes": [
+      0
+    ],
+    "frameCount": 9,
+    "fps": "12/1",
+    "durationMs": 750.0,
+    "requiresAlphaPlaybackVerification": true,
+    "fullDecodePassed": true
+  },
+  "packedAlpha": {
+    "file": "run-packed.mp4",
+    "bytes": 69454,
+    "sha256": "3102cb85f381309d3929ffeab16c97d66f13408d2c1a57ce14cf681ac25e6bdd",
+    "mimeType": "video/mp4",
+    "codec": "h264",
+    "profile": "main",
+    "layout": "rgb-left-alpha-right",
+    "width": 214,
+    "height": 232,
+    "halfWidth": 214,
+    "halfHeight": 232,
+    "encodedSize": [
+      428,
+      232
+    ],
+    "requiresCompositor": true,
+    "crf": 18,
+    "keyint": 9,
+    "keyframes": [
+      0
+    ],
+    "frameCount": 9,
+    "fps": "12/1",
+    "durationMs": 750.0,
+    "closedGop": true,
+    "fullDecodePassed": true
+  },
+  "qa": {
+    "status": "needs-visual-review",
+    "method": "engine_export package: forge_matte.matte_qa key-residue gate on every packaged source frame (alpha <= 16 cleared, D18; key from flag, D17); body-bounds and premultiplied seam diagnostics; selection, registration and review bound by sha256; forge_av encoders verify packet counts and keyframes; every encoded file is decoded completely",
+    "notProven": [
+      "Visual identity, contact and gait quality: a low seam ratio or stable bounds do not prove a seamless cycle or a planted foot.",
+      "Playback of the encoded files: run engine_export.py verify to decode them and compare them with the atlas, then validate_animation.py.",
+      "Browser, Safari, WebGL or iPhone playback, decoder throughput and memory on target devices.",
+      "Key-residue thresholds were set on one clip (report v2); unusual keys or costumes need a look."
+    ],
+    "checks": [
+      {
+        "id": "opaque_key_px",
+        "value": 0,
+        "threshold": 0,
+        "status": "pass"
+      },
+      {
+        "id": "outer_ring_spill_fraction",
+        "value": 0.002339,
+        "threshold": 0.01,
+        "status": "pass"
+      },
+      {
+        "id": "semitransparent_fraction",
+        "status": "pass",
+        "value": 0.361284,
+        "threshold": null
+      },
+      {
+        "id": "enclosed_key_pockets",
+        "value": 0,
+        "threshold": 0,
+        "status": "pass"
+      },
+      {
+        "id": "blank_frames",
+        "status": "pass",
+        "value": [],
+        "threshold": []
+      },
+      {
+        "id": "edge_touch_frames",
+        "status": "pass",
+        "value": [],
+        "threshold": []
+      },
+      {
+        "id": "loop_seam_over_p95",
+        "value": 0.671869,
+        "threshold": 1.1,
+        "status": "pass"
+      },
+      {
+        "id": "selection_hashes",
+        "status": "pass",
+        "value": "5e6deee8fb1472f575fef9aeeb22de2cb6f7b3baa67a4d60bb9e49cd2a51d9cb",
+        "threshold": null
+      },
+      {
+        "id": "registration",
+        "status": "skipped",
+        "value": null,
+        "threshold": null
+      },
+      {
+        "id": "fps_cap",
+        "status": "pass",
+        "value": "12/1",
+        "threshold": "60/1"
+      },
+      {
+        "id": "review_verdict",
+        "status": "needs-visual-review",
+        "value": null,
+        "threshold": "accepted"
+      },
+      {
+        "id": "full_decode_run.webm",
+        "status": "pass",
+        "value": 9,
+        "threshold": 9
+      },
+      {
+        "id": "full_decode_run-packed.mp4",
+        "status": "pass",
+        "value": 9,
+        "threshold": 9
+      }
+    ],
+    "inputs": [
+      {
+        "path": "frame_000007.png",
+        "sha256": "be324dea1fcf65711f74d517bd867bf4fbbc2dfe20e63f531345a73f0b17414d",
+        "bytes": 32009
+      },
+      {
+        "path": "frame_000009.png",
+        "sha256": "27fb7c54b61d72179cdb71932665f284edf9c7910e31c6ecf0b4b796967fd6f2",
+        "bytes": 36046
+      },
+      {
+        "path": "frame_000011.png",
+        "sha256": "fa2619cfda4910bcab81a84412b7c7593a3616832d45b6d55f9a603faaee7fcf",
+        "bytes": 37937
+      },
+      {
+        "path": "frame_000013.png",
+        "sha256": "2b9858fdcb66fbba10d99e9230ebab2f9abbbcd704d7914565c98a321a9ab7e1",
+        "bytes": 37642
+      },
+      {
+        "path": "frame_000016.png",
+        "sha256": "02a31d19c2cde7fc878b7e030bcb694e464f2c60268e8a29fe035b3a54655000",
+        "bytes": 33575
+      },
+      {
+        "path": "frame_000018.png",
+        "sha256": "69f4d1de7871626459ad491431b9dac0b8023fbf634bd0a7f3ff2c7286d55ec6",
+        "bytes": 39800
+      },
+      {
+        "path": "frame_000020.png",
+        "sha256": "3f20f0783b72333ebe90cc78ae2c3a973684b27a1ee705ac1773b53911ab7a4f",
+        "bytes": 41662
+      },
+      {
+        "path": "frame_000022.png",
+        "sha256": "8122d63ea410bc9d71c4005523cc4f56ec1d67a547c6ab176e06ae9f113624a6",
+        "bytes": 41730
+      },
+      {
+        "path": "frame_000024.png",
+        "sha256": "e26b37a14ba11802bbfed61418562dff2a5241c0eb1d2745499423fe1dc5f7b5",
+        "bytes": 37022
+      },
+      {
+        "path": "selection.json",
+        "sha256": "5e6deee8fb1472f575fef9aeeb22de2cb6f7b3baa67a4d60bb9e49cd2a51d9cb",
+        "bytes": 3129
+      }
+    ],
+    "outputs": [
+      {
+        "path": "run-poster.png",
+        "sha256": "ab1f9bbd8055f5b614550e72c490e75318ee9b8004ee222bcf09c86218994702",
+        "bytes": 31965
+      },
+      {
+        "path": "run-atlas-00.png",
+        "sha256": "09872aedef39885ce42600b8870327307db80fbb4984bf1bbf063fc6a1139996",
+        "bytes": 337116
+      },
+      {
+        "path": "run.webm",
+        "sha256": "35f608c87268316efac3ecb02ac98436ff6c00baaac80f6a8e540ab029385701",
+        "bytes": 59362
+      },
+      {
+        "path": "run-packed.mp4",
+        "sha256": "3102cb85f381309d3929ffeab16c97d66f13408d2c1a57ce14cf681ac25e6bdd",
+        "bytes": 69454
+      }
+    ],
+    "tool": {
+      "name": "engine_export.py",
+      "version": "0.4.0"
+    },
+    "loopRequested": true,
+    "frameCount": 9,
+    "durationSeconds": 0.75,
+    "blankFrames": [],
+    "edgeTouchFrames": [],
+    "boundsBottomSpanPx": 28,
+    "boundsCenterXSpanPx": 18.5,
+    "seamPremultipliedMAE": 0.072019,
+    "adjacentMedianMAE": 0.099493,
+    "seamToMedianRatio": 0.724,
+    "adjacentMaxMAE": 0.108678,
+    "notes": [
+      "Bounds bottom is a contact-drift proxy, not a tracked foot/root.",
+      "A similar first/last frame does not prove a seamless cycle or stable identity.",
+      "Airborne poses may legitimately change bottom position; review at runtime scale."
+    ],
+    "keyResidue": {
+      "key": [
+        0,
+        0,
+        255
+      ],
+      "framesMeasured": 9,
+      "opaqueKeyPx": 0,
+      "framesWithOpaqueKey": [],
+      "maxOuterRingSpillFraction": 0.002339,
+      "framesOverRingSpill": [],
+      "maxSemitransparentFraction": 0.361284,
+      "minSemitransparentFraction": 0.301005,
+      "enclosedKeyPockets": 0,
+      "keyHuedPx": 0,
+      "limits": {
+        "opaqueKeyPx": 0,
+        "outerRingSpillFraction": 0.01
+      },
+      "thresholds": {
+        "key_tolerance": 48.0,
+        "spill_threshold": 20.0,
+        "min_pocket_area": 16,
+        "opaque_alpha": 128,
+        "spill_hue_balance": 0.5,
+        "alpha_floor": 16
+      },
+      "method": "forge_matte.matte_qa v1: straight-colour key distance and dominance on the keyed image; two-channel keys count spill only where the key channels are balanced; each frame measured on a copy with alpha <= 16 cleared, so invisible resampling halo is not counted (D18)"
+    },
+    "allowKeyResidue": false,
+    "keySource": "flag",
+    "seamReport": {
+      "frames": 9,
+      "seam": 19.701052,
+      "adjacent_median": 27.028454,
+      "adjacent_p95": 29.322771,
+      "adjacent_max": 29.519999,
+      "seam_over_median": 0.7289,
+      "seam_over_p95": 0.671869,
+      "method": "premultiplied RGBA mean absolute difference (0-255); seam = last -> first"
+    }
+  },
+  "inputFrames": [
+    {
+      "file": "frame_000007.png",
+      "bytes": 32009,
+      "sha256": "be324dea1fcf65711f74d517bd867bf4fbbc2dfe20e63f531345a73f0b17414d"
+    },
+    {
+      "file": "frame_000009.png",
+      "bytes": 36046,
+      "sha256": "27fb7c54b61d72179cdb71932665f284edf9c7910e31c6ecf0b4b796967fd6f2"
+    },
+    {
+      "file": "frame_000011.png",
+      "bytes": 37937,
+      "sha256": "fa2619cfda4910bcab81a84412b7c7593a3616832d45b6d55f9a603faaee7fcf"
+    },
+    {
+      "file": "frame_000013.png",
+      "bytes": 37642,
+      "sha256": "2b9858fdcb66fbba10d99e9230ebab2f9abbbcd704d7914565c98a321a9ab7e1"
+    },
+    {
+      "file": "frame_000016.png",
+      "bytes": 33575,
+      "sha256": "02a31d19c2cde7fc878b7e030bcb694e464f2c60268e8a29fe035b3a54655000"
+    },
+    {
+      "file": "frame_000018.png",
+      "bytes": 39800,
+      "sha256": "69f4d1de7871626459ad491431b9dac0b8023fbf634bd0a7f3ff2c7286d55ec6"
+    },
+    {
+      "file": "frame_000020.png",
+      "bytes": 41662,
+      "sha256": "3f20f0783b72333ebe90cc78ae2c3a973684b27a1ee705ac1773b53911ab7a4f"
+    },
+    {
+      "file": "frame_000022.png",
+      "bytes": 41730,
+      "sha256": "8122d63ea410bc9d71c4005523cc4f56ec1d67a547c6ab176e06ae9f113624a6"
+    },
+    {
+      "file": "frame_000024.png",
+      "bytes": 37022,
+      "sha256": "e26b37a14ba11802bbfed61418562dff2a5241c0eb1d2745499423fe1dc5f7b5"
+    }
+  ],
+  "runtimeNotes": [
+    "Game logic owns hit timings, damage and root motion.",
+    "Packed MP4 has no native alpha; reconstruct RGB and alpha before displaying.",
+    "Keep sourceSize/sourceAnchor for world geometry when selecting smaller media.",
+    "Use the PNG poster until a decoded first frame exists; preload only current scene actions.",
+    "Packed halves are padded to even sizes: crop RGB at (0, 0, width, height) and alpha (red) at (halfWidth, 0, width, height).",
+    "durationsMs is the timeline; fps/fpsRational is the constant rate of the video transports."
+  ],
+  "sourceIndices": [
+    7,
+    9,
+    11,
+    13,
+    16,
+    18,
+    20,
+    22,
+    24
+  ],
+  "durationsMs": [
+    83,
+    84,
+    83,
+    83,
+    84,
+    83,
+    83,
+    84,
+    83
+  ],
+  "loopPolicy": "cycle",
+  "events": [
+    {
+      "name": "in",
+      "atMs": 0,
+      "frame": 0
+    },
+    {
+      "name": "end",
+      "atMs": 750,
+      "frame": 8
+    }
+  ],
+  "sampling": "linear",
+  "pixelArt": false,
+  "bodyHeightPx": 256.0,
+  "provenanceFile": "provenance.json",
+  "artSource": "video",
+  "placeholder": false
+}

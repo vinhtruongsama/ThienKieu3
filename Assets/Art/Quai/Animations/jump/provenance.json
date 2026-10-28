@@ -1,0 +1,128 @@
+{
+  "schema": "video2dsprite.provenance.v1",
+  "tool": "engine_export.py",
+  "version": "0.4.0",
+  "params": {
+    "name": "jump",
+    "formats": [
+      "png"
+    ],
+    "maxSide": 362,
+    "cropUnion": true,
+    "fps": null,
+    "loopPolicy": "oneshot",
+    "tiers": [],
+    "resampler": "lanczos",
+    "pixelArt": false,
+    "key": [
+      0,
+      0,
+      255
+    ],
+    "keySource": "flag",
+    "allowKeyResidue": true,
+    "crfWebm": 28,
+    "crfPacked": 18,
+    "sourceSize": [
+      362,
+      350
+    ],
+    "sourceAnchor": [
+      175.0,
+      347.0
+    ],
+    "actionPadding": null,
+    "tickExpansion": null,
+    "engineExport": "3.0.0"
+  },
+  "inputs": [
+    {
+      "path": "frame_000008.png",
+      "sha256": "933d89624b8c5059cc479919ac801179d3055b35b27c979a1f933004e200cc3e",
+      "bytes": 118463,
+      "role": "frame"
+    },
+    {
+      "path": "frame_000026.png",
+      "sha256": "e1e58810aeb3fe12ead074075ca4f51d14d68ac5073881bf3cd2c90ddb1acd63",
+      "bytes": 117817,
+      "role": "frame"
+    },
+    {
+      "path": "frame_000045.png",
+      "sha256": "6d041f7a24e9e4b021f89510a5e935f8e5197d74336119076ad4f7666a4f31bd",
+      "bytes": 111339,
+      "role": "frame"
+    },
+    {
+      "path": "frame_000047.png",
+      "sha256": "744f43bdd2c22cdcb8c631f64c7ebd44e3458e2acb71a318bed2360eb5296d56",
+      "bytes": 106929,
+      "role": "frame"
+    },
+    {
+      "path": "frame_000050.png",
+      "sha256": "3fe6d003133ab6631241ed4652a1e6415ed9738b8894353e518a2b364f7e20dd",
+      "bytes": 99928,
+      "role": "frame"
+    },
+    {
+      "path": "frame_000052.png",
+      "sha256": "a897c86ac863e97192e35c0f2608e896c1f3c12c7b4184948ea27b5ff3baff38",
+      "bytes": 98507,
+      "role": "frame"
+    },
+    {
+      "path": "frame_000054.png",
+      "sha256": "79c3a94a9820230aaf1ffd6f23dcceed276414bba5fec324f0c23fb706bfc74b",
+      "bytes": 95949,
+      "role": "frame"
+    },
+    {
+      "path": "frame_000057.png",
+      "sha256": "fd2f551585f0354f7455617a686463eee35b08caa5a35e1b6a0d5f382ef84fac",
+      "bytes": 103264,
+      "role": "frame"
+    },
+    {
+      "path": "frame_000059.png",
+      "sha256": "356328020c2b31edd12a25c7107f97679277643dca9dbe8bcc05dc4a09084720",
+      "bytes": 106514,
+      "role": "frame"
+    },
+    {
+      "path": "frame_000066.png",
+      "sha256": "cd488726d1f8cf925c692678fc7470c1055cb7478bc8b96cd2e828f1d9af4b3a",
+      "bytes": 93256,
+      "role": "frame"
+    },
+    {
+      "path": "frame_000073.png",
+      "sha256": "3fb6f12b7eb90b3aba60c20180aacd08416d080c0dbe8badfbbfaa40ac643101",
+      "bytes": 119811,
+      "role": "frame"
+    },
+    {
+      "path": "selection.json",
+      "sha256": "31a57ea831dc9defcf82fcb90b9962851e98ba365e7c85a4591b0f0495283f2f",
+      "bytes": 14218,
+      "role": "selection"
+    }
+  ],
+  "inputDigest": "b44cace080dd741287bcd54e4b4fc1098e9b025ce538a47d2f928ac2bad62211",
+  "libraries": {
+    "forge_core": "1.1",
+    "forge_matte": "1.1",
+    "forge_av": "1"
+  },
+  "inputDirectory": "../finished/frames",
+  "selection": {
+    "schema": "forge-frame-selection/v2",
+    "start": 0,
+    "endExclusive": 124,
+    "status": "selected-needs-visual-review",
+    "method": "retime --auto-oneshot: range 0:124, motion 8-73 (66 source frames, 5 static hold frames cut), keys takeoff@2, land@8; 11 frames, 917 ms on 60 Hz ticks; rebound 1:1 to the finished frames (sprite_set)",
+    "loopPolicy": "oneshot",
+    "sha256": "31a57ea831dc9defcf82fcb90b9962851e98ba365e7c85a4591b0f0495283f2f"
+  }
+}

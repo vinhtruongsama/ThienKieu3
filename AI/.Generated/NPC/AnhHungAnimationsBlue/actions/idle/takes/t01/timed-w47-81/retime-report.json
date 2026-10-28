@@ -1,0 +1,201 @@
+{
+  "schema": "video2dsprite.retime_report.v1",
+  "tool": {
+    "name": "retime",
+    "version": "0.4.0"
+  },
+  "frames": {
+    "directory": "../registered-w47-81/frames",
+    "count": 34,
+    "fps": "24/1"
+  },
+  "kind": "idle",
+  "policy": "pingpong",
+  "source": "range 0:17 sampled to 9",
+  "map": null,
+  "cadence": null,
+  "timeline": [
+    {
+      "frame": 0,
+      "sourceIndex": 0,
+      "startMs": 0,
+      "durationMs": 83,
+      "ticks": 5,
+      "startTick": 0
+    },
+    {
+      "frame": 1,
+      "sourceIndex": 2,
+      "startMs": 83,
+      "durationMs": 84,
+      "ticks": 5,
+      "startTick": 5
+    },
+    {
+      "frame": 2,
+      "sourceIndex": 4,
+      "startMs": 167,
+      "durationMs": 83,
+      "ticks": 5,
+      "startTick": 10
+    },
+    {
+      "frame": 3,
+      "sourceIndex": 6,
+      "startMs": 250,
+      "durationMs": 83,
+      "ticks": 5,
+      "startTick": 15
+    },
+    {
+      "frame": 4,
+      "sourceIndex": 8,
+      "startMs": 333,
+      "durationMs": 84,
+      "ticks": 5,
+      "startTick": 20
+    },
+    {
+      "frame": 5,
+      "sourceIndex": 10,
+      "startMs": 417,
+      "durationMs": 83,
+      "ticks": 5,
+      "startTick": 25
+    },
+    {
+      "frame": 6,
+      "sourceIndex": 12,
+      "startMs": 500,
+      "durationMs": 83,
+      "ticks": 5,
+      "startTick": 30
+    },
+    {
+      "frame": 7,
+      "sourceIndex": 14,
+      "startMs": 583,
+      "durationMs": 84,
+      "ticks": 5,
+      "startTick": 35
+    },
+    {
+      "frame": 8,
+      "sourceIndex": 16,
+      "startMs": 667,
+      "durationMs": 83,
+      "ticks": 5,
+      "startTick": 40
+    }
+  ],
+  "events": [
+    {
+      "name": "in",
+      "atMs": 0,
+      "frame": 0,
+      "tick": 0
+    },
+    {
+      "name": "end",
+      "atMs": 750,
+      "frame": 8,
+      "tick": 45
+    }
+  ],
+  "suggestedContact": null,
+  "rules": [],
+  "qa": {
+    "status": "needs-visual-review",
+    "method": "retime: range 0:17 sampled to 9; 9 frames, 750 ms on 60 Hz ticks",
+    "notProven": [
+      "foot contact, sliding and ground penetration",
+      "hand, hair, scarf or prop identity drift between frames",
+      "art quality, anatomy and facing",
+      "left/right alternation beyond the pixel evidence reported here"
+    ],
+    "checks": [
+      {
+        "id": "durations-sum",
+        "status": "pass",
+        "value": 750,
+        "threshold": 750
+      },
+      {
+        "id": "integer-durations",
+        "status": "pass",
+        "value": 83,
+        "threshold": 1
+      },
+      {
+        "id": "policy-rules",
+        "status": "pass",
+        "value": [
+          "none for this kind"
+        ]
+      },
+      {
+        "id": "visual-review",
+        "status": "needs-visual-review",
+        "value": null
+      }
+    ],
+    "inputs": [
+      {
+        "path": "../registered-w47-81/frames/frame_000000.png",
+        "sha256": "bab4f8609536be2d9f6aea7f47e8038b77d38866c1175283ca37c87f8d1a0806",
+        "bytes": 434984
+      },
+      {
+        "path": "../registered-w47-81/frames/frame_000002.png",
+        "sha256": "3442d6006dfc098567076cee5cbf86688e4fbfe1207ab203586fc5ace92e9cf1",
+        "bytes": 435106
+      },
+      {
+        "path": "../registered-w47-81/frames/frame_000004.png",
+        "sha256": "43e4cb27fa2cdd5befdacb3f1a34f9183c738b3ca06d4e565cf971868ea1bf73",
+        "bytes": 438404
+      },
+      {
+        "path": "../registered-w47-81/frames/frame_000006.png",
+        "sha256": "a89e89a56597fc9fe84b40631a8f4f2f658bf642efcead6bdbcff9e94b1a5871",
+        "bytes": 435362
+      },
+      {
+        "path": "../registered-w47-81/frames/frame_000008.png",
+        "sha256": "f85e2a422a19ce97802e0a29ff2eea53d6eed2ced25019eda2f26dc9d7226680",
+        "bytes": 439486
+      },
+      {
+        "path": "../registered-w47-81/frames/frame_000010.png",
+        "sha256": "24552c65504e81563d4eed11a1107a1d41e2c27231cb6cecf5c51b8fa4624670",
+        "bytes": 447626
+      },
+      {
+        "path": "../registered-w47-81/frames/frame_000012.png",
+        "sha256": "967a0157d26e8285e5dcceee0f4054e3013663ade99e4af4d514f9d759e9e5ab",
+        "bytes": 450395
+      },
+      {
+        "path": "../registered-w47-81/frames/frame_000014.png",
+        "sha256": "316491fc16a678420a9da3bb58f83307a3df9ccfa89fa599baf9eb31fbe9b2f3",
+        "bytes": 451375
+      },
+      {
+        "path": "../registered-w47-81/frames/frame_000016.png",
+        "sha256": "61a371e8fc372c049e4a705d42d229b80a6bcf37055a2cee8335449367908682",
+        "bytes": 448700
+      }
+    ],
+    "outputs": [
+      {
+        "path": "selection.json",
+        "sha256": "cfbe580f72985cc8cbdbb8d5d0a1a56f0dfa869a19d856b674a6ff415dfa1c7a",
+        "bytes": 2625
+      }
+    ],
+    "tool": {
+      "name": "retime",
+      "version": "0.4.0"
+    }
+  }
+}

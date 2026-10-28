@@ -6,7 +6,9 @@
 |---|---|
 | `../AGENTS.md` | Quy tắc thực hiện và phong cách |
 | `.MD/NenTangGame.md` | Game là gì, tiến độ và STYLE MASTER |
+| `.MD/ChienLuocPhatTrien.md` | Chiến lược, lộ trình và điều kiện qua từng bước |
 | `.MD/BanDo.md` | Mô tả từng bản đồ và liên kết tài nguyên |
+| `.MD/KeHoachMAP001.md` | Bố cục và kế hoạch phát triển Thung Lũng Hoang |
 | `.MD/img_Order.md` | Ảnh/tài nguyên còn thiếu hoặc chờ duyệt |
 | `.MD/DangNhap.md` | Đặc tả màn hình đăng nhập và chuyển cảnh |
 | `.MD/TaoNhanVat.md` | Đặc tả màn hình chọn và tạo nhân vật |

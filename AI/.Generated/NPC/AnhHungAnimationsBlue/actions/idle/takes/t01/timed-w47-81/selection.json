@@ -1,0 +1,98 @@
+{
+  "schema": "forge-frame-selection/v2",
+  "sourceDirectory": "../registered-w47-81/frames",
+  "sourceHashes": [
+    "bab4f8609536be2d9f6aea7f47e8038b77d38866c1175283ca37c87f8d1a0806",
+    "62583f28a6f48e122464993d052fe7c47a217e3b43ab4db22b2397b4b5f1fb11",
+    "3442d6006dfc098567076cee5cbf86688e4fbfe1207ab203586fc5ace92e9cf1",
+    "4fc2918296c09b959ec171b390a41a522bd35426a40e302a402379981e45e4f9",
+    "43e4cb27fa2cdd5befdacb3f1a34f9183c738b3ca06d4e565cf971868ea1bf73",
+    "4abf12c6eb33403fca5c67b16841bd0c488e7463273da06e0f7a1d274e027fbf",
+    "a89e89a56597fc9fe84b40631a8f4f2f658bf642efcead6bdbcff9e94b1a5871",
+    "01aa20989878038b27863183bcf83acb2395eacbe4375bbe28eabd30db8ca83d",
+    "f85e2a422a19ce97802e0a29ff2eea53d6eed2ced25019eda2f26dc9d7226680",
+    "2421f3ea2ecbe9179c37ef590dbb2836c2acf80dacdca3b88b19471c3fbd01af",
+    "24552c65504e81563d4eed11a1107a1d41e2c27231cb6cecf5c51b8fa4624670",
+    "f56fbb9439a1968b491e01d5b4f6223411dcfd2410f8621affd5386dbf8fa10a",
+    "967a0157d26e8285e5dcceee0f4054e3013663ade99e4af4d514f9d759e9e5ab",
+    "b304c4aaf2ada2d56592d55de835bf240e98ce84035f65d123b5cfd2fe0fdd3a",
+    "316491fc16a678420a9da3bb58f83307a3df9ccfa89fa599baf9eb31fbe9b2f3",
+    "21a7864305c7753900d5b23809bb3b73ee260112bce9e1405fbfa24fb259bb57",
+    "61a371e8fc372c049e4a705d42d229b80a6bcf37055a2cee8335449367908682"
+  ],
+  "sourceFiles": [
+    "frame_000000.png",
+    "frame_000001.png",
+    "frame_000002.png",
+    "frame_000003.png",
+    "frame_000004.png",
+    "frame_000005.png",
+    "frame_000006.png",
+    "frame_000007.png",
+    "frame_000008.png",
+    "frame_000009.png",
+    "frame_000010.png",
+    "frame_000011.png",
+    "frame_000012.png",
+    "frame_000013.png",
+    "frame_000014.png",
+    "frame_000015.png",
+    "frame_000016.png"
+  ],
+  "start": 0,
+  "endExclusive": 17,
+  "sourceIndices": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16
+  ],
+  "durations_ms": [
+    83,
+    84,
+    83,
+    83,
+    84,
+    83,
+    83,
+    84,
+    83
+  ],
+  "fps": "24/1",
+  "loopPolicy": "pingpong",
+  "events": [
+    {
+      "name": "in",
+      "atMs": 0,
+      "frame": 0,
+      "tick": 0
+    },
+    {
+      "name": "end",
+      "atMs": 750,
+      "frame": 8,
+      "tick": 45
+    }
+  ],
+  "status": "selected-needs-visual-review",
+  "reviewReason": "Check the retimed clip at speed: the impact and hold frames, the recovery and the contact frame are pixel suggestions, not approval.",
+  "method": "retime: range 0:17 sampled to 9; 9 frames, 750 ms on 60 Hz ticks",
+  "kind": "idle",
+  "ticks": [
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "tickHz": 60
+}

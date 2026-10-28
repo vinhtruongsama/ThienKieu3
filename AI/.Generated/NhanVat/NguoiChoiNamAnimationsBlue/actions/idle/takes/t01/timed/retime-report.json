@@ -1,0 +1,305 @@
+{
+  "schema": "video2dsprite.retime_report.v1",
+  "tool": {
+    "name": "retime",
+    "version": "0.4.0"
+  },
+  "frames": {
+    "directory": "../registered/frames",
+    "count": 124,
+    "fps": "24/1"
+  },
+  "kind": "idle",
+  "policy": "pingpong",
+  "source": "range 0:34 sampled to 17",
+  "map": null,
+  "cadence": null,
+  "timeline": [
+    {
+      "frame": 0,
+      "sourceIndex": 0,
+      "startMs": 0,
+      "durationMs": 83,
+      "ticks": 5,
+      "startTick": 0
+    },
+    {
+      "frame": 1,
+      "sourceIndex": 2,
+      "startMs": 83,
+      "durationMs": 84,
+      "ticks": 5,
+      "startTick": 5
+    },
+    {
+      "frame": 2,
+      "sourceIndex": 4,
+      "startMs": 167,
+      "durationMs": 83,
+      "ticks": 5,
+      "startTick": 10
+    },
+    {
+      "frame": 3,
+      "sourceIndex": 6,
+      "startMs": 250,
+      "durationMs": 83,
+      "ticks": 5,
+      "startTick": 15
+    },
+    {
+      "frame": 4,
+      "sourceIndex": 8,
+      "startMs": 333,
+      "durationMs": 84,
+      "ticks": 5,
+      "startTick": 20
+    },
+    {
+      "frame": 5,
+      "sourceIndex": 10,
+      "startMs": 417,
+      "durationMs": 83,
+      "ticks": 5,
+      "startTick": 25
+    },
+    {
+      "frame": 6,
+      "sourceIndex": 12,
+      "startMs": 500,
+      "durationMs": 83,
+      "ticks": 5,
+      "startTick": 30
+    },
+    {
+      "frame": 7,
+      "sourceIndex": 14,
+      "startMs": 583,
+      "durationMs": 84,
+      "ticks": 5,
+      "startTick": 35
+    },
+    {
+      "frame": 8,
+      "sourceIndex": 17,
+      "startMs": 667,
+      "durationMs": 83,
+      "ticks": 5,
+      "startTick": 40
+    },
+    {
+      "frame": 9,
+      "sourceIndex": 19,
+      "startMs": 750,
+      "durationMs": 83,
+      "ticks": 5,
+      "startTick": 45
+    },
+    {
+      "frame": 10,
+      "sourceIndex": 21,
+      "startMs": 833,
+      "durationMs": 84,
+      "ticks": 5,
+      "startTick": 50
+    },
+    {
+      "frame": 11,
+      "sourceIndex": 23,
+      "startMs": 917,
+      "durationMs": 83,
+      "ticks": 5,
+      "startTick": 55
+    },
+    {
+      "frame": 12,
+      "sourceIndex": 25,
+      "startMs": 1000,
+      "durationMs": 83,
+      "ticks": 5,
+      "startTick": 60
+    },
+    {
+      "frame": 13,
+      "sourceIndex": 27,
+      "startMs": 1083,
+      "durationMs": 84,
+      "ticks": 5,
+      "startTick": 65
+    },
+    {
+      "frame": 14,
+      "sourceIndex": 29,
+      "startMs": 1167,
+      "durationMs": 83,
+      "ticks": 5,
+      "startTick": 70
+    },
+    {
+      "frame": 15,
+      "sourceIndex": 31,
+      "startMs": 1250,
+      "durationMs": 83,
+      "ticks": 5,
+      "startTick": 75
+    },
+    {
+      "frame": 16,
+      "sourceIndex": 33,
+      "startMs": 1333,
+      "durationMs": 84,
+      "ticks": 5,
+      "startTick": 80
+    }
+  ],
+  "events": [
+    {
+      "name": "in",
+      "atMs": 0,
+      "frame": 0,
+      "tick": 0
+    },
+    {
+      "name": "end",
+      "atMs": 1417,
+      "frame": 16,
+      "tick": 85
+    }
+  ],
+  "suggestedContact": null,
+  "rules": [],
+  "qa": {
+    "status": "needs-visual-review",
+    "method": "retime: range 0:34 sampled to 17; 17 frames, 1417 ms on 60 Hz ticks",
+    "notProven": [
+      "foot contact, sliding and ground penetration",
+      "hand, hair, scarf or prop identity drift between frames",
+      "art quality, anatomy and facing",
+      "left/right alternation beyond the pixel evidence reported here"
+    ],
+    "checks": [
+      {
+        "id": "durations-sum",
+        "status": "pass",
+        "value": 1417,
+        "threshold": 1417
+      },
+      {
+        "id": "integer-durations",
+        "status": "pass",
+        "value": 83,
+        "threshold": 1
+      },
+      {
+        "id": "policy-rules",
+        "status": "pass",
+        "value": [
+          "none for this kind"
+        ]
+      },
+      {
+        "id": "visual-review",
+        "status": "needs-visual-review",
+        "value": null
+      }
+    ],
+    "inputs": [
+      {
+        "path": "../registered/frames/frame_000000.png",
+        "sha256": "ecc2119ef2f8334c21fb201817086f12dd43f857fb979a57b83eff0996e1ef07",
+        "bytes": 263962
+      },
+      {
+        "path": "../registered/frames/frame_000002.png",
+        "sha256": "ef8731ceb37720f7ecacc1f7c5246e59ae260f2d2587edabeb92ce69f2c59462",
+        "bytes": 263936
+      },
+      {
+        "path": "../registered/frames/frame_000004.png",
+        "sha256": "831804ba7e9d14bd3e2826d2c562fad2c0bd9571692de02172db2d3bdcfb049c",
+        "bytes": 264906
+      },
+      {
+        "path": "../registered/frames/frame_000006.png",
+        "sha256": "61dcb00a137ea863b947ca0beeaaa6e7e9c9225e4605b533e0a07dbfc6e94be8",
+        "bytes": 263746
+      },
+      {
+        "path": "../registered/frames/frame_000008.png",
+        "sha256": "ff34468e745748e98f14cf8de22adf3bb34ebcd34ad4a9e60ce4794772d3f2b0",
+        "bytes": 264725
+      },
+      {
+        "path": "../registered/frames/frame_000010.png",
+        "sha256": "63deb17140ac037b778a547bf388df64684f6a20921958625b00d3f34bde45c1",
+        "bytes": 262270
+      },
+      {
+        "path": "../registered/frames/frame_000012.png",
+        "sha256": "ef905d26e0317367070b4cbb5c9f35ecee51b41e892a3ae4d08d944f7c148aad",
+        "bytes": 265423
+      },
+      {
+        "path": "../registered/frames/frame_000014.png",
+        "sha256": "2706ef7009ddf8198135007eb17e7bbbb411a68fbc940b9c9afa280609401d07",
+        "bytes": 264906
+      },
+      {
+        "path": "../registered/frames/frame_000017.png",
+        "sha256": "eced8a34024c4b0808d0910b2c8579e1f5937fb4bbd0aba1a9ecb31c8d99578b",
+        "bytes": 264915
+      },
+      {
+        "path": "../registered/frames/frame_000019.png",
+        "sha256": "87f6c040bd80ef020012964008619816e4053d994cf29d362d6b1270a705d86a",
+        "bytes": 265580
+      },
+      {
+        "path": "../registered/frames/frame_000021.png",
+        "sha256": "f0091e3a012eea82440b7761895e6d18be1ebbb6640da62d817fe8edd81042cb",
+        "bytes": 270584
+      },
+      {
+        "path": "../registered/frames/frame_000023.png",
+        "sha256": "d799972f1290da1fc43b585c7348527039582839a5a20a927f83e719bb8c71ce",
+        "bytes": 281317
+      },
+      {
+        "path": "../registered/frames/frame_000025.png",
+        "sha256": "8049fcacaaa0cc8b580d6dd422e3d14f05e7b25dbcd77409239a736348fa6683",
+        "bytes": 283295
+      },
+      {
+        "path": "../registered/frames/frame_000027.png",
+        "sha256": "a924efbcb4f886ab98a5899ec0d0d01679099bc58f6180b893b399610b91b42d",
+        "bytes": 285188
+      },
+      {
+        "path": "../registered/frames/frame_000029.png",
+        "sha256": "80ade616b07c859617e28321ee49cbfcc7e9eda724519b2807e663647da52527",
+        "bytes": 286115
+      },
+      {
+        "path": "../registered/frames/frame_000031.png",
+        "sha256": "27fda3ee3de5182bcb39a037f1879ed035b2278424276d80d3d767809ea9184b",
+        "bytes": 286277
+      },
+      {
+        "path": "../registered/frames/frame_000033.png",
+        "sha256": "5f888ee53977f622052adb548be94971f84df9edeefdfb70c3c52424ea7abca8",
+        "bytes": 286367
+      }
+    ],
+    "outputs": [
+      {
+        "path": "selection.json",
+        "sha256": "0e27279ae198308a2742899f4326f75965f88d54764ec6e671f07c52f444818f",
+        "bytes": 4439
+      }
+    ],
+    "tool": {
+      "name": "retime",
+      "version": "0.4.0"
+    }
+  }
+}

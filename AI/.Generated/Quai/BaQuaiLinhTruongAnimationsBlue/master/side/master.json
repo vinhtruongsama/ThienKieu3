@@ -1,0 +1,170 @@
+{
+  "schema": "generate2dsprite.master.v1",
+  "tool": {
+    "name": "master_still",
+    "version": "0.4.0"
+  },
+  "created": "2026-10-28T17:41:36.680Z",
+  "name": "BaQuaiLinhTruong",
+  "subject": "a large red-maned gorilla beast, full-body",
+  "identity_recap": "same large dark brown gorilla with a thick reddish mane, pale face and chest, powerful forearms and a low side-facing crouch",
+  "facing": "right",
+  "view": "side view (profile to three-quarter)",
+  "finish": "hd",
+  "class": "mob",
+  "framing": {
+    "canvas": [
+      1024,
+      1024
+    ],
+    "subject_height_px": 471,
+    "top_margin_px": 406,
+    "lead_px": 100,
+    "preset": "mob",
+    "subject_bbox": [
+      147,
+      406,
+      677,
+      877
+    ],
+    "anchor": [
+      424.0,
+      877.0
+    ],
+    "opaque_area_px": 160136,
+    "width_limited": false
+  },
+  "key": "#0000FF",
+  "files": {
+    "master": {
+      "path": "master.png",
+      "sha256": "01de61ac234238b9d7f88bd1019016d5ade64cd5fb00522d7ea8c3f5ffdc1222",
+      "bytes": 321711,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "cutout": {
+      "path": "master_rgba.png",
+      "sha256": "82846e3338bd78629443a3d43cee37e89b6e2b118560e21246ff15227010697f",
+      "bytes": 377241,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "source": {
+      "path": "source.png",
+      "sha256": "0593e3e39ceb96d5f7c8e93389441763bee25c6f0ff1247201d2dd5f98829e97",
+      "bytes": 1967460,
+      "size": [
+        1536,
+        1024
+      ]
+    },
+    "spec": {
+      "path": "spec.json",
+      "sha256": "293aa616fa67962baf688427ad011ae0a933d50e7aebb8188329c93238b13873",
+      "bytes": 849
+    },
+    "prompt": null
+  },
+  "references": [],
+  "transform": {
+    "mapping": "master = scale * source + offset (continuous pixel coordinates: pixel i spans [i, i + 1))",
+    "source_size": [
+      1536,
+      1024
+    ],
+    "source_subject_bbox": [
+      203,
+      7,
+      1307,
+      988
+    ],
+    "crop_box": [
+      197,
+      1,
+      1313,
+      994
+    ],
+    "crop_margin_px": 6,
+    "scale": 0.4801223241590214,
+    "offset": [
+      49.50764525993884,
+      402.6391437308869
+    ],
+    "canvas": [
+      1024,
+      1024
+    ],
+    "resampler": "box",
+    "premultiplied": true,
+    "alpha_floor_px": 3796,
+    "subject_parts": 1,
+    "ignored_parts": 2,
+    "ignored_px": 2,
+    "source_touches": [],
+    "key_rgb": [
+      0,
+      0,
+      255
+    ]
+  },
+  "route": "host-image_gen",
+  "provenance": {
+    "command": "external",
+    "run": null,
+    "take": null,
+    "source_name": "BaQuaiLinhTruongMaster.png",
+    "source_sha256": "0593e3e39ceb96d5f7c8e93389441763bee25c6f0ff1247201d2dd5f98829e97",
+    "media": null,
+    "media_cli_source": null,
+    "edit": null
+  },
+  "matte": {
+    "requested": "soft",
+    "key_estimate": {
+      "key": [
+        0.0,
+        0.0,
+        255.0
+      ],
+      "source": "native_alpha",
+      "valid": false,
+      "ring_share": 0.0,
+      "coverage": 0.0,
+      "distance_from_declared": 0.0
+    },
+    "quality": "native_alpha",
+    "qa": {
+      "key": [
+        0.0,
+        0.0,
+        255.0
+      ],
+      "opaque_key_px": 0,
+      "outer_ring_spill_fraction": 0.0,
+      "semitransparent_fraction": 1.0,
+      "enclosed_key_pockets": 0,
+      "key_hued_px": 0,
+      "visible_px": 720455,
+      "outer_ring_px": 9467,
+      "thresholds": {
+        "key_tolerance": 48.0,
+        "spill_threshold": 20.0,
+        "min_pocket_area": 16,
+        "opaque_alpha": 128,
+        "spill_hue_balance": 0.5
+      },
+      "method": "forge_matte.matte_qa v1: straight-colour key distance and dominance on the keyed image; two-channel keys count spill only where the key channels are balanced"
+    },
+    "key_choice": {
+      "status": "ok",
+      "overlap_share": 0.0,
+      "rule": "reject a key when more than 0.5% of subject pixels have key dominance >= 40; first acceptable candidate wins"
+    }
+  },
+  "warnings": []
+}

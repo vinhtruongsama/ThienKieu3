@@ -1,0 +1,22 @@
+{
+  "schema": "generate2dsprite.master_spec.v1",
+  "name": "AnhHung",
+  "subject": "the anonymous floating swordsman called Anh Hung, full-body",
+  "identity": "A young adult male swordsman with a handsome composed face, long dark hair tied back, layered cream and dark green robes, muted rust accents, a sheathed sword at his side, hovering slightly above the ground; no crest or known identity.",
+  "pose": null,
+  "recap": "same anonymous handsome floating swordsman with tied-back dark hair, layered cream and dark green robes, rust accents and a sheathed sword",
+  "facing": "right",
+  "facing_parts": null,
+  "view": "side view (profile to three-quarter)",
+  "class": "hero",
+  "finish": "hd",
+  "key": "#0000FF",
+  "genre": "a 2D side-scrolling fantasy game",
+  "pronoun": "he",
+  "identity_ref": null,
+  "style_ref": null,
+  "allowed_text": null,
+  "extra_bans": [],
+  "opaque_parts": null,
+  "extra": null
+}

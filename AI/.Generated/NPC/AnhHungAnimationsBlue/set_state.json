@@ -1,0 +1,714 @@
+{
+  "schema": "video2dsprite.sprite_set_state.v1",
+  "tool": {
+    "name": "sprite_set",
+    "version": "0.4.0"
+  },
+  "plan": {
+    "path": "set_plan.json",
+    "sha256": "af2c520796679dae5653209f0f33de7e067bf59f6ded5c02a7a4bb566d13d2e0"
+  },
+  "createdAt": "2026-10-28T17:43:14.343Z",
+  "runs": 2,
+  "actions": {
+    "cast": {
+      "status": "done",
+      "round": 1,
+      "fixes": [],
+      "job": {
+        "dir": "actions/cast/job",
+        "job": "actions/cast/job/registration_job.json",
+        "sha256": "d26f4aad02943c7f1bf12ad3ebd73d288ccf59dbb34f0c5d6617b0a390961330",
+        "input": "actions/cast/job/input.png",
+        "referenceScale": 1.0,
+        "keyColor": "blue",
+        "padding": [
+          226,
+          0,
+          571,
+          0
+        ],
+        "warnings": 3
+      },
+      "takes": [
+        {
+          "take": 1,
+          "round": 1,
+          "dir": "actions/cast/takes/t01",
+          "status": "kept",
+          "createdAt": "2026-10-28T17:43:15.944Z",
+          "prompt": {
+            "path": "actions/cast/takes/t01/prompt.txt",
+            "sha256": "c5675c6f046d78da2942b75d5d778f32dc50edd61b061eba791afe87afc58923"
+          },
+          "fixes": [],
+          "lint": [],
+          "stages": {
+            "keyed": {
+              "frames": 124,
+              "fps": "24/1",
+              "size": [
+                832,
+                480
+              ],
+              "matte": {
+                "mode": "soft",
+                "status": "fail",
+                "key": [
+                  0,
+                  0,
+                  248
+                ],
+                "opaque_key_px": 0,
+                "enclosed_key_pockets": 0,
+                "flips_per_frame_pair": 94.0407
+              },
+              "warnings": [
+                "the subject owns key-coloured material, so interior despill stays off; the video soft matte also keys light colours near the key (for example #b43cc8 against magenta): review the frames, pass --protect-color for design colours, or regenerate on the key that key-plan recommends",
+                "matte QA failed: outer_ring_spill_fraction 0.016499 (limit 0.01); the frames are published for review (--strict refuses them)"
+              ],
+              "dir": "actions/cast/takes/t01/keyed",
+              "seconds": 11.92
+            },
+            "registered": {
+              "frames": 124,
+              "sourceSize": [
+                1821,
+                1024
+              ],
+              "sourceAnchor": [
+                801.5,
+                926.0
+              ],
+              "fit": "cover",
+              "range": null,
+              "registration": "actions/cast/takes/t01/registered/registration.json",
+              "warnings": [],
+              "dir": "actions/cast/takes/t01/registered",
+              "seconds": 46.12
+            },
+            "motion": {
+              "tool": "retime --auto-oneshot",
+              "selection": "actions/cast/takes/t01/motion/selection.json",
+              "policy": "oneshot",
+              "start": 0,
+              "endExclusive": 124,
+              "frames": 11,
+              "durationMs": 917,
+              "impactMs": null,
+              "tickHz": 60,
+              "events": [
+                {
+                  "name": "in",
+                  "atMs": 0,
+                  "frame": 0,
+                  "tick": 0
+                },
+                {
+                  "name": "custom:peak",
+                  "atMs": 417,
+                  "frame": 5,
+                  "tick": 25
+                },
+                {
+                  "name": "end",
+                  "atMs": 917,
+                  "frame": 10,
+                  "tick": 55
+                }
+              ],
+              "timing": {
+                "durationMs": 900,
+                "keys": [
+                  "peak"
+                ],
+                "auto": {
+                  "onset": 1,
+                  "settle": 123,
+                  "first": 0,
+                  "cutFrames": 0,
+                  "sourceFrames": 124
+                }
+              },
+              "dir": "actions/cast/takes/t01/motion",
+              "seconds": 4.72
+            },
+            "finished": {
+              "finisher": "finish_frames.py",
+              "mode": "hd",
+              "targetHeight": 256,
+              "frames": 124,
+              "framesDir": "actions/cast/takes/t01/finished/frames",
+              "size": [
+                263,
+                271
+              ],
+              "anchor": [
+                130.0,
+                268.0
+              ],
+              "scale": 0.32820513,
+              "scaleRef": "actions/cast/takes/t01/finished/finish.json",
+              "scaleRefFrom": null,
+              "dir": "actions/cast/takes/t01/finished",
+              "seconds": 51.99
+            },
+            "selection": {
+              "selection": "actions/cast/takes/t01/selection/selection.json",
+              "from": "actions/cast/takes/t01/motion/selection.json",
+              "frames": 11,
+              "dir": "actions/cast/takes/t01/selection",
+              "seconds": 0.07
+            },
+            "package": {
+              "status": "needs-visual-review",
+              "reviewStatus": "needs-visual-review",
+              "frameCount": 11,
+              "fps": "11000/917",
+              "durationMs": 917,
+              "loopPolicy": "oneshot",
+              "events": [
+                {
+                  "name": "in",
+                  "atMs": 0,
+                  "frame": 0
+                },
+                {
+                  "name": "custom:peak",
+                  "atMs": 417,
+                  "frame": 5
+                },
+                {
+                  "name": "end",
+                  "atMs": 917,
+                  "frame": 10
+                }
+              ],
+              "impactMs": null,
+              "files": {
+                "manifest": "actions/cast/takes/t01/package/animation.json",
+                "qa": "actions/cast/takes/t01/package/animation-qa.json",
+                "provenance": "actions/cast/takes/t01/package/provenance.json",
+                "poster": "actions/cast/takes/t01/package/cast-poster.png",
+                "atlas": [
+                  "actions/cast/takes/t01/package/cast-atlas-00.png"
+                ],
+                "webm": null,
+                "packed": null,
+                "tiers": []
+              },
+              "crf": null,
+              "warnings": [],
+              "dir": "actions/cast/takes/t01/package",
+              "seconds": 0.69
+            },
+            "verify": {
+              "status": "skipped",
+              "reason": "png-only package: nothing to decode"
+            }
+          },
+          "clip": {
+            "path": "actions/cast/takes/t01/media/generated.mp4",
+            "sha256": "3a577d8161887c412596990dd4569a03252db82ec6f16453d52941967fdb1912"
+          },
+          "route": "api:heygen",
+          "pinnedLastFrame": false,
+          "message": null,
+          "qc": {
+            "file": "actions/cast/takes/t01/qc.json",
+            "status": "pass",
+            "failures": [],
+            "reasons": [],
+            "warnings": [
+              "identity: the head matches the master only 0.43 (warning under 0.5) in frames 13-15: a turned or bobbing head, or design drift; look at the sheet",
+              "timing: slow one-shot: 5.1 s of motion (limit 2.5 s), a 0.0 s static hold (limit 1.2 s); the set retimes it (retime --auto-oneshot)"
+            ],
+            "usableWindow": null,
+            "usableFrames": 122,
+            "frames": 124,
+            "motion": {
+              "peak": 0.5606,
+              "peakFrame": 32,
+              "onset": 1,
+              "settle": 123
+            },
+            "badFrames": {
+              "area": [],
+              "feet": [],
+              "identity": [],
+              "zoom": [],
+              "turn": [],
+              "edge": [],
+              "background": [],
+              "extra": [
+                10,
+                106
+              ],
+              "colour": []
+            },
+            "gates": {
+              "area": {
+                "status": "pass",
+                "value": {
+                  "median": 0.962,
+                  "min": 0.9067,
+                  "max": 1.0341
+                }
+              },
+              "feet": {
+                "status": "pass",
+                "value": 0.0328
+              },
+              "identity": {
+                "status": "warn",
+                "value": {
+                  "start": 0.9049,
+                  "min": 0.434,
+                  "lowFrames": 3,
+                  "lostFrames": 0
+                }
+              },
+              "zoom": {
+                "status": "pass",
+                "value": {
+                  "endScale": 0.9907,
+                  "endHeight": 1.0083
+                }
+              },
+              "turn": {
+                "status": "pass",
+                "value": 0.0939
+              },
+              "edge": {
+                "status": "pass",
+                "value": 0
+              },
+              "background": {
+                "status": "pass",
+                "value": {
+                  "worst": 0.0001,
+                  "keyDrift": 9.0
+                }
+              },
+              "extra": {
+                "status": "pass",
+                "value": 0.0173
+              },
+              "motion": {
+                "status": "pass",
+                "value": 0.5606
+              },
+              "end-pose": {
+                "status": "pass",
+                "value": 0.8638
+              },
+              "colour": {
+                "status": "pass",
+                "value": {
+                  "foreignMax": 0.0224,
+                  "bledFrames": 3,
+                  "driftMax": 0.022,
+                  "driftedFrames": 0
+                }
+              },
+              "timing": {
+                "status": "warn",
+                "value": {
+                  "actionSeconds": 5.0833,
+                  "holdSeconds": 0.0
+                }
+              }
+            }
+          },
+          "failures": [],
+          "reasons": [],
+          "logged": true
+        }
+      ],
+      "chosen": {
+        "take": 1,
+        "reason": "first take that passed every gate",
+        "window": null,
+        "tag": ""
+      },
+      "accepted": {
+        "take": 1,
+        "window": null,
+        "note": "",
+        "at": "2026-10-28T17:46:50.883Z",
+        "review": "review/review-001.json",
+        "sheet": {
+          "path": "review/cast/t01-sheet.png",
+          "sha256": "0b4d047dc8565717bd888ced12ab7a77da4943de142316fa3dd05215c688fa74",
+          "bytes": 105638
+        }
+      },
+      "output": {
+        "take": 1,
+        "tag": "",
+        "package": "actions/cast/takes/t01/package",
+        "manifest": "actions/cast/takes/t01/package/animation.json",
+        "verify": "skipped"
+      },
+      "message": null
+    },
+    "idle": {
+      "status": "done",
+      "round": 1,
+      "fixes": [
+        {
+          "id": "no-extras",
+          "text": "Nothing else appears in the frame: no dust, no dirt, no smoke, no puffs, no pebbles, no particles, no orbs, no sparks, no flashes, no projectiles, no arrows, no motion trails, no effects of any kind.",
+          "source": "auto",
+          "take": 1,
+          "round": 1
+        }
+      ],
+      "job": {
+        "dir": "actions/idle/job",
+        "job": "actions/idle/job/registration_job.json",
+        "sha256": "6cb47fb89f27b8687b98376bd3fe42c58f5ea3359345b0a8267d64a6390ca9bf",
+        "input": "actions/idle/job/input.png",
+        "referenceScale": 1.0,
+        "keyColor": "blue",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "warnings": 3
+      },
+      "takes": [
+        {
+          "take": 1,
+          "round": 1,
+          "dir": "actions/idle/takes/t01",
+          "status": "rejected",
+          "createdAt": "2026-10-28T18:32:02.131Z",
+          "prompt": {
+            "path": "actions/idle/takes/t01/prompt.txt",
+            "sha256": "8c20b00c91fa3d218d9e5b0dd839cc17241aa26d742f3d8f4024b54691609c16"
+          },
+          "fixes": [],
+          "lint": [],
+          "stages": {
+            "keyed": {
+              "frames": 124,
+              "fps": "24/1",
+              "size": [
+                480,
+                480
+              ],
+              "matte": {
+                "mode": "soft",
+                "status": "fail",
+                "key": [
+                  0,
+                  0,
+                  248
+                ],
+                "opaque_key_px": 0,
+                "enclosed_key_pockets": 0,
+                "flips_per_frame_pair": 86.7805
+              },
+              "warnings": [
+                "the subject owns key-coloured material, so interior despill stays off; the video soft matte also keys light colours near the key (for example #b43cc8 against magenta): review the frames, pass --protect-color for design colours, or regenerate on the key that key-plan recommends",
+                "matte QA failed: outer_ring_spill_fraction 0.010685 (limit 0.01); the frames are published for review (--strict refuses them)"
+              ],
+              "dir": "actions/idle/takes/t01/keyed",
+              "seconds": 10.51
+            },
+            "registered-w47-81": {
+              "frames": 34,
+              "sourceSize": [
+                1024,
+                1024
+              ],
+              "sourceAnchor": [
+                575.5,
+                926.0
+              ],
+              "fit": "uniform",
+              "range": [
+                47,
+                81
+              ],
+              "registration": "actions/idle/takes/t01/registered-w47-81/registration.json",
+              "warnings": [],
+              "dir": "actions/idle/takes/t01/registered-w47-81",
+              "seconds": 7.45
+            },
+            "motion-w47-81": {
+              "tool": "gait_loop select",
+              "selection": "actions/idle/takes/t01/motion-w47-81/selection.json",
+              "policy": "pingpong",
+              "start": 0,
+              "endExclusive": 17,
+              "frames": 17,
+              "confidence": "low",
+              "durationMs": 708,
+              "fps": "24/1",
+              "dir": "actions/idle/takes/t01/motion-w47-81",
+              "seconds": 8.06
+            },
+            "timed-w47-81": {
+              "tool": "retime",
+              "selection": "actions/idle/takes/t01/timed-w47-81/selection.json",
+              "policy": "pingpong",
+              "start": 0,
+              "endExclusive": 17,
+              "frames": 9,
+              "durationMs": 750,
+              "tickHz": 60,
+              "dir": "actions/idle/takes/t01/timed-w47-81",
+              "seconds": 0.89
+            },
+            "finished-w47-81": {
+              "finisher": "finish_frames.py",
+              "mode": "hd",
+              "targetHeight": 256,
+              "frames": 34,
+              "framesDir": "actions/idle/takes/t01/finished-w47-81/frames",
+              "size": [
+                212,
+                263
+              ],
+              "anchor": [
+                130.0,
+                260.0
+              ],
+              "scale": 0.32778489,
+              "scaleRef": "actions/idle/takes/t01/finished-w47-81/finish.json",
+              "scaleRefFrom": null,
+              "dir": "actions/idle/takes/t01/finished-w47-81",
+              "seconds": 13.81
+            },
+            "selection-w47-81": {
+              "selection": "actions/idle/takes/t01/selection-w47-81/selection.json",
+              "from": "actions/idle/takes/t01/timed-w47-81/selection.json",
+              "frames": 9,
+              "dir": "actions/idle/takes/t01/selection-w47-81",
+              "seconds": 0.01
+            },
+            "package-w47-81": {
+              "status": "needs-visual-review",
+              "reviewStatus": "needs-visual-review",
+              "frameCount": 16,
+              "fps": "12/1",
+              "durationMs": 1333,
+              "loopPolicy": "cycle",
+              "events": [
+                {
+                  "name": "in",
+                  "atMs": 0,
+                  "frame": 0
+                },
+                {
+                  "name": "end",
+                  "atMs": 750,
+                  "frame": 9
+                }
+              ],
+              "impactMs": null,
+              "files": {
+                "manifest": "actions/idle/takes/t01/package-w47-81/animation.json",
+                "qa": "actions/idle/takes/t01/package-w47-81/animation-qa.json",
+                "provenance": "actions/idle/takes/t01/package-w47-81/provenance.json",
+                "poster": "actions/idle/takes/t01/package-w47-81/idle-poster.png",
+                "atlas": [
+                  "actions/idle/takes/t01/package-w47-81/idle-atlas-00.png"
+                ],
+                "webm": "actions/idle/takes/t01/package-w47-81/idle.webm",
+                "packed": "actions/idle/takes/t01/package-w47-81/idle-packed.mp4",
+                "tiers": []
+              },
+              "crf": null,
+              "warnings": [],
+              "dir": "actions/idle/takes/t01/package-w47-81",
+              "seconds": 2.32
+            },
+            "verify-w47-81": {
+              "status": "pass",
+              "report": "actions/idle/takes/t01/package-w47-81/verify-qa.json",
+              "transports": [
+                "packedAlpha",
+                "webm"
+              ]
+            }
+          },
+          "clip": {
+            "path": "actions/idle/takes/t01/media/generated.mp4",
+            "sha256": "96391b52b840ca7237d8fb80a1b091e753518ff0c78228716533fc29b01aecae"
+          },
+          "route": "api:heygen",
+          "pinnedLastFrame": false,
+          "pinNote": "the route ignored the last frame",
+          "message": null,
+          "qc": {
+            "file": "actions/idle/takes/t01/qc.json",
+            "status": "fail",
+            "failures": [
+              "extra"
+            ],
+            "reasons": [
+              "extra: extra objects detached from the body in frames 30-32, 46, 81, 90-92, 94-95, 102, 109-110 (worst 1.9% of the body area)"
+            ],
+            "warnings": [],
+            "usableWindow": [
+              47,
+              81
+            ],
+            "usableFrames": 111,
+            "frames": 124,
+            "motion": {
+              "peak": 0.2526,
+              "peakFrame": 21,
+              "onset": 1,
+              "settle": 123
+            },
+            "badFrames": {
+              "area": [],
+              "feet": [],
+              "identity": [],
+              "zoom": [],
+              "turn": [],
+              "edge": [],
+              "background": [],
+              "extra": [
+                30,
+                31,
+                32,
+                46,
+                81,
+                90,
+                91,
+                92,
+                94,
+                95,
+                102,
+                109,
+                110
+              ],
+              "colour": []
+            },
+            "gates": {
+              "area": {
+                "status": "pass",
+                "value": {
+                  "median": 0.9652,
+                  "min": 0.941,
+                  "max": 0.9888
+                }
+              },
+              "feet": {
+                "status": "pass",
+                "value": 0.0246
+              },
+              "identity": {
+                "status": "pass",
+                "value": {
+                  "start": 0.9474,
+                  "min": 0.9134,
+                  "lowFrames": 0,
+                  "lostFrames": 0
+                }
+              },
+              "zoom": {
+                "status": "pass",
+                "value": 0.0139
+              },
+              "turn": {
+                "status": "pass",
+                "value": -0.4357
+              },
+              "edge": {
+                "status": "pass",
+                "value": 0
+              },
+              "background": {
+                "status": "pass",
+                "value": {
+                  "worst": 0.0001,
+                  "keyDrift": 8.0
+                }
+              },
+              "extra": {
+                "status": "fail",
+                "value": 0.0194
+              },
+              "motion": {
+                "status": "pass",
+                "value": 0.2526
+              },
+              "end-pose": {
+                "status": "skipped",
+                "value": null
+              },
+              "colour": {
+                "status": "pass",
+                "value": {
+                  "foreignMax": 0.0133,
+                  "bledFrames": 0,
+                  "driftMax": 0.0152,
+                  "driftedFrames": 0
+                }
+              },
+              "timing": {
+                "status": "skipped",
+                "value": null
+              }
+            }
+          },
+          "failures": [
+            "extra"
+          ],
+          "reasons": [
+            "extra: extra objects detached from the body in frames 30-32, 46, 81, 90-92, 94-95, 102, 109-110 (worst 1.9% of the body area)"
+          ],
+          "fixNext": [
+            "no-extras"
+          ],
+          "logged": true
+        }
+      ],
+      "chosen": {
+        "take": 1,
+        "window": [
+          47,
+          81
+        ],
+        "tag": "-w47-81",
+        "reason": "best of 1 failed takes: kept its usable frames 47-80 (extra logged)"
+      },
+      "accepted": {
+        "take": 1,
+        "window": [
+          47,
+          81
+        ],
+        "note": "Đã xem toàn bộ sheet, đoạn cuối 9 khung và lineup; giữ chuyển động áo choàng nhẹ, bỏ các khung có chi tiết rời nhiễu.",
+        "at": "2026-10-28T18:34:09.626Z",
+        "review": "review/review-002.json",
+        "sheet": {
+          "path": "review/idle/t01-sheet.png",
+          "sha256": "6bd6514ddf418fd888bfa4820c7734fa92f4b9066a5339125a37e794bc3b74bf",
+          "bytes": 287510
+        }
+      },
+      "output": {
+        "take": 1,
+        "tag": "-w47-81",
+        "package": "actions/idle/takes/t01/package-w47-81",
+        "manifest": "actions/idle/takes/t01/package-w47-81/animation.json",
+        "verify": "pass"
+      },
+      "message": null
+    }
+  },
+  "review": {
+    "latest": "review/review-002.json",
+    "at": "2026-10-28T18:33:39.137Z"
+  },
+  "updatedAt": "2026-10-28T18:34:09.626Z"
+}

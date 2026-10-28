@@ -1,0 +1,226 @@
+{
+  "schema": "video2dsprite.sprite_set_review.v1",
+  "createdAt": "2026-10-28T18:30:30.969Z",
+  "set": "NguoiChoiNam",
+  "instructions": "Look at EVERY sheet (Read in Claude Code, view_image in Codex) before accept or retake. Numbers cannot see identity, facing, extra objects or a covered face.",
+  "checklist": [
+    "the same character, face, colours and costume as the master in every frame",
+    "facing {facing} the whole time; never turned around or toward the camera",
+    "the {action} really happens, once, and reads at game size",
+    "no extra objects: dust, orbs, sparks, projectiles, trails, text or a second weapon",
+    "nothing covers the face; the weapon keeps its shape and length",
+    "loops close without a jump; one-shots start and end on the rest pose"
+  ],
+  "sheets": [
+    {
+      "action": "idle",
+      "take": 1,
+      "round": 1,
+      "status": "kept",
+      "chosen": true,
+      "accepted": true,
+      "failures": [],
+      "reasons": [],
+      "usableWindow": [
+        0,
+        124
+      ],
+      "sheet": {
+        "path": "review/idle/t01-sheet.png",
+        "sha256": "020f284c1a44683e0ee09c2fa467df249b37818086ade65d0cc123406d5ca926",
+        "bytes": 128363
+      },
+      "final": {
+        "path": "review/idle/t01-final.png",
+        "sha256": "ec3d4044f587293b31d27ad7e12648d2429d406a55fcca1b20f16889d4479015",
+        "bytes": 482502
+      }
+    },
+    {
+      "action": "run",
+      "take": 1,
+      "round": 1,
+      "status": "rejected",
+      "chosen": true,
+      "accepted": true,
+      "failures": [
+        "turn"
+      ],
+      "reasons": [
+        "turn: turned around in frames 7-11, 14-17, 31-33, 94-96, 111-113, 121-123 (the mirrored head matches +1272705077.90 better)"
+      ],
+      "usableWindow": [
+        34,
+        63
+      ],
+      "sheet": {
+        "path": "review/run/t01-sheet.png",
+        "sha256": "a49f309684bb5cc49981f4588fc1d9a7ee926eab1a8446c4abe47df1bb04fc16",
+        "bytes": 230448
+      },
+      "final": {
+        "path": "review/run/t01-w34-63-final.png",
+        "sha256": "d5def4a0226df67ac1ff03ddc82c60c355c3f8327cbc4acdebe52b0e20d57a09",
+        "bytes": 267605
+      }
+    },
+    {
+      "action": "jump",
+      "take": 1,
+      "round": 1,
+      "status": "rejected",
+      "chosen": false,
+      "accepted": false,
+      "failures": [
+        "turn"
+      ],
+      "reasons": [
+        "turn: turned around in frames 11-23, 48-64, 88-102 (the mirrored head matches +1261474609.12 better)"
+      ],
+      "usableWindow": null,
+      "sheet": {
+        "path": "review/jump/t01-sheet.png",
+        "sha256": "6175e501b6a775867f2acabef24c7166042dcb9f39e60b736907b6dfe526c01c",
+        "bytes": 102741
+      },
+      "final": null
+    },
+    {
+      "action": "jump",
+      "take": 2,
+      "round": 2,
+      "status": "rejected",
+      "chosen": false,
+      "accepted": false,
+      "failures": [
+        "turn"
+      ],
+      "reasons": [
+        "turn: turned around in frames 8-18, 26-30, 43-47, 52-63, 71-76, 89-104 (the mirrored head matches +1261474609.13 better)"
+      ],
+      "usableWindow": null,
+      "sheet": {
+        "path": "review/jump/t02-sheet.png",
+        "sha256": "2ce36d376f9ab34b503a1e2e5070fc1ae9f7f952a223106626c1437b256f6640",
+        "bytes": 130057
+      },
+      "final": null
+    },
+    {
+      "action": "jump",
+      "take": 3,
+      "round": 3,
+      "status": "rejected",
+      "chosen": false,
+      "accepted": false,
+      "failures": [
+        "turn"
+      ],
+      "reasons": [
+        "turn: turned around in frames 11-15, 63-67 (the mirrored head matches +1261474608.99 better)"
+      ],
+      "usableWindow": null,
+      "sheet": {
+        "path": "review/jump/t03-sheet.png",
+        "sha256": "ac65ebdd9ff60c5770257239e2969aacbecd635598d39ea1a4ebdbef5a306bf3",
+        "bytes": 100742
+      },
+      "final": null
+    },
+    {
+      "action": "hurt",
+      "take": 1,
+      "round": 1,
+      "status": "rejected",
+      "chosen": false,
+      "accepted": false,
+      "failures": [
+        "edge"
+      ],
+      "reasons": [
+        "edge: the subject touches the frame edge in frames 38-41 (cut by the generator: never pad)"
+      ],
+      "usableWindow": null,
+      "sheet": {
+        "path": "review/hurt/t01-sheet.png",
+        "sha256": "f3e464b96d53a5c99b70552060cdfd6b3bf8f44e6c30d5cccfd3d87c38ec9e93",
+        "bytes": 134256
+      },
+      "final": null
+    },
+    {
+      "action": "hurt",
+      "take": 2,
+      "round": 2,
+      "status": "rejected",
+      "chosen": false,
+      "accepted": false,
+      "failures": [
+        "edge",
+        "extra"
+      ],
+      "reasons": [
+        "edge: the subject touches the frame edge in frames 27-28, 86-87 (cut by the generator: never pad)",
+        "extra: extra objects detached from the body in frames 27-30, 86-90 (worst 7.4% of the body area)"
+      ],
+      "usableWindow": null,
+      "sheet": {
+        "path": "review/hurt/t02-sheet.png",
+        "sha256": "bff2aed3a9793be5d57a174f4308160fdde0213aff0035ee28773ce38b33f3a1",
+        "bytes": 151614
+      },
+      "final": null
+    },
+    {
+      "action": "hurt",
+      "take": 3,
+      "round": 3,
+      "status": "kept",
+      "chosen": true,
+      "accepted": false,
+      "failures": [],
+      "reasons": [],
+      "usableWindow": [
+        0,
+        124
+      ],
+      "sheet": {
+        "path": "review/hurt/t03-sheet.png",
+        "sha256": "c7fe3291ae54d9914cdbd7996084a31dd55ef0dd6634391060036b4f62558de4",
+        "bytes": 129783
+      },
+      "final": {
+        "path": "review/hurt/t03-final.png",
+        "sha256": "3a15cf803cf1c8ea51afd53b5c519da0d8cde022be40ceba06b33fb189e5e6d8",
+        "bytes": 179000
+      }
+    }
+  ],
+  "lineup": {
+    "path": "review/lineup-003.png",
+    "sha256": "5e0fcb3c432dc58a5cf834c69862c36dc4df90f16816023858d45d605a0c347b",
+    "bytes": 240051,
+    "scales": [
+      1,
+      3
+    ],
+    "measures": {
+      "idle": {
+        "heightPx": 256,
+        "areaPx": 11183
+      },
+      "run": {
+        "heightPx": 219,
+        "areaPx": 12078
+      },
+      "hurt": {
+        "heightPx": 256,
+        "areaPx": 11191
+      }
+    }
+  },
+  "next": [
+    "sprite_set.py accept --plan <set>/set_plan.json --action <action> --take <n>",
+    "sprite_set.py retake --plan <set>/set_plan.json --action <action> --fix <clause id or text>"
+  ]
+}

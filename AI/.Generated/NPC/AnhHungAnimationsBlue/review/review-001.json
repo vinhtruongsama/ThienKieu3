@@ -1,0 +1,56 @@
+{
+  "schema": "video2dsprite.sprite_set_review.v1",
+  "createdAt": "2026-10-28T17:46:36.676Z",
+  "set": "AnhHung",
+  "instructions": "Look at EVERY sheet (Read in Claude Code, view_image in Codex) before accept or retake. Numbers cannot see identity, facing, extra objects or a covered face.",
+  "checklist": [
+    "the same character, face, colours and costume as the master in every frame",
+    "facing {facing} the whole time; never turned around or toward the camera",
+    "the {action} really happens, once, and reads at game size",
+    "no extra objects: dust, orbs, sparks, projectiles, trails, text or a second weapon",
+    "nothing covers the face; the weapon keeps its shape and length",
+    "loops close without a jump; one-shots start and end on the rest pose"
+  ],
+  "sheets": [
+    {
+      "action": "cast",
+      "take": 1,
+      "round": 1,
+      "status": "kept",
+      "chosen": true,
+      "accepted": false,
+      "failures": [],
+      "reasons": [],
+      "usableWindow": null,
+      "sheet": {
+        "path": "review/cast/t01-sheet.png",
+        "sha256": "0b4d047dc8565717bd888ced12ab7a77da4943de142316fa3dd05215c688fa74",
+        "bytes": 105638
+      },
+      "final": {
+        "path": "review/cast/t01-final.png",
+        "sha256": "c749724cebb2a45c7b2d1f19be2cde68ef267fa9e09eb1e34f2ab976ef54823e",
+        "bytes": 548972
+      }
+    }
+  ],
+  "lineup": {
+    "path": "review/lineup-001.png",
+    "sha256": "de573ab0644220fdcbc3934a9577eeb8d99cda590264df368607483cb98efc92",
+    "bytes": 140295,
+    "scales": [
+      1,
+      3
+    ],
+    "measures": {
+      "cast": {
+        "heightPx": 256,
+        "areaPx": 19629
+      }
+    }
+  },
+  "next": [
+    "sprite_set.py accept --plan <set>/set_plan.json --action <action> --take <n>",
+    "sprite_set.py retake --plan <set>/set_plan.json --action <action> --fix <clause id or text>"
+  ]
+}

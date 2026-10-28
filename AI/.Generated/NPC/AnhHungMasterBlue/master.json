@@ -1,0 +1,170 @@
+{
+  "schema": "generate2dsprite.master.v1",
+  "tool": {
+    "name": "master_still",
+    "version": "0.4.0"
+  },
+  "created": "2026-10-28T17:41:36.668Z",
+  "name": "AnhHung",
+  "subject": "the anonymous floating swordsman called Anh Hung, full-body",
+  "identity_recap": "same anonymous handsome floating swordsman with tied-back dark hair, layered cream and dark green robes, rust accents and a sheathed sword",
+  "facing": "right",
+  "view": "side view (profile to three-quarter)",
+  "finish": "hd",
+  "class": "hero",
+  "framing": {
+    "canvas": [
+      1024,
+      1024
+    ],
+    "subject_height_px": 788,
+    "top_margin_px": 138,
+    "lead_px": 0,
+    "preset": "hero",
+    "subject_bbox": [
+      201,
+      138,
+      822,
+      926
+    ],
+    "anchor": [
+      575.0,
+      926.0
+    ],
+    "opaque_area_px": 190576,
+    "width_limited": false
+  },
+  "key": "#0000FF",
+  "files": {
+    "master": {
+      "path": "master.png",
+      "sha256": "c0290cb7c05e0be72d9576303374fe542d6e1180cbfe303d7896cdcc5d1a86f5",
+      "bytes": 454061,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "cutout": {
+      "path": "master_rgba.png",
+      "sha256": "eb680710b5dadcb52ac42a9fb1fc6165e5be87dc049f12414b48fbbe969befe0",
+      "bytes": 549288,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "source": {
+      "path": "source.png",
+      "sha256": "faa5833387ae1e9002ff508aeb9821b5bd8728fbc25e65092b5a6a67fe66d33e",
+      "bytes": 1408135,
+      "size": [
+        1223,
+        1286
+      ]
+    },
+    "spec": {
+      "path": "spec.json",
+      "sha256": "ae0cf8a39046e6572c8dc6f01c096ca8ec632fe3b69dc54c6b25a271c4371c65",
+      "bytes": 917
+    },
+    "prompt": null
+  },
+  "references": [],
+  "transform": {
+    "mapping": "master = scale * source + offset (continuous pixel coordinates: pixel i spans [i, i + 1))",
+    "source_size": [
+      1223,
+      1286
+    ],
+    "source_subject_bbox": [
+      106,
+      4,
+      1109,
+      1276
+    ],
+    "crop_box": [
+      100,
+      0,
+      1115,
+      1282
+    ],
+    "crop_margin_px": 6,
+    "scale": 0.6194968553459119,
+    "offset": [
+      135.65566037735852,
+      135.52201257861634
+    ],
+    "canvas": [
+      1024,
+      1024
+    ],
+    "resampler": "lanczos",
+    "premultiplied": true,
+    "alpha_floor_px": 9791,
+    "subject_parts": 1,
+    "ignored_parts": 3,
+    "ignored_px": 3,
+    "source_touches": [],
+    "key_rgb": [
+      0,
+      0,
+      255
+    ]
+  },
+  "route": "host-image_gen",
+  "provenance": {
+    "command": "external",
+    "run": null,
+    "take": null,
+    "source_name": "AnhHung.png",
+    "source_sha256": "faa5833387ae1e9002ff508aeb9821b5bd8728fbc25e65092b5a6a67fe66d33e",
+    "media": null,
+    "media_cli_source": null,
+    "edit": null
+  },
+  "matte": {
+    "requested": "soft",
+    "key_estimate": {
+      "key": [
+        0.0,
+        0.0,
+        255.0
+      ],
+      "source": "native_alpha",
+      "valid": false,
+      "ring_share": 0.0,
+      "coverage": 0.0,
+      "distance_from_declared": 0.0
+    },
+    "quality": "native_alpha",
+    "qa": {
+      "key": [
+        0.0,
+        0.0,
+        255.0
+      ],
+      "opaque_key_px": 0,
+      "outer_ring_spill_fraction": 0.0032384434578218856,
+      "semitransparent_fraction": 0.9987326690175502,
+      "enclosed_key_pockets": 0,
+      "key_hued_px": 0,
+      "visible_px": 540506,
+      "outer_ring_px": 19145,
+      "thresholds": {
+        "key_tolerance": 48.0,
+        "spill_threshold": 20.0,
+        "min_pocket_area": 16,
+        "opaque_alpha": 128,
+        "spill_hue_balance": 0.5
+      },
+      "method": "forge_matte.matte_qa v1: straight-colour key distance and dominance on the keyed image; two-channel keys count spill only where the key channels are balanced"
+    },
+    "key_choice": {
+      "status": "ok",
+      "overlap_share": 0.0,
+      "rule": "reject a key when more than 0.5% of subject pixels have key dominance >= 40; first acceptable candidate wins"
+    }
+  },
+  "warnings": []
+}

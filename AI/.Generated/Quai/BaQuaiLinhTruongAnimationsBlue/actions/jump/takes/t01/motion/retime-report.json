@@ -1,0 +1,533 @@
+{
+  "schema": "video2dsprite.retime_report.v1",
+  "tool": {
+    "name": "retime",
+    "version": "0.4.0"
+  },
+  "frames": {
+    "directory": "../registered/frames",
+    "count": 124,
+    "fps": "24/1"
+  },
+  "kind": "other",
+  "policy": "oneshot",
+  "source": "auto-oneshot range 0:124",
+  "map": null,
+  "cadence": null,
+  "timeline": [
+    {
+      "frame": 0,
+      "sourceIndex": 8,
+      "startMs": 0,
+      "durationMs": 83,
+      "ticks": 5,
+      "startTick": 0
+    },
+    {
+      "frame": 1,
+      "sourceIndex": 26,
+      "startMs": 83,
+      "durationMs": 84,
+      "ticks": 5,
+      "startTick": 5
+    },
+    {
+      "frame": 2,
+      "sourceIndex": 45,
+      "startMs": 167,
+      "durationMs": 83,
+      "ticks": 5,
+      "startTick": 10
+    },
+    {
+      "frame": 3,
+      "sourceIndex": 47,
+      "startMs": 250,
+      "durationMs": 83,
+      "ticks": 5,
+      "startTick": 15
+    },
+    {
+      "frame": 4,
+      "sourceIndex": 50,
+      "startMs": 333,
+      "durationMs": 84,
+      "ticks": 5,
+      "startTick": 20
+    },
+    {
+      "frame": 5,
+      "sourceIndex": 52,
+      "startMs": 417,
+      "durationMs": 83,
+      "ticks": 5,
+      "startTick": 25
+    },
+    {
+      "frame": 6,
+      "sourceIndex": 54,
+      "startMs": 500,
+      "durationMs": 83,
+      "ticks": 5,
+      "startTick": 30
+    },
+    {
+      "frame": 7,
+      "sourceIndex": 57,
+      "startMs": 583,
+      "durationMs": 84,
+      "ticks": 5,
+      "startTick": 35
+    },
+    {
+      "frame": 8,
+      "sourceIndex": 59,
+      "startMs": 667,
+      "durationMs": 83,
+      "ticks": 5,
+      "startTick": 40
+    },
+    {
+      "frame": 9,
+      "sourceIndex": 66,
+      "startMs": 750,
+      "durationMs": 83,
+      "ticks": 5,
+      "startTick": 45
+    },
+    {
+      "frame": 10,
+      "sourceIndex": 73,
+      "startMs": 833,
+      "durationMs": 84,
+      "ticks": 5,
+      "startTick": 50
+    }
+  ],
+  "events": [
+    {
+      "name": "in",
+      "atMs": 0,
+      "frame": 0,
+      "tick": 0
+    },
+    {
+      "name": "custom:takeoff",
+      "atMs": 167,
+      "frame": 2,
+      "tick": 10
+    },
+    {
+      "name": "custom:land",
+      "atMs": 667,
+      "frame": 8,
+      "tick": 40
+    },
+    {
+      "name": "end",
+      "atMs": 917,
+      "frame": 10,
+      "tick": 55
+    }
+  ],
+  "suggestedContact": {
+    "outputFrame": 2,
+    "sourceIndex": 45,
+    "atMs": 167,
+    "score": 166.0,
+    "method": "largest reach: how far the body box extends left, right or up beyond the first selected frame"
+  },
+  "rules": [],
+  "auto": {
+    "onset": 9,
+    "settle": 73,
+    "first": 8,
+    "holds": [
+      [
+        16,
+        20
+      ],
+      [
+        27,
+        32
+      ]
+    ],
+    "cutFrames": 5,
+    "sourceFrames": 66,
+    "activeStep": 2.0355,
+    "outputFps": "12/1",
+    "tickHz": 60,
+    "ticksPerFrame": 5,
+    "keys": [
+      {
+        "name": "takeoff",
+        "frame": 2,
+        "tick": 10,
+        "holdFrames": 0
+      },
+      {
+        "name": "land",
+        "frame": 8,
+        "tick": 40,
+        "holdFrames": 0
+      }
+    ],
+    "durationMs": 900,
+    "motionSteps": [
+      0.0,
+      0.833,
+      0.058,
+      0.058,
+      0.04,
+      0.673,
+      0.416,
+      0.683,
+      1.199,
+      3.33,
+      3.066,
+      2.869,
+      3.092,
+      3.452,
+      2.685,
+      2.173,
+      1.971,
+      1.817,
+      0.876,
+      1.103,
+      1.619,
+      2.58,
+      3.811,
+      3.506,
+      3.423,
+      3.756,
+      3.176,
+      1.361,
+      0.625,
+      0.36,
+      0.797,
+      0.275,
+      0.904,
+      4.583,
+      8.912,
+      11.452,
+      7.354,
+      4.273,
+      2.821,
+      1.303,
+      4.628,
+      6.796,
+      11.271,
+      23.33,
+      33.888,
+      19.223,
+      18.996,
+      12.85,
+      10.733,
+      7.653,
+      6.368,
+      4.981,
+      4.616,
+      2.05,
+      2.379,
+      5.208,
+      5.921,
+      12.939,
+      20.184,
+      21.411,
+      33.691,
+      21.724,
+      8.557,
+      4.929,
+      2.749,
+      2.224,
+      4.372,
+      5.502,
+      6.656,
+      7.113,
+      5.914,
+      5.368,
+      5.03,
+      4.819,
+      0.644,
+      0.34,
+      0.07,
+      0.631,
+      0.034,
+      0.019,
+      0.021,
+      0.447,
+      0.046,
+      0.031,
+      0.034,
+      0.406,
+      0.541,
+      0.21,
+      0.158,
+      0.37,
+      0.512,
+      0.01,
+      0.01,
+      0.126,
+      0.372,
+      0.04,
+      0.033,
+      0.11,
+      0.266,
+      0.042,
+      0.062,
+      0.113,
+      0.28,
+      0.416,
+      0.084,
+      0.275,
+      0.216,
+      0.462,
+      0.049,
+      0.102,
+      0.073,
+      0.317,
+      0.057,
+      0.076,
+      0.059,
+      0.224,
+      0.074,
+      0.067,
+      0.054,
+      0.267,
+      0.299,
+      0.013,
+      0.025,
+      0.013
+    ],
+    "pose": [
+      0.0,
+      0.833,
+      0.863,
+      0.867,
+      0.871,
+      1.034,
+      1.169,
+      1.59,
+      2.422,
+      4.646,
+      6.076,
+      7.114,
+      8.121,
+      9.214,
+      10.012,
+      10.611,
+      11.122,
+      11.548,
+      11.594,
+      11.372,
+      11.009,
+      10.306,
+      9.034,
+      7.836,
+      6.623,
+      4.82,
+      2.946,
+      2.194,
+      1.962,
+      1.922,
+      2.012,
+      2.046,
+      2.361,
+      5.55,
+      11.315,
+      17.485,
+      20.484,
+      21.648,
+      22.222,
+      22.14,
+      20.773,
+      18.086,
+      12.426,
+      17.385,
+      41.199,
+      45.875,
+      42.223,
+      40.347,
+      38.111,
+      35.085,
+      32.92,
+      31.686,
+      30.708,
+      30.362,
+      29.983,
+      30.441,
+      31.402,
+      37.006,
+      42.44,
+      36.461,
+      13.394,
+      17.265,
+      20.761,
+      22.151,
+      22.449,
+      21.925,
+      20.945,
+      19.129,
+      16.552,
+      13.599,
+      10.656,
+      8.095,
+      5.637,
+      2.165,
+      1.829,
+      1.717,
+      1.711,
+      1.715,
+      1.715,
+      1.717,
+      1.715,
+      1.701,
+      1.703,
+      1.705,
+      1.705,
+      1.656,
+      1.659,
+      1.677,
+      1.69,
+      1.7,
+      1.766,
+      1.769,
+      1.768,
+      1.775,
+      1.796,
+      1.797,
+      1.799,
+      1.795,
+      1.785,
+      1.788,
+      1.785,
+      1.779,
+      1.757,
+      1.773,
+      1.773,
+      1.757,
+      1.755,
+      1.777,
+      1.776,
+      1.775,
+      1.775,
+      1.784,
+      1.789,
+      1.796,
+      1.791,
+      1.784,
+      1.778,
+      1.778,
+      1.778,
+      1.785,
+      1.782,
+      1.782,
+      1.782,
+      1.783
+    ]
+  },
+  "qa": {
+    "status": "needs-visual-review",
+    "method": "retime --auto-oneshot: range 0:124, motion 8-73 (66 source frames, 5 static hold frames cut), keys takeoff@2, land@8; 11 frames, 917 ms on 60 Hz ticks",
+    "notProven": [
+      "foot contact, sliding and ground penetration",
+      "hand, hair, scarf or prop identity drift between frames",
+      "art quality, anatomy and facing",
+      "left/right alternation beyond the pixel evidence reported here"
+    ],
+    "checks": [
+      {
+        "id": "durations-sum",
+        "status": "pass",
+        "value": 917,
+        "threshold": 900
+      },
+      {
+        "id": "integer-durations",
+        "status": "pass",
+        "value": 83,
+        "threshold": 1
+      },
+      {
+        "id": "policy-rules",
+        "status": "pass",
+        "value": [
+          "none for this kind"
+        ]
+      },
+      {
+        "id": "visual-review",
+        "status": "needs-visual-review",
+        "value": null
+      }
+    ],
+    "inputs": [
+      {
+        "path": "../registered/frames/frame_000008.png",
+        "sha256": "11d1f7cb72e98274b833037fa5f769dffa14d75e42b4147fcee3dd51fb82dd62",
+        "bytes": 343371
+      },
+      {
+        "path": "../registered/frames/frame_000026.png",
+        "sha256": "7b5da3d4c6e7f9f0548a36e2947bb8325bffb456bdbddf747edb9ac2d6b84864",
+        "bytes": 337338
+      },
+      {
+        "path": "../registered/frames/frame_000045.png",
+        "sha256": "d5c06524920ba929b47826b1ecc83acb54e77b5cd4a79ea3df34e19f98077437",
+        "bytes": 295335
+      },
+      {
+        "path": "../registered/frames/frame_000047.png",
+        "sha256": "40cbc6e1b47ddc4626817b9109e8ee436b908abdfebdcfd0d117d651a1f5ca03",
+        "bytes": 296363
+      },
+      {
+        "path": "../registered/frames/frame_000050.png",
+        "sha256": "76d8eedaea9aa0ccafb3bb208fb0755741c65d8c61cfef68cce76fdac5a8805c",
+        "bytes": 276643
+      },
+      {
+        "path": "../registered/frames/frame_000052.png",
+        "sha256": "fed685f0e50af10c24895a3cca27559e6e0804ef7711f4ac9cb4c50657fe7337",
+        "bytes": 272701
+      },
+      {
+        "path": "../registered/frames/frame_000054.png",
+        "sha256": "1b2e42df3316c187ebfb78c3d2c9b46f5b8563b247764b68988a5398c37e4b20",
+        "bytes": 270960
+      },
+      {
+        "path": "../registered/frames/frame_000057.png",
+        "sha256": "2660df203f0416f8947a805e50a1980a39bf20be354c27c44dc90365258f39e3",
+        "bytes": 281633
+      },
+      {
+        "path": "../registered/frames/frame_000059.png",
+        "sha256": "946e96e925d71e9ddfe584a3eed1e0aafc16f3de91bd80dd3349f16720931d94",
+        "bytes": 285266
+      },
+      {
+        "path": "../registered/frames/frame_000066.png",
+        "sha256": "d8bcee933da2f9a02688af39cc33f7e2be6124474b33491f9cc626f9148d780a",
+        "bytes": 261126
+      },
+      {
+        "path": "../registered/frames/frame_000073.png",
+        "sha256": "beea8c004e1202900d5978ab65ab7cf3ce7a317608fd9c513fd237bf58a5d490",
+        "bytes": 348635
+      }
+    ],
+    "outputs": [
+      {
+        "path": "selection.json",
+        "sha256": "414748943c95e3868d757aec26d7b18f83bb5f15c5ee450f1ba72619e9ed5fbd",
+        "bytes": 14026
+      }
+    ],
+    "tool": {
+      "name": "retime",
+      "version": "0.4.0"
+    }
+  }
+}

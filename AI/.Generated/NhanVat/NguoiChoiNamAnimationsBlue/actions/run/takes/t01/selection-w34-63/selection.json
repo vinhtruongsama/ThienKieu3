@@ -1,0 +1,111 @@
+{
+  "schema": "forge-frame-selection/v2",
+  "sourceDirectory": "../finished-w34-63/frames",
+  "sourceHashes": [
+    "be324dea1fcf65711f74d517bd867bf4fbbc2dfe20e63f531345a73f0b17414d",
+    "6cd24b9aed041aaf5e69a23f13018a88717abaa1713ab91f80638263a3da415f",
+    "27fb7c54b61d72179cdb71932665f284edf9c7910e31c6ecf0b4b796967fd6f2",
+    "0643634c09abf1964a0df117650a18d0cd8e2fe8e6e923328c8763d3768d27e4",
+    "fa2619cfda4910bcab81a84412b7c7593a3616832d45b6d55f9a603faaee7fcf",
+    "2e196d4d23802924a3316c90450d5edd14dc7a8a8f37a310cf192bb4e361c8aa",
+    "2b9858fdcb66fbba10d99e9230ebab2f9abbbcd704d7914565c98a321a9ab7e1",
+    "c54dc4264e4aa05fd04896d32502520ea5c675d3e2bc7dce4689003a7dfed71a",
+    "82d3a895f91907c7dec081cc9761057dfecda2fa403326db809baef070c8b4bc",
+    "02a31d19c2cde7fc878b7e030bcb694e464f2c60268e8a29fe035b3a54655000",
+    "a8ceeeaee69a656bbd3aa8c747d749bc9783abe148b7159cfc2dbe7b9e00fd96",
+    "69f4d1de7871626459ad491431b9dac0b8023fbf634bd0a7f3ff2c7286d55ec6",
+    "930628fe9c0b69d7f0e54cdc26e3ed06e3106ae929c369880a5726a8df57e6f4",
+    "3f20f0783b72333ebe90cc78ae2c3a973684b27a1ee705ac1773b53911ab7a4f",
+    "dc18fac8b43463a227659333a0154abeb2bf6020bb69ef877f89c6b651877221",
+    "8122d63ea410bc9d71c4005523cc4f56ec1d67a547c6ab176e06ae9f113624a6",
+    "5c81d13a91acc16848554646af54a37ca54755c4fd45d425450817b309b3a0af",
+    "e26b37a14ba11802bbfed61418562dff2a5241c0eb1d2745499423fe1dc5f7b5"
+  ],
+  "sourceFiles": [
+    "frame_000007.png",
+    "frame_000008.png",
+    "frame_000009.png",
+    "frame_000010.png",
+    "frame_000011.png",
+    "frame_000012.png",
+    "frame_000013.png",
+    "frame_000014.png",
+    "frame_000015.png",
+    "frame_000016.png",
+    "frame_000017.png",
+    "frame_000018.png",
+    "frame_000019.png",
+    "frame_000020.png",
+    "frame_000021.png",
+    "frame_000022.png",
+    "frame_000023.png",
+    "frame_000024.png"
+  ],
+  "start": 7,
+  "endExclusive": 25,
+  "sourceIndices": [
+    7,
+    9,
+    11,
+    13,
+    16,
+    18,
+    20,
+    22,
+    24
+  ],
+  "durations_ms": [
+    83,
+    84,
+    83,
+    83,
+    84,
+    83,
+    83,
+    84,
+    83
+  ],
+  "fps": "24/1",
+  "loopPolicy": "cycle",
+  "events": [
+    {
+      "name": "in",
+      "atMs": 0,
+      "frame": 0,
+      "tick": 0
+    },
+    {
+      "name": "end",
+      "atMs": 750,
+      "frame": 8,
+      "tick": 45
+    }
+  ],
+  "status": "selected-needs-visual-review",
+  "reviewReason": "Check the retimed clip at speed: the impact and hold frames, the recovery and the contact frame are pixel suggestions, not approval.",
+  "method": "retime: range 7:25 sampled to 9; 9 frames, 750 ms on 60 Hz ticks; rebound 1:1 to the finished frames (sprite_set)",
+  "kind": "run",
+  "ticks": [
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "tickHz": 60,
+  "suggestedContact": {
+    "outputFrame": 2,
+    "sourceIndex": 11,
+    "atMs": 167,
+    "score": 548.0,
+    "method": "widest ground contact: column span of the alpha band above each frame's ground line"
+  },
+  "reboundFrom": {
+    "path": "../timed-w34-63/selection.json",
+    "sha256": "3e979f033a705e075e915a5ef9d36476c929173ef8a4fab4f30ed7389de8f7dd"
+  }
+}
