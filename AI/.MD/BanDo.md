@@ -18,12 +18,12 @@ Mỗi bản đồ có ba khu tân thủ, ghép người chơi theo sức mạnh 
 - **Nhiệm vụ / hoàn thành:** Theo đường vàng thoát khỏi Thung Lũng Hoang; hoàn thành khi tới lối ra.
 - **Địa hình:** Thung lũng từ thấp lên cao; đường chạy hướng tới Khu Đất Sau Nhà. Chi tiết dốc, bậc và điểm hồi sinh cần thiết kế khi dựng map.
 - **Cảnh quan:** Nhiều cây thân nhỏ, cao và thon. Tán cây che nắng nên ánh sáng yếu.
-- **NPC / quái:** Ba quái thú linh trưởng không thể bị hạ gục. Trên đường chạy, Anh Hùng — kiếm sĩ Thiên Kiêu trong làng, danh tính chưa rõ — chặn chúng và giúp người chơi thoát. Nếu chết, người chơi hồi sinh gần đó và chạy lại.
+- **NPC / quái:** Ba Khỉ Đột không thể bị hạ gục. Chúng cùng nhảy ra và gầm gừ rồi mới đuổi theo, giữ khoảng đứng riêng và đổi thứ tự đội hình. Va chạm thân quái không cản người chơi; chỉ cú nhảy vồ đáp sát mới đẩy lùi và gây choáng. Trên đường chạy, Anh Hùng — kiếm sĩ Thiên Kiêu trong làng, danh tính chưa rõ — chặn chúng và giúp người chơi thoát. Nếu chết, người chơi hồi sinh gần đó và chạy lại.
 - **Thảo dược / vật phẩm:** Có thể xuất hiện nấm hiếm và thảo dược quý; tên và vị trí cụ thể chưa chốt.
 - **Lối vào / ra:** Người chơi xuất hiện tại đây sau khi vào thế giới. Đường vàng dẫn tới Khu Đất Sau Nhà; gần lối ra hiện tên bản đồ kế tiếp.
-- **Ảnh / hoạt ảnh:** [Tài nguyên map](../.Generated/Map/ThungLungHoang/); người chơi có `idle/run/jump/hurt`, Anh Hùng có `idle/cast`, Khỉ đột có `idle/jump/hurt`. Bộ hoạt ảnh Khỉ đột còn thiếu xuất hiện, gào, vỗ ngực và đòn đánh.
+- **Ảnh / hoạt ảnh:** [Tài nguyên map](../.Generated/Map/ThungLungHoang/); người chơi có `idle/run/jump/hurt`, Anh Hùng có `idle/cast`, Khỉ Đột có `idle/jump/hurt`. Bản thử dùng nhảy có sẵn, tiếng gầm tạo trong lúc chạy và nhịp co giãn để báo gầm; hoạt ảnh gầm/vỗ ngực và cú vồ riêng vẫn chờ tài nguyên.
 - **Giao diện:** HUD thử có sinh lực, mục tiêu và các nút Túi đồ, Nhân vật, Nhiệm vụ.
-- **Tiến độ:** Đã ghép bản thử có địa hình, va chạm, giới hạn camera, hậu cảnh nhiều lớp và HUD trong [scene MAP-001](../../Assets/Scenes/ThungLungHoang.unity). Ảnh chơi thử: [Map001-Final-HUD.png](../.ScreenShorts/Map001-Final-HUD.png). Cần duyệt mỹ thuật, hoàn thiện hoạt ảnh quái và chốt điểm hồi sinh/độ khó.
+- **Tiến độ:** Bản thử trong [scene MAP-001](../../Assets/Scenes/ThungLungHoang.unity) có chạy/nhảy và hành vi ba Khỉ Đột: cùng nhảy ra, gầm rồi mới đuổi; không va chặn người chơi hoặc nhau; giữ khoảng đứng và đổi thứ tự bằng cú nhảy. Chỉ cú vồ đáp sát gây đẩy lùi, choáng. Đã kiểm tra trong Play Mode. Tiếng gầm tổng hợp và nhịp co giãn đang dùng tạm; hoạt ảnh riêng cho gầm/vỗ ngực/cú vồ còn chờ. Ảnh thử: [ba Khỉ Đột](../.ScreenShorts/20261102-MAP001-KhiDotXuatHienCungLuc.png). Đoạn giữa–cuối scene vẫn thiếu hình địa hình trong Game View; cần rà soát phần cảnh quan riêng.
 
 ### MAP-002 — KhuDatSauNha
 
@@ -35,7 +35,7 @@ Mỗi bản đồ có ba khu tân thủ, ghép người chơi theo sức mạnh 
 - **Thảo dược / vật phẩm:** Chưa chốt.
 - **Lối vào / ra:** Lối vào từ Thung Lũng Hoang; lối ra tới Nhà Chính. Khi đến gần lối chuyển, hiện tên bản đồ kế tiếp.
 - **Ảnh / hoạt ảnh:** `../.Generated/Map/KhuDatSauNha/` — chưa có ảnh được duyệt. Lá cây lay theo gió; các con vật bơi trên hồ; Sờ Lam nhảy ra.
-- **Tiến độ:** Ý tưởng đã xác nhận; đang chờ thiết kế và dựng trong Unity.
+- **Tiến độ:** Đã dựng scene thử dạng khung xám có nền, cây, hồ, cỏ, người chơi và Sờ Lam; mạch chuyển từ MAP-001, lời thoại mở đầu và thời điểm Sờ Lam xuất hiện đã chạy trong Play Mode. Sờ Lam đang dùng hình tròn tạm, chờ tạo hình được duyệt. Ảnh: [Sờ Lam xuất hiện](../.ScreenShorts/20261030-MAP002-05-SoLamXuatHien.png). Cảnh quan hoàn chỉnh, hoạt ảnh vật nuôi dưới nước và lối ra Nhà Chính còn chờ triển khai.
 
 ### MAP-003 — NhaChinh
 

@@ -13,8 +13,15 @@ public static class Map001SceneBuilder
 {
     private const string Art = "Assets/Art/Map/ThungLungHoang/";
     private const string ScenePath = "Assets/Scenes/ThungLungHoang.unity";
+    private const float SurfaceOffset = 0.85f;
     private static Sprite whiteSprite;
-    private static Sprite groundTexture;
+    private static Sprite[] terrainChunks;
+    private static readonly string[] TerrainChunkNames =
+    {
+        "CumDiaHinhDuongDai", "CumDiaHinhDuongVua", "CumDiaHinhDuongMoRong",
+        "CumDiaHinhDuongDocLen", "CumDiaHinhDuongBacThap", "CumDiaHinhDuongDocXuong"
+    };
+    private static readonly int[] TerrainChunkLayout = { 0, 3, 5, 2, 1, 4, 0, 1 };
     private static Sprite forestSprite;
     private static Sprite[] trees;
     private static Sprite playerSprite;
@@ -27,7 +34,8 @@ public static class Map001SceneBuilder
     {
         AssetDatabase.Refresh();
         EnsureSpriteImport(Art + "RungXaThungLungHoang.png", 100f, false);
-        EnsureSpriteImport(Art + "BoNenDatDa.png", 100f, true);
+        foreach (string chunkName in TerrainChunkNames)
+            EnsureSpriteImport(Art + chunkName + ".png", 100f, false, new Vector2(0.5f, 0.5f));
         EnsureSpriteImport(Art + "HieuUngBangDong.png", 100f, false);
         EnsureSpriteImport("Assets/Art/NhanVat/NguoiChoiNam.png", 100f, false);
         EnsureSpriteImport("Assets/Art/NPC/AnhHung.png", 100f, false);
@@ -36,7 +44,9 @@ public static class Map001SceneBuilder
 
         whiteSprite = CreateWhiteSpriteAsset(Art + "MauTrang.png");
         forestSprite = AssetDatabase.LoadAssetAtPath<Sprite>(Art + "RungXaThungLungHoang.png");
-        groundTexture = AssetDatabase.LoadAssetAtPath<Sprite>(Art + "BoNenDatDa.png");
+        terrainChunks = TerrainChunkNames
+            .Select(name => AssetDatabase.LoadAssetAtPath<Sprite>(Art + name + ".png"))
+            .ToArray();
         iceSprite = CropSprite("Assets/Art/Map/ThungLungHoang/HieuUngBangDong.png", Art + "BangDongSprite.asset", 1f);
         playerSprite = CropSprite("Assets/Art/NhanVat/NguoiChoiNam.png", "Assets/Art/NhanVat/NguoiChoiNamSprite.asset", 3f);
         heroSprite = CropSprite("Assets/Art/NPC/AnhHung.png", "Assets/Art/NPC/AnhHungSprite.asset", 3f);
@@ -58,7 +68,7 @@ public static class Map001SceneBuilder
         Debug.Log("MAP-001 Thung Lung Hoang created at " + ScenePath);
     }
 
-    private static void EnsureSpriteImport(string path, float ppu, bool tiled)
+    private static void EnsureSpriteImport(string path, float ppu, bool tiled, Vector2? pivot = null)
     {
         var ti = AssetImporter.GetAtPath(path) as TextureImporter;
         if (ti == null) return;
@@ -69,7 +79,7 @@ public static class Map001SceneBuilder
         ti.mipmapEnabled = false;
         ti.filterMode = FilterMode.Bilinear;
         ti.wrapMode = tiled ? TextureWrapMode.Repeat : TextureWrapMode.Clamp;
-        ti.spritePivot = new Vector2(0.5f, 0f);
+        ti.spritePivot = pivot ?? new Vector2(0.5f, 0f);
         ti.SaveAndReimport();
     }
 
@@ -138,15 +148,20 @@ public static class Map001SceneBuilder
         camera.orthographicSize = 4.5f;
         camera.backgroundColor = new Color(0.035f, 0.055f, 0.05f, 1f);
         camera.clearFlags = CameraClearFlags.SolidColor;
-        cameraObject.GetComponent<Map001CameraRig>().mapWidth = 96f;
-        cameraObject.GetComponent<Map001CameraRig>().mapHeight = 18f;
+        var cameraRig = cameraObject.GetComponent<Map001CameraRig>();
+        cameraRig.mapMinX = 0f;
+        cameraRig.mapMaxX = 96f;
+        cameraRig.mapMinY = 0f;
+        cameraRig.mapMaxY = 18f;
+        cameraRig.cameraSize = 4.5f;
+        cameraRig.verticalOffset = 2.5f;
     }
 
     private static readonly float[,] Platforms =
     {
-        {0f, 16.8f, 2.0f}, {17.2f, 28.5f, 2.55f}, {29.45f, 41.7f, 1.75f},
-        {42.6f, 56.0f, 2.5f}, {56.9f, 68.3f, 2.5f}, {69.2f, 80.8f, 3.15f},
-        {81.8f, 91.4f, 3.15f}, {92.3f, 96f, 4.0f}
+        {0f, 17.02f, 2.17f}, {17.02f, 28.975f, 2.55f}, {28.975f, 42.15f, 1.75f},
+        {42.15f, 56.45f, 2.5f}, {56.45f, 68.75f, 2.5f}, {68.75f, 81.3f, 3.15f},
+        {81.3f, 91.85f, 3.15f}, {91.85f, 96f, 4.0f}
     };
 
     private static void BuildMapGeometry()
@@ -160,30 +175,113 @@ public static class Map001SceneBuilder
             GameObject segment = new GameObject("Nền " + (i + 1).ToString("00") + " — chữ nhật ghép");
             segment.transform.SetParent(root.transform, false);
             segment.transform.position = new Vector3(start + width * 0.5f, top - 1.65f, 0f);
-            var sr = segment.AddComponent<SpriteRenderer>();
-            sr.sprite = groundTexture;
-            sr.drawMode = SpriteDrawMode.Tiled;
-            sr.size = new Vector2(width, 3.3f);
-            sr.sortingOrder = 0;
             var collider = segment.AddComponent<BoxCollider2D>();
             collider.size = new Vector2(width, 3.3f);
+            collider.offset = new Vector2(0f, SurfaceOffset);
             collider.sharedMaterial = new PhysicsMaterial2D("Đất ít trượt") { friction = 0.85f, bounciness = 0f };
 
-            GameObject lip = new GameObject("Mặt cỏ");
-            lip.transform.SetParent(root.transform, false);
-            lip.transform.position = new Vector3(start + width * 0.5f, top + 0.015f, -0.05f);
-            lip.transform.localScale = new Vector3(width, 0.07f, 1f);
-            var grass = lip.AddComponent<SpriteRenderer>();
-            grass.sprite = whiteSprite;
-            grass.color = new Color(0.25f, 0.33f, 0.15f, 1f);
-            grass.sortingOrder = 1;
+            Sprite chunkSprite = terrainChunks[TerrainChunkLayout[i % TerrainChunkLayout.Length]];
+            GameObject visual = new GameObject("Cụm địa hình — " + TerrainChunkNames[TerrainChunkLayout[i % TerrainChunkLayout.Length]]);
+            visual.transform.SetParent(segment.transform, false);
+            visual.transform.localPosition = new Vector3(0f, collider.size.y * 0.5f + 0.48f, -0.05f);
+            float chunkWidth = chunkSprite.rect.width / chunkSprite.pixelsPerUnit;
+            float chunkHeight = chunkSprite.rect.height / chunkSprite.pixelsPerUnit;
+            visual.transform.localScale = new Vector3((width + 1f) / chunkWidth, 3.6f / chunkHeight, 1f);
+            var sr = visual.AddComponent<SpriteRenderer>();
+            sr.sprite = chunkSprite;
+            sr.sortingOrder = 0;
 
-            pathPoints.Add(new Vector3(start + 0.08f, top + 0.105f, -0.1f));
-            pathPoints.Add(new Vector3(end - 0.08f, top + 0.105f, -0.1f));
+            pathPoints.Add(new Vector3(start, top + SurfaceOffset, -0.1f));
+            pathPoints.Add(new Vector3(end, top + SurfaceOffset, -0.1f));
         }
         AddWorldBounds(root.transform);
         BuildGoldTrail(root.transform, pathPoints);
         BuildGrassTufts(root.transform);
+    }
+
+    [MenuItem("ThienKieu/MAP-001/Đồng bộ va chạm mặt đường")]
+    public static void SyncGroundColliders()
+    {
+        Scene scene = EditorSceneManager.GetActiveScene();
+        if (scene.path != ScenePath)
+        {
+            Debug.LogWarning("Hãy mở scene ThungLungHoang trước khi đồng bộ va chạm mặt đường.");
+            return;
+        }
+
+        GameObject mapRoot = GameObject.Find("Địa hình chơi — khung MAP-001");
+        if (mapRoot == null)
+        {
+            Debug.LogError("Không tìm thấy nhóm địa hình MAP-001.");
+            return;
+        }
+
+        Transform oldColliderRoot = mapRoot.transform.Find("Va chạm mặt đường MAP-001");
+        if (oldColliderRoot != null) UnityEngine.Object.DestroyImmediate(oldColliderRoot.gameObject);
+
+        Transform oldFirstSegment = mapRoot.transform.Find("Nền 01 — chữ nhật ghép");
+        BoxCollider2D oldCollider = oldFirstSegment != null ? oldFirstSegment.GetComponent<BoxCollider2D>() : null;
+        if (oldCollider != null) oldCollider.enabled = false;
+
+        GameObject colliderRoot = new GameObject("Va chạm mặt đường MAP-001");
+        colliderRoot.transform.SetParent(mapRoot.transform, false);
+        for (int i = 0; i < Platforms.GetLength(0); i++)
+        {
+            float start = Platforms[i, 0];
+            float end = Platforms[i, 1];
+            float top = Platforms[i, 2];
+            float width = end - start;
+            GameObject segment = new GameObject("Mặt đi " + (i + 1).ToString("00"));
+            segment.transform.SetParent(colliderRoot.transform, false);
+            segment.transform.localPosition = new Vector3(start + width * 0.5f, top - 1.65f, 0f);
+            BoxCollider2D collider = segment.AddComponent<BoxCollider2D>();
+            collider.size = new Vector2(width, 3.3f);
+            collider.offset = new Vector2(0f, SurfaceOffset);
+        }
+
+        EditorSceneManager.MarkSceneDirty(scene);
+        EditorSceneManager.SaveScene(scene, ScenePath);
+        Debug.Log("Đã đồng bộ 8 collider mặt đường MAP-001 theo bố cục địa hình.");
+    }
+
+    [MenuItem("ThienKieu/MAP-001/Đồng bộ điểm xuất hiện Khỉ Đột")]
+    public static void SyncGorillaSpawnPositions()
+    {
+        Scene scene = EditorSceneManager.GetActiveScene();
+        if (scene.path != ScenePath)
+        {
+            Debug.LogWarning("Hãy mở scene ThungLungHoang trước khi đồng bộ điểm xuất hiện Khỉ Đột.");
+            return;
+        }
+
+        Map001RuntimeDirector director = UnityEngine.Object.FindFirstObjectByType<Map001RuntimeDirector>(FindObjectsInactive.Include);
+        if (director == null || director.enemies == null || director.enemies.Length < 3)
+        {
+            Debug.LogError("Không tìm thấy đủ ba Khỉ Đột trong scene MAP-001.");
+            return;
+        }
+
+        float[] spawnX = { 71.5f, 75.9f, 80.3f };
+        for (int i = 0; i < 3; i++)
+        {
+            Map001EnemyController enemy = director.enemies[i];
+            if (enemy == null) continue;
+
+            enemy.transform.position = new Vector3(spawnX[i], GroundY(spawnX[i]) + 0.02f, 0f);
+            Collider2D collider = enemy.GetComponent<Collider2D>();
+            if (collider != null) collider.enabled = true;
+            Rigidbody2D body = enemy.GetComponent<Rigidbody2D>();
+            if (body != null)
+            {
+                body.simulated = true;
+                body.linearVelocity = Vector2.zero;
+            }
+            EditorUtility.SetDirty(enemy.gameObject);
+        }
+
+        EditorSceneManager.MarkSceneDirty(scene);
+        EditorSceneManager.SaveScene(scene, ScenePath);
+        Debug.Log("Đã đặt ba Khỉ Đột lên mặt đường tại khu vực phục kích MAP-001.");
     }
 
     private static void AddWorldBounds(Transform parent)
@@ -204,7 +302,7 @@ public static class Map001SceneBuilder
 
     private static void BuildGoldTrail(Transform parent, System.Collections.Generic.List<Vector3> points)
     {
-        // Keep each platform's guide separate so the trail never bridges a gap or a height change.
+        // Keep the guide split at height changes while letting both ends touch the terrain seams.
         for (int i = 0; i + 1 < points.Count; i += 2)
         {
             Vector3[] pair = { points[i], points[i + 1] };
@@ -225,10 +323,10 @@ public static class Map001SceneBuilder
 
     private static void BuildGrassTufts(Transform parent)
     {
-        float[] xs = {3.2f, 8.7f, 13.5f, 20.2f, 25.1f, 32.8f, 38.1f, 45.2f, 52.7f, 60.3f, 65.2f, 73.7f, 78.3f, 86.4f, 90.2f};
+        float[] xs = {6.5f, 8.7f, 13.5f, 20.2f, 25.1f, 32.8f, 38.1f, 45.2f, 52.7f, 60.3f, 65.2f, 73.7f, 78.3f, 86.4f, 90.2f};
         for (int i = 0; i < xs.Length; i++)
         {
-            float y = GroundY(xs[i]) + 0.12f;
+            float y = TerrainTopY(xs[i]) + 0.12f;
             for (int blade = 0; blade < 3; blade++)
             {
                 float x = xs[i] + (blade - 1) * 0.1f;
@@ -254,12 +352,14 @@ public static class Map001SceneBuilder
         return lineMaterial;
     }
 
-    private static float GroundY(float x)
+    private static float TerrainTopY(float x)
     {
         for (int i = 0; i < Platforms.GetLength(0); i++)
             if (x >= Platforms[i, 0] && x <= Platforms[i, 1]) return Platforms[i, 2];
         return 2f;
     }
+
+    private static float GroundY(float x) => TerrainTopY(x) + SurfaceOffset;
 
     private static void BuildBackground()
     {
@@ -292,7 +392,7 @@ public static class Map001SceneBuilder
         {
             Sprite sprite = trees[i % trees.Length];
             var go = new GameObject("Cây trung cảnh " + (i + 1).ToString("00"));
-            go.transform.position = new Vector3(xs[i], GroundY(xs[i]) - 0.02f, 0.4f);
+            go.transform.position = new Vector3(xs[i], TerrainTopY(xs[i]) - 0.02f, 0.4f);
             go.transform.localScale = Vector3.one * (i % 3 == 0 ? 0.58f : 0.49f);
             var sr = go.AddComponent<SpriteRenderer>(); sr.sprite = sprite; sr.sortingOrder = -4;
             if (i % 2 == 0) go.AddComponent<Map001Float>().height = 0.008f;
@@ -313,14 +413,14 @@ public static class Map001SceneBuilder
         var cameraRig = camera.GetComponent<Map001CameraRig>(); cameraRig.target = player.transform;
 
         GameObject hero = new GameObject("Anh Hùng — điểm chặn quái");
-        hero.transform.position = new Vector3(48.5f, GroundY(48.5f) + 0.1f, 0f);
+        hero.transform.position = new Vector3(48.5f, GroundY(48.5f) + 0.02f, 0f);
         var heroSr = hero.AddComponent<SpriteRenderer>(); heroSr.sprite = heroSprite; heroSr.sortingOrder = 9;
         Animator heroAnim = hero.AddComponent<Animator>();
         heroAnim.runtimeAnimatorController = AssetDatabase.LoadAssetAtPath<RuntimeAnimatorController>("Assets/Art/NPC/Animations/Hero.controller");
         hero.AddComponent<Map001Float>(); hero.SetActive(false);
 
         var enemies = new Map001EnemyController[3];
-        float[] enemyX = {75.3f, 78.4f, 81.1f};
+        float[] enemyX = {71.5f, 75.9f, 80.3f};
         for (int i = 0; i < enemies.Length; i++)
         {
             GameObject enemy = new GameObject("Khỉ Đột " + (i + 1).ToString("00"));
@@ -345,7 +445,7 @@ public static class Map001SceneBuilder
         var runtime = director.AddComponent<Map001RuntimeDirector>();
         runtime.player = player.GetComponent<Map001PlayerController>(); runtime.enemies = enemies;
         runtime.hero = hero; runtime.heroAnimator = heroAnim; runtime.iceEffect = ice;
-        runtime.hud = UnityEngine.Object.FindObjectOfType<Map001Hud>();
+        runtime.hud = UnityEngine.Object.FindFirstObjectByType<Map001Hud>();
         runtime.exitPoint = GameObject.Find("Cổng sang Khu Đất Sau Nhà").transform;
     }
 
@@ -369,7 +469,7 @@ public static class Map001SceneBuilder
         GameObject label = CreateUiText("Tên khu vực", rect, "KHU ĐẤT SAU NHÀ", 25, TextAnchor.MiddleCenter, Color.white);
         Stretch(label.GetComponent<RectTransform>(), 12f, 3f, -12f, -3f);
         marker.SetActive(false);
-        var hud = UnityEngine.Object.FindObjectOfType<Map001Hud>();
+        var hud = UnityEngine.Object.FindFirstObjectByType<Map001Hud>();
         // The hint is also available in the Hub; the world sign remains hidden until the player approaches.
         if (hud != null) hud.exitHint = marker;
     }
@@ -425,8 +525,8 @@ public static class Map001SceneBuilder
         hud.healthText = healthText; hud.healthFill = healthFill; hud.objectiveText = objectiveText;
         hud.messageText = message; hud.messagePanel = messagePanel; hud.completionPanel = completion; hud.completionText = completionText;
         hud.exitHint = GameObject.Find("Bảng tên khu vực kế tiếp");
-        Map001RuntimeDirector director = UnityEngine.Object.FindObjectOfType<Map001RuntimeDirector>();
-        hud.player = UnityEngine.Object.FindObjectOfType<Map001PlayerController>();
+        Map001RuntimeDirector director = UnityEngine.Object.FindFirstObjectByType<Map001RuntimeDirector>();
+        hud.player = UnityEngine.Object.FindFirstObjectByType<Map001PlayerController>();
         if (director != null) director.hud = hud;
     }
 

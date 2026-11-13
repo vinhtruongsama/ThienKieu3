@@ -12,7 +12,8 @@ Giả định người chơi đã chọn xong nhân vật. Khi vào thế giới
 - Người chơi bị ba quái thú Khỉ đột; không thể hạ gục chúng. Đường vàng chỉ lối thoát.
 - Địa hình thung lũng đi từ thấp lên cao, hướng tới Khu Đất Sau Nhà. Cảnh có nhiều cây thân nhỏ, cao, tán dày và ánh sáng yếu.
 - Anh Hùng, một Thiên Kiêu, dáng ngầu chưa rõ danh tính, chặn quái bằng kĩ năng quơ tay đóng băng quái và giúp người chơi thoát.
-- Quái tấn công trúng chỉ bị văng một đoạn ngắn và có hiệu ứng choáng, người chơi không chết. Hoàn thành map khi đến lối ra; gần lối ra hiện tên Khu Đất Sau Nhà.
+- Ba Khỉ Đột xuất hiện cùng lúc, nhảy ra và gầm gừ rồi mới rượt đuổi. Chúng không cản đường và giữ khoảng đứng riêng; đội hình đổi thứ tự theo thời gian. Chỉ cú nhảy vồ đáp sát người chơi mới gây đẩy lùi và choáng; người chơi không chết.
+- Hoàn thành map khi đến lối ra; gần lối ra hiện tên Khu Đất Sau Nhà.
 - Map riêng này chỉ có 1 mình Người chơi vào được nên không cần chia Khu.
 
 ## Bố cục màn chơi đề xuất
@@ -37,14 +38,15 @@ Không thêm nhánh nhiệm vụ, trận đánh, vật phẩm bắt buộc hay n
 - **Địa hình chơi:** Tilemap đất, đá, cỏ và lớp đất/đá nâng đỡ riêng . Bố trí nền liền mạch (vẽ từng đoạn map hình chữ nhật rồi ghép lại với nhau), nhiều cao độ và dốc; collider bám đúng mặt đứng, vách và mép nền.
 - **Tiền cảnh:** cỏ, cành và lá tách riêng để có thể chuyển động độc lập. Không đặt vật trang trí che nhân vật ở các đoạn cần đọc bước nhảy.
 - **Camera:** camera cuộn ngang theo người chơi. Giới hạn camera theo vùng màn chơi; hậu cảnh chạy theo camera với tốc độ riêng. Kích thước tôi chưa nghĩ ra, nhưng hãy thử test với các thông số sau : nhân vật có chiều cao bằng 1/3 chiều cao hiển thị khung camera. khung camera có chiều cao bằng 1/2 chiều cao Toàn map. có nghĩa là khi người chơi click giữ vào màng hình có thể re chuột để kéo xem các phần còn lại của map như thế nào.
-- **Điểm map:** 3 con Khỉ đột đột nhiên xuất hiện từ cuối map bay ra khi người chơi bắt đầu di chuyển được 1s. Người chơi chạy được 50% chiều ngang của map thì anh hùng xuất hiện, bay lơ lững quơ tay dùng chiêu thức khiến quái bị choáng và Thoại " Nhọc con hãy mau chạy đi"
+- **Điều khiển thử:** A/D hoặc mũi tên trái/phải để di chuyển; Space hoặc mũi tên lên để nhảy. Người chơi được nhảy tối đa hai lần trước khi chạm đất; số lần nhảy được phục hồi khi tiếp đất.
+- **Điểm map:** Khi người chơi bắt đầu di chuyển được 1 giây, ba Khỉ Đột ở cuối map cùng nhảy ra, gầm gừ rồi mới đuổi theo. Chúng không va chặn người chơi hoặc đẩy nhau; khi đứng/chạy gần nhau, chúng tự giữ khoảng cách và thỉnh thoảng đổi thứ tự đội hình bằng cú nhảy vượt nhau. Mỗi lần chỉ một con nhảy vồ; người chơi chỉ bị đẩy lùi và choáng nếu con đó đáp đủ sát. Khi người chơi chạy được khoảng 50% chiều ngang map, Anh Hùng xuất hiện, bay lơ lửng, quơ tay dùng chiêu khiến quái bị choáng và nói: “Nhọc con hãy mau chạy đi”.
 - **Đường vàng:** giữ liên tục qua các đoạn quan trọng, nổi trên nền đất và dễ thấy trong cảnh thiếu sáng. Cách vẽ đường (dải nền các bụi vàng sáng).
 
 ## Nhịp chơi và điều kiện đạt
 
-1. Nhân vật xuất hiện 1s Khỉ Đột xuất hiện (và thực hiện các hoạt ảnh gào, vổ ngực hung tợn) thấy ngươi chơi chạy được 1 đoạn thì nhảy vồ theo làm đất văng đá vỡ, nhân vật thấy được hướng chạy và bắt đầu trốn.
-2. Người chơi chạy, nhảy qua địa hình; ba quái tạo sức ép nhưng không thể bị hạ gục.
-3. nhân vật có thể bị ngã choáng do quái Khỉ đột bay đến.
+1. Người chơi bắt đầu di chuyển được 1 giây thì ba Khỉ Đột cùng nhảy ra, gầm gừ; sau khi kết thúc tiếng gầm chúng mới rượt theo.
+2. Ba quái không thể bị hạ gục, không chặn người chơi và không chồng lên nhau khi đứng. Chúng đổi vị trí đội hình theo từng nhịp; chỉ một con được nhảy vồ mỗi lượt.
+3. Cú vồ chỉ gây đẩy lùi và choáng khi quái đáp sát người chơi; chạy chạm hoặc lướt xuyên qua quái không gây choáng.
 4. Anh Hùng chặn quái theo mạch truyện đã xác nhận.
 5. Người chơi tới lối ra; bảng nổi ghi **Khu Đất Sau Nhà** khi đến gần và map chỉ chuyển ở vùng lối ra.
 

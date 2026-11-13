@@ -9,6 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/DangNhap.unity
     guid: 19fd5cf5f355a3b42a1280644bfbf4cb
   - enabled: 1
+    path: Assets/Scenes/ThungLungHoang.unity
+    guid: 45a419bac7512fe4c91023384f6dca80
+  - enabled: 1
+    path: Assets/Scenes/KhuDatSauNha.unity
+    guid: d354829386f38c24f8b761054584faf6
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects:
